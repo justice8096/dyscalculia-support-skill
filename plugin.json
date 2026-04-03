@@ -1,0 +1,136 @@
+{
+  "name": "dyscalculia-support-skill",
+  "version": "1.0.0",
+  "description": "Evidence-based dyscalculia standards compliance, remediation strategies, document generation, and gap analysis — grounded in CRA methodology, NCTM standards, and IDEA/504 requirements.",
+  "author": "Justice",
+  "license": "MIT",
+  "keywords": [
+    "dyscalculia",
+    "math-disability",
+    "math-learning-disability",
+    "CRA",
+    "concrete-representational-abstract",
+    "number-sense",
+    "math-anxiety",
+    "NCTM",
+    "IDEA",
+    "section-504",
+    "IEP",
+    "remediation",
+    "special-education",
+    "accessibility",
+    "EdTech",
+    "instructional-design",
+    "assessment",
+    "progress-monitoring"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justice8096/dyscalculia-support-skill.git"
+  },
+  "skills": [
+    {
+      "name": "remediation-strategies",
+      "path": "skills/remediation-strategies/SKILL.md",
+      "description": "Evidence-based dyscalculia intervention framework grounded in CRA methodology. Covers concrete-representational-abstract progression, multisensory instruction, evidence-based programs (TouchMath, Number Worlds, Stern, Singapore Math), number sense foundations, Kosc's 6 subtypes, math anxiety management, and detailed remediation plan structure with lesson templates.",
+      "keywords": [
+        "CRA",
+        "remediation",
+        "number-sense",
+        "multisensory",
+        "manipulatives",
+        "math-anxiety",
+        "lesson-planning"
+      ]
+    },
+    {
+      "name": "standards-compliance",
+      "path": "skills/standards-compliance/SKILL.md",
+      "description": "Standards compliance framework for dyscalculia. Covers IDEA requirements (identification, IEP goal areas), Section 504 accommodations, NCTM standards (5 content + 5 process strands), assessment compliance (KeyMath-3, TEMA-3, tiered approach), and comprehensive audit procedures with file generation for compliance reporting.",
+      "keywords": [
+        "IDEA",
+        "section-504",
+        "NCTM",
+        "assessment",
+        "IEP",
+        "compliance",
+        "audit"
+      ]
+    },
+    {
+      "name": "document-generation",
+      "path": "skills/document-generation/SKILL.md",
+      "description": "Templates and guidance for essential documents: IEPs (math-focused with PLAAFP, goals, services, accommodations), Section 504 Plans, Progress Monitoring Reports, Accommodation Letters, Dyscalculia Screening Checklists, and Psychoeducational Evaluation Summaries with assessment instruments reference.",
+      "keywords": [
+        "IEP",
+        "504-plan",
+        "document-templates",
+        "screening",
+        "evaluation",
+        "accommodation-letter"
+      ]
+    },
+    {
+      "name": "gap-analysis",
+      "path": "skills/gap-analysis/SKILL.md",
+      "description": "Systematic gap identification across dyscalculia support ecosystem. Identifies 8 critical gaps (no structured math literacy equivalent, missing number sense tools, inadequate CRA platforms, anxiety not integrated, poor math AT, fragmented tools, disconnected monitoring, implementation gap). Includes gap analysis process, content audit checklist, dyscalculia UX heuristics, and new measure specification template.",
+      "keywords": [
+        "gap-analysis",
+        "ecosystem-assessment",
+        "tool-evaluation",
+        "content-audit",
+        "UX-heuristics"
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "name": "dyscalculia-audit",
+      "path": "commands/dyscalculia-audit.md",
+      "description": "Audit a dyscalculia program, tool, curriculum, or initiative for IDEA, Section 504, NCTM, and CRA compliance. Generates comprehensive audit report with findings, composite score (A-F grade), and remediation roadmap. Creates audit files in audits/ subdirectory.",
+      "usage": "/dyscalculia-audit <project-name> [scope-description]",
+      "keywords": [
+        "audit",
+        "compliance",
+        "assessment",
+        "standards"
+      ]
+    },
+    {
+      "name": "generate-iep",
+      "path": "commands/generate-iep.md",
+      "description": "Generate a comprehensive, legally-compliant, math-focused IEP from student profile data. Creates present levels (PLAAFP), SMART goals for number sense/fluency/problem-solving/anxiety, services specifications, accommodations, and LRE documentation.",
+      "usage": "/generate-iep <student-name> [--grade <grade>] [--subtype <kosc-subtype>] [--anxiety <level>] [--comorbidities <conditions>]",
+      "keywords": [
+        "IEP",
+        "document-generation",
+        "student-profile",
+        "special-education"
+      ]
+    },
+    {
+      "name": "remediation-plan",
+      "path": "commands/remediation-plan.md",
+      "description": "Create a comprehensive, CRA-based remediation plan with 4 phases: number sense foundation, concrete operations, representational operations, abstract operations. Includes detailed lesson templates, program recommendations, progress monitoring specifications, and family connection guidance.",
+      "usage": "/remediation-plan <student-name> [--duration <weeks>] [--focus <domain>] [--intensity <frequency>] [--anxiety <level>]",
+      "keywords": [
+        "remediation",
+        "CRA",
+        "lesson-planning",
+        "intervention"
+      ]
+    },
+    {
+      "name": "content-accessibility-check",
+      "path": "commands/content-accessibility-check.md",
+      "description": "Audit math content, materials, or tools for dyscalculia-friendly design across 10 dimensions: CRA fidelity, number sense emphasis, multisensory design, manipulative integration, visual accessibility, accommodations, math anxiety, assessment integration, equity/inclusion, and comorbidity support.",
+      "usage": "/content-accessibility-check <content-name> [--format <type>] [--audience <level>] [--depth <audit-depth>]",
+      "keywords": [
+        "content-audit",
+        "accessibility",
+        "UX",
+        "design"
+      ]
+    }
+  ]
+}
