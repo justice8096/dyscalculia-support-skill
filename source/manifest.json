@@ -1,0 +1,214 @@
+{
+  "name": "dyscalculia-support-skill",
+  "version": "1.0.0",
+  "description": "Comprehensive dyscalculia support system implementing CRA methodology with standards compliance (NCTM, IDEA, Section 504), gap analysis, remediation strategies, and IEP document generation",
+  "author": "Justice",
+  "license": "MIT",
+  "keywords": [
+    "dyscalculia",
+    "math-disability",
+    "CRA",
+    "concrete-representational-abstract",
+    "number-sense",
+    "math-anxiety",
+    "NCTM",
+    "IDEA",
+    "section-504",
+    "IEP",
+    "remediation",
+    "special-education",
+    "accessibility",
+    "EdTech"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justice8096/dyscalculia-support-skill.git"
+  },
+  "skills": [
+    {
+      "id": "standards-compliance",
+      "name": "Standards Compliance",
+      "description": "Audit educational content against NCTM Principles & Standards, IDEA requirements, and Section 504 accessibility guidelines. Identifies gaps in universal design principles and provides compliance recommendations.",
+      "category": "compliance",
+      "tags": ["NCTM", "IDEA", "504", "accessibility"]
+    },
+    {
+      "id": "gap-analysis",
+      "name": "Gap Analysis",
+      "description": "Analyze student mathematical understanding across number sense domains. Identifies specific deficits in concrete-representational-abstract progression and foundational competencies.",
+      "category": "assessment",
+      "tags": ["assessment", "CRA", "diagnostics", "number-sense"]
+    },
+    {
+      "id": "remediation-strategies",
+      "name": "Remediation Strategies",
+      "description": "Generate CRA-based remediation plans with concrete manipulatives, representational models, and abstract symbol work. Customizable by student anxiety level, duration, intensity, and comorbidities.",
+      "category": "intervention",
+      "tags": ["CRA", "intervention", "remediation", "evidence-based"]
+    },
+    {
+      "id": "document-generation",
+      "name": "Document Generation",
+      "description": "Create compliant IEP and accommodation documents with specific, measurable goals aligned to mathematics standards and student-centered outcomes.",
+      "category": "documentation",
+      "tags": ["IEP", "documentation", "legal", "accommodation"]
+    }
+  ],
+  "commands": [
+    {
+      "id": "dyscalculia-audit",
+      "name": "Dyscalculia Audit",
+      "description": "Run a comprehensive compliance audit on a project/curriculum against NCTM, IDEA, and Section 504 standards. Generates detailed report with specific remediation paths.",
+      "category": "compliance",
+      "syntax": "/dyscalculia-audit [project_name] [--scope=curriculum|assessment|both]",
+      "parameters": [
+        {
+          "name": "project_name",
+          "type": "string",
+          "required": true,
+          "description": "Name of project or curriculum to audit"
+        },
+        {
+          "name": "scope",
+          "type": "enum",
+          "required": false,
+          "values": ["curriculum", "assessment", "both"],
+          "default": "both",
+          "description": "Focus area for audit"
+        }
+      ],
+      "output": "Detailed compliance audit report with checklist, findings, and recommendations"
+    },
+    {
+      "id": "content-accessibility-check",
+      "name": "Content Accessibility Check",
+      "description": "Analyze content for dyscalculia accessibility: cognitive load, font/spacing, color contrast, temporal demands, working memory requirements.",
+      "category": "accessibility",
+      "syntax": "/content-accessibility-check [content_name] [--format=text|video|interactive] [--audience=elementary|secondary|adult] [--depth=quick|detailed]",
+      "parameters": [
+        {
+          "name": "content_name",
+          "type": "string",
+          "required": true,
+          "description": "Name or title of content to check"
+        },
+        {
+          "name": "format",
+          "type": "enum",
+          "required": false,
+          "values": ["text", "video", "interactive", "mixed"],
+          "default": "text",
+          "description": "Content format type"
+        },
+        {
+          "name": "audience",
+          "type": "enum",
+          "required": false,
+          "values": ["elementary", "secondary", "adult"],
+          "default": "secondary",
+          "description": "Target audience age group"
+        },
+        {
+          "name": "depth",
+          "type": "enum",
+          "required": false,
+          "values": ["quick", "detailed"],
+          "default": "detailed",
+          "description": "Analysis depth level"
+        }
+      ],
+      "output": "Accessibility audit with cognitive load score, specific issues, and remediation strategies"
+    },
+    {
+      "id": "generate-iep",
+      "name": "Generate IEP",
+      "description": "Generate a compliant, math-focused IEP document for a student with dyscalculia including present levels, goals, accommodations, and progress monitoring.",
+      "category": "documentation",
+      "syntax": "/generate-iep [student_name] [grade] [--subtype=kosc1|kosc2|kosc3|kosc4|kosc5|kosc6] [--anxiety=low|moderate|high] [--comorbidities=ADHD,dyslexia,OCD]",
+      "parameters": [
+        {
+          "name": "student_name",
+          "type": "string",
+          "required": true,
+          "description": "Student's full name"
+        },
+        {
+          "name": "grade",
+          "type": "number",
+          "required": true,
+          "description": "Grade level (K-12)"
+        },
+        {
+          "name": "subtype",
+          "type": "enum",
+          "required": false,
+          "values": ["kosc1", "kosc2", "kosc3", "kosc4", "kosc5", "kosc6"],
+          "description": "Kosc's dyscalculia subtype classification"
+        },
+        {
+          "name": "anxiety",
+          "type": "enum",
+          "required": false,
+          "values": ["low", "moderate", "high"],
+          "default": "moderate",
+          "description": "Math anxiety level"
+        },
+        {
+          "name": "comorbidities",
+          "type": "string",
+          "required": false,
+          "description": "Comma-separated list (ADHD, dyslexia, OCD, etc.)"
+        }
+      ],
+      "output": "Compliant IEP document in Markdown with present levels, annual goals, accommodations, and monitoring plan"
+    },
+    {
+      "id": "remediation-plan",
+      "name": "Remediation Plan",
+      "description": "Create a CRA-based math remediation plan customized by student name, focus area, intensity level, and anxiety profile. Includes concrete/representational/abstract progression.",
+      "category": "intervention",
+      "syntax": "/remediation-plan [student_name] [--duration=4|8|12|16] [--focus=number-sense|computation|fractions|algebra] [--intensity=1|2|3] [--anxiety=low|moderate|high]",
+      "parameters": [
+        {
+          "name": "student_name",
+          "type": "string",
+          "required": true,
+          "description": "Student's name for personalization"
+        },
+        {
+          "name": "duration",
+          "type": "enum",
+          "required": false,
+          "values": ["4", "8", "12", "16"],
+          "default": "8",
+          "description": "Duration in weeks"
+        },
+        {
+          "name": "focus",
+          "type": "enum",
+          "required": false,
+          "values": ["number-sense", "computation", "fractions", "algebra", "mixed"],
+          "default": "number-sense",
+          "description": "Primary focus area"
+        },
+        {
+          "name": "intensity",
+          "type": "enum",
+          "required": false,
+          "values": ["1", "2", "3"],
+          "default": "2",
+          "description": "Instructional intensity (1=Tier 1, 2=Tier 2, 3=Tier 3)"
+        },
+        {
+          "name": "anxiety",
+          "type": "enum",
+          "required": false,
+          "values": ["low", "moderate", "high"],
+          "default": "moderate",
+          "description": "Math anxiety level affecting approach"
+        }
+      ],
+      "output": "Week-by-week CRA remediation plan with specific activities, materials, and progress monitoring checkpoints"
+    }
+  ]
+}

@@ -24,7 +24,7 @@ Templates and guidance for generating essential documents: IEPs, Section 504 Pla
 
 ---
 
-### PRESENT LEVELS OF ACADEMIC PERFORMANCE (PLAAFP) — MATHEMATICS
+### PRESENT LEVELS OF ACADEMIC PERFORMANCE (PLAAFP) â€” MATHEMATICS
 
 **Math Strengths**
 - Reasoning and problem-solving ability: [Description]
@@ -82,7 +82,7 @@ Templates and guidance for generating essential documents: IEPs, Section 504 Pla
 
 ---
 
-### ANNUAL GOALS — MATHEMATICS (IEP Year)
+### ANNUAL GOALS â€” MATHEMATICS (IEP Year)
 
 **Goal 1: Number Sense Foundation**
 
@@ -151,7 +151,7 @@ Expected Growth: [Reduced avoidance, increased self-efficacy, resilience with st
 
 ---
 
-### ACCOMMODATIONS — MATHEMATICS
+### ACCOMMODATIONS â€” MATHEMATICS
 
 **Accommodations do NOT reduce conceptual demands but provide access to math curriculum.**
 
@@ -200,7 +200,7 @@ Expected Growth: [Reduced avoidance, increased self-efficacy, resilience with st
 
 ---
 
-### ACCOMMODATIONS — STANDARDIZED TESTING
+### ACCOMMODATIONS â€” STANDARDIZED TESTING
 
 - Extended time (1.5x-2x)
 - Separate setting with minimal distractions
@@ -254,7 +254,7 @@ Opportunities for parent input on progress and accommodation effectiveness at ea
 
 ## Section 504 Plan for Dyscalculia
 
-### 504 PLAN — MATHEMATICS ACCOMMODATIONS
+### 504 PLAN â€” MATHEMATICS ACCOMMODATIONS
 
 **Student**: [Name] | **Age**: [Age] | **Grade**: [Grade]
 **School**: [School] | **Date**: [Date]
@@ -284,7 +284,7 @@ Opportunities for parent input on progress and accommodation effectiveness at ea
 
 ## Progress Monitoring Report Template
 
-### PROGRESS MONITORING REPORT — MATHEMATICS
+### PROGRESS MONITORING REPORT â€” MATHEMATICS
 
 **Student**: [Name] | **Report Period**: [Dates]
 **IEP/504 Goals**: [List relevant goals]
@@ -597,8 +597,8 @@ This checklist is used to identify students at risk for dyscalculia and warranti
 
 - Cognitive ability: [Full Scale IQ classification]
 - Discrepancy between IQ and math achievement: [Standard deviation gap; meets IDEA criteria for SLD if 1.5+ SD discrepancy]
-- Processing strengths: [If any—verbal reasoning, perceptual reasoning, etc.]
-- Processing weaknesses: [Impacting math learning—working memory, processing speed, visual-spatial, etc.]
+- Processing strengths: [If anyâ€”verbal reasoning, perceptual reasoning, etc.]
+- Processing weaknesses: [Impacting math learningâ€”working memory, processing speed, visual-spatial, etc.]
 
 #### Comorbidities
 
@@ -699,3 +699,4 @@ This checklist is used to identify students at risk for dyscalculia and warranti
 | **WRAT-5** | 5-85 | Math computation | Single-digit facts, multi-digit operations, word problems | Quick screening of math fluency |
 | **WISC-V** | 6-16 | Cognitive ability | Verbal Comprehension, Perceptual Reasoning, Processing Speed, Working Memory | Assess IQ and processing deficits |
 | **CBM Math Probes** | All ages | Fluency monitoring | Computation or applied problems | Weekly/bi-weekly progress monitoring |
+
