@@ -1,4 +1,4 @@
-﻿# Dyscalculia Compliance Audit Report Template
+# Dyscalculia Compliance Audit Report Template
 
 Use this template to structure comprehensive dyscalculia standards compliance audit reports. This template mirrors the structure detailed in `skills/standards-compliance/SKILL.md`.
 
@@ -84,7 +84,11 @@ Minor gaps; good foundational adherence. Continuous improvement area.
 | **Section 504 Accommodations** | [X]% | [ ] Pass [ ] Concern [ ] Fail | [F-IDs] | [Brief explanation] |
 | **Instructional Program (Math)** | [X]% | [ ] Pass [ ] Concern [ ] Fail | [F-IDs] | [Brief explanation] |
 | **Progress Monitoring** | [X]% | [ ] Pass [ ] Concern [ ] Fail | [F-IDs] | [Brief explanation] |
-| **Universal Design & Access** | [X]% | [ ] Pass [ ] Concern [ ] Fail | [F-IDs] | [Brief explanation] |
+| **Universal Design & Access** |
+| **Data Visualization** |
+| **Number-to-Word Alternatives** | [X]% | [ ] Pass [ ] Concern [ ] Fail | [F-IDs] | [Brief explanation] |
+| **Rounding/Decimals** | [X]% | [ ] Pass [ ] Concern [ ] Fail | [F-IDs] | [Brief explanation] |
+| **Percentage Alternatives** | [X]% | [ ] Pass [ ] Concern [ ] Fail | [F-IDs] | [Brief explanation] |
 | **Professional Support & Training** | [X]% | [ ] Pass [ ] Concern [ ] Fail | [F-IDs] | [Brief explanation] |
 
 ---
@@ -198,12 +202,12 @@ Calculate weighted domain compliance scores to determine overall program quality
 **Composite Score Calculation**:
 
 ```
-(Math Instruction Alignment Ã— 0.25) +
-(Assessment & Evaluation Ã— 0.20) +
-(IEP/504 Compliance Ã— 0.20) +
-(Instructional Methodology Ã— 0.15) +
-(Progress Monitoring Ã— 0.10) +
-(Ethical Standards Ã— 0.10)
+(Math Instruction Alignment × 0.25) +
+(Assessment & Evaluation × 0.20) +
+(IEP/504 Compliance × 0.20) +
+(Instructional Methodology × 0.15) +
+(Progress Monitoring × 0.10) +
+(Ethical Standards × 0.10)
 = Composite Score (0-100)
 ```
 
@@ -265,7 +269,7 @@ Prioritized action plan to address findings and improve compliance.
 Document areas of strong compliance (75%+); these are program strengths to maintain and build on.
 
 **Example**:
-- **Math Anxiety Management (89% compliance)**: The program excels at creating a psychologically safe learning environment. Teaching strategies emphasize growth mindset, untimed practice, and positive feedback. Classroom observations showed teachers consistently using language like "Your brain is growing" and "Great thinkingâ€”let me help with the next step." Students reported feeling safe to make mistakes. This is an exemplary area.
+- **Math Anxiety Management (89% compliance)**: The program excels at creating a psychologically safe learning environment. Teaching strategies emphasize growth mindset, untimed practice, and positive feedback. Classroom observations showed teachers consistently using language like "Your brain is growing" and "Great thinking—let me help with the next step." Students reported feeling safe to make mistakes. This is an exemplary area.
 
 - **Section 504 Accommodations (82% compliance)**: The school meticulously documents Section 504 accommodations with clear specificity. IEPs and 504 Plans include detailed descriptions of calculator use, extended time, manipulatives availability, and environmental supports. Implementation is monitored. This compliance is strong.
 
@@ -297,7 +301,7 @@ For each CRITICAL/HIGH finding from previous audit, document status:
 
 | Previous Finding | Remediation Action Taken | Status | Evidence | New Finding ID (if issue persists) |
 |------------------|--------------------------|--------|----------|-----------------------------------|
-| F-CRA-001 | Redesigned curriculum Units 1-3 with concrete materials | Resolved | Curriculum review + classroom observation shows manipulatives in use weekly | â€” |
+| F-CRA-001 | Redesigned curriculum Units 1-3 with concrete materials | Resolved | Curriculum review + classroom observation shows manipulatives in use weekly | — |
 | F-PM-001 | Implemented weekly progress monitoring system | Partially Resolved | System in place; compliance 60% (some teachers not entering data consistently) | F-PM-002 |
 
 ### Before/After Delta Table
@@ -329,7 +333,7 @@ Track audit versions and updates:
 
 [3-5 sentence summary of overall findings, key takeaways, and next steps]
 
-**Example**: "This audit found that MathPro Elementary provides a solid foundation in math anxiety management and accommodations documentation (Grade B overall). However, the program has critical gaps in CRA implementationâ€”specifically, the absence of a concrete manipulative stageâ€”that directly impair its effectiveness for dyscalculic students. The recommended remediation roadmap addresses CRITICAL findings within 6-8 weeks (curriculum redesign and teacher training), with follow-up improvements over the next 6 months. A re-audit in 90 days will assess progress toward Grade A compliance. With focused effort on the identified gaps, this program can become a best-practice model for dyscalculia-friendly instruction."
+**Example**: "This audit found that MathPro Elementary provides a solid foundation in math anxiety management and accommodations documentation (Grade B overall). However, the program has critical gaps in CRA implementation—specifically, the absence of a concrete manipulative stage—that directly impair its effectiveness for dyscalculic students. The recommended remediation roadmap addresses CRITICAL findings within 6-8 weeks (curriculum redesign and teacher training), with follow-up improvements over the next 6 months. A re-audit in 90 days will assess progress toward Grade A compliance. With focused effort on the identified gaps, this program can become a best-practice model for dyscalculia-friendly instruction."
 
 ---
 
