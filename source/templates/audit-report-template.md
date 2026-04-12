@@ -89,6 +89,7 @@ Minor gaps; good foundational adherence. Continuous improvement area.
 | **Number-to-Word Alternatives** | [X]% | [ ] Pass [ ] Concern [ ] Fail | [F-IDs] | [Brief explanation] |
 | **Rounding/Decimals** | [X]% | [ ] Pass [ ] Concern [ ] Fail | [F-IDs] | [Brief explanation] |
 | **Percentage Alternatives** | [X]% | [ ] Pass [ ] Concern [ ] Fail | [F-IDs] | [Brief explanation] |
+| **Cognitive Processing** | [X]% | [ ] Pass [ ] Concern [ ] Fail | [F-IDs] | [Brief explanation] |
 | **Professional Support & Training** | [X]% | [ ] Pass [ ] Concern [ ] Fail | [F-IDs] | [Brief explanation] |
 
 ---

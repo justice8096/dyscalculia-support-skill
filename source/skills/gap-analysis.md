@@ -2,6 +2,8 @@
 
 Systematic identification of critical gaps in dyscalculia support across tools, instruction, assessment, and technology.
 
+> **Framing Note**: This analysis treats dyscalculia as a neurodevelopmental cognitive disorder — a persistent difference in numerical processing architecture (Butterworth core deficit theory; Menon et al. 2025) — not merely a learning disability that resolves with sufficient instruction. Gaps are evaluated against both the legal/educational framework (IDEA, Section 504) and the cognitive neuroscience evidence. The most critical gaps are those where current practice assumes the deficit is temporary and remediable, when the evidence shows it is persistent and requires lifelong accommodation alongside targeted remediation.
+
 ## The Eight Critical Gaps
 
 ### Gap 1: No Structured Math Equivalent to Structured Literacy

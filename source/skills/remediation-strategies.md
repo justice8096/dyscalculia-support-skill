@@ -150,11 +150,31 @@ Math anxiety significantly impairs performance and must be integrated into remed
 
 ### Intervention Components
 - **Early Success**: Design activities to ensure frequent, visible success
-- **Normalization**: Explicitly discuss that dyscalculia is a learning difference, not stupidity
+- **Normalization**: Explicitly discuss that dyscalculia is a neurodevelopmental cognitive disorder — a brain-based difference in how numbers are processed (intraparietal sulcus), not a reflection of intelligence, effort, or character
 - **Growth Mindset**: Emphasize improvement and effort, not innate ability
 - **Reduced Pressure**: Untimed practice, private assessment, non-evaluative exploration
 - **Positive Reinforcement**: Specific praise for effort and strategic thinking
 - **Autonomy**: Student choice in manipulatives, problem types, and pacing
+
+
+## Bypass vs. Remediation Balance
+
+> **Critical Principle**: Because dyscalculia is a persistent cognitive disorder (not a temporary learning gap), effective intervention must balance remediation (strengthening weak pathways) with bypass (providing alternative routes around processing bottlenecks). Neither approach alone is sufficient.
+
+### Remediation Targets (Trainable with Sufficient Intensity)
+- **Subitizing**: Can be improved with targeted practice (dot enumeration, finger patterns)
+- **Magnitude comparison**: Responds to number line training and anchored estimation
+- **Counting principles**: Procedural knowledge can be strengthened through CRA
+- **Strategy use**: Metacognitive awareness of when/how to apply strategies
+
+### Bypass Targets (Persistent Deficits Requiring Permanent Accommodation)
+- **Automatic fact retrieval**: Many dyscalculic individuals never achieve automatic recall of multiplication tables or addition facts — reference charts and calculators should be permanent tools, not crutches to be withdrawn
+- **Multi-step mental arithmetic**: Working memory limitations make complex mental computation unreliable — written/visual intermediate steps should always be available
+- **Time estimation**: Difficulty with temporal magnitude is often persistent — visual timers, relative time displays, and calendar scaffolds should be standard
+- **Rapid number comparison**: Speed of magnitude judgment may not normalize — untimed environments should be the default, not an accommodation
+
+### Integration Principle
+Every remediation plan should explicitly identify which skills are remediation targets (expected to improve) and which are bypass targets (expected to require permanent accommodation). Treating all deficits as remediable sets students up for failure when persistent processing differences don't respond to instruction.
 
 ## Remediation Plan Structure
 

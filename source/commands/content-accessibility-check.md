@@ -284,6 +284,26 @@ Audit thoroughness (default: standard):
 - 2 points: Most percentages have plain-language alternatives; some visual indicators
 - 3 points: All percentages/ratios accompanied by natural frequencies, visual indicators, and contextual benchmarks
 
+
+### 15. Cognitive Processing Accommodation
+
+This dimension treats dyscalculia as a neurodevelopmental cognitive disorder (Butterworth core deficit theory; Menon et al. 2025) — a brain-based difference in numerical processing architecture — rather than a failure to learn. Accommodations should compensate for the cognitive bottleneck, not just re-teach content.
+
+**Criteria**:
+- [ ] **Bypass Strategies Available**: Content provides cognitive bypass tools (calculators, reference charts, lookup tables) alongside remediation — acknowledging that some processing deficits are persistent, not remediable through practice alone
+- [ ] **Working Memory Offloading**: External supports reduce simultaneous processing demands (written step sequences, visible intermediate results, scratch space) rather than expecting internalization
+- [ ] **Magnitude Processing Support**: Explicit visual anchors for quantity (number lines, area models, icon arrays) compensate for intraparietal sulcus (IPS) underactivation — not just as teaching aids but as permanent cognitive prosthetics
+- [ ] **Automaticity Not Assumed**: Content does not require automatic fact retrieval as a prerequisite; allows reference-based computation (fact charts, number grids) without penalty
+- [ ] **Cognitive Load Budget**: Total simultaneous processing demands are quantified and kept within dyscalculia-appropriate limits (max 2-3 novel elements per task; no multi-step operations without external scaffolding)
+- [ ] **Distinction Between Comprehension and Processing**: Assessment separates conceptual understanding from computational execution — a student may understand division conceptually but be unable to execute the algorithm due to processing limitations
+- [ ] **Persistent Accommodation Design**: Supports are designed as permanent features, not scaffolds to be faded — reflecting that the cognitive difference is lifelong, not a temporary learning gap
+
+**Scoring**:
+- 0 points: All accommodations framed as temporary scaffolds; bypass strategies absent; automaticity assumed
+- 1 point: Some bypass tools available; working memory support inconsistent; accommodations treated as temporary
+- 2 points: Good bypass strategy availability; most accommodations designed as permanent; cognitive load generally managed
+- 3 points: Full cognitive disorder model implemented — bypass and remediation balanced, processing separated from comprehension, accommodations permanent, cognitive load budgeted
+
 ## Audit Report Template
 
 ### DYSCALCULIA-FRIENDLY CONTENT AUDIT
@@ -299,7 +319,7 @@ Audit thoroughness (default: standard):
 [1-2 sentence overview of findings; overall compliance percentage]
 
 ### Overall Accessibility Score
-[Composite score across 14 dimensions; 0-42 scale where 42 = excellent dyscalculia-friendliness]
+[Composite score across 15 dimensions; 0-45 scale where 45 = excellent dyscalculia-friendliness]
 
 ### Findings by Dimension
 
@@ -318,7 +338,8 @@ Audit thoroughness (default: standard):
 | Data Visualization | [0-3] |
 | Number-to-Word Alternatives | [0-3] | [Pass/Concern/Fail] | [Brief description] |
 | Rounding/Decimals | [0-3] | [Pass/Concern/Fail] | [Brief description] |
-| Percentage Alternatives | [0-3] | [Pass/Concern/Fail] | [Brief description] |
+| Percentage Alternatives | [0-3] |
+| Cognitive Processing | [0-3] | [Pass/Concern/Fail] | [Brief description] |
 
 ### Detailed Findings
 
