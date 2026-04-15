@@ -1,7 +1,7 @@
 {
   "name": "dyscalculia-support-skill",
   "version": "1.0.0",
-  "description": "Comprehensive dyscalculia support system implementing CRA methodology with standards compliance (NCTM, IDEA, Section 504), gap analysis, remediation strategies, and IEP document generation",
+  "description": "Comprehensive dyscalculia support system treating dyscalculia as a neurodevelopmental cognitive disorder (not merely a learning disability) with brain-based numerical processing deficits. Implements CRA methodology, cognitive bypass strategies, standards compliance (NCTM, IDEA, Section 504), gap analysis, remediation strategies, and IEP document generation. Grounded in Butterworth core deficit theory and intraparietal sulcus research",
   "author": "Justice",
   "license": "MIT",
   "keywords": [

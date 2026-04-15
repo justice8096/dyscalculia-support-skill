@@ -10,6 +10,7 @@ const __dirname = dirname(__filename);
 // ============================================================================
 
 interface CommandParameter {
+  [key: string]: unknown;
   name: string;
   type: string;
   required: boolean;
@@ -19,6 +20,7 @@ interface CommandParameter {
 }
 
 interface Command {
+  [key: string]: unknown;
   id: string;
   name: string;
   description: string;
@@ -29,6 +31,7 @@ interface Command {
 }
 
 interface Skill {
+  [key: string]: unknown;
   id: string;
   name: string;
   description: string;
@@ -42,6 +45,7 @@ interface Repository {
 }
 
 interface Manifest {
+  [key: string]: unknown;
   name: string;
   version: string;
   description: string;
@@ -601,28 +605,17 @@ function generateMcpTools(manifest: Manifest): void {
 
     const handlerName = `handle${toolName.replace(/_/g, "").charAt(0).toUpperCase()}${toolName.slice(1).replace(/_/g, "")}`;
 
-    const toolCode = `import { Tool } from "@modelcontextprotocol/sdk/types.js";
-import { z } from "zod";
+    const toolCode = `import { z } from "zod";
 import { loadSkillContent } from "../knowledge/loader.js";
 
 // Zod schema for input validation
-const ${toolName}Schema = z.object({
+export const ${toolName}Schema = z.object({
 ${paramDefs}
 });
 
-export const ${toolName}Tool: Tool = {
-  name: "${toolName}",
-  description: "${cmd.description}",
-  inputSchema: {
-    type: "object",
-    properties: {
-${paramProps}
-    },
-    required: [${requiredParams.map((p) => `"${p}"`).join(", ")}],
-  },
-};
+export const ${toolName}Description = "${cmd.description}";
 
-export async function ${handlerName}(input: Record<string, unknown>): Promise<string> {
+export async function ${handlerName}(input: z.infer<typeof ${toolName}Schema>): Promise<string> {
   const validated = ${toolName}Schema.parse(input);
 
   // Load relevant skill knowledge
@@ -706,7 +699,7 @@ function generateMcpIndex(manifest: Manifest): void {
     .map((cmd) => {
       const toolName = cmd.id.replace(/-/g, "_");
       const handlerName = `handle${toolName.replace(/_/g, "").charAt(0).toUpperCase()}${toolName.slice(1).replace(/_/g, "")}`;
-      return `import { ${toolName}Tool, ${handlerName} } from "./tools/${toolName}.js";`;
+      return `import { ${toolName}Schema, ${toolName}Description, ${handlerName} } from "./tools/${toolName}.js";`;
     })
     .join("\n");
 
@@ -728,22 +721,26 @@ function generateMcpIndex(manifest: Manifest): void {
     })
     .join("\n\n");
 
+  const toolRegistrations = manifest.commands
+    .map((cmd) => {
+      const toolName = cmd.id.replace(/-/g, "_");
+      const handlerName = `handle${toolName.replace(/_/g, "").charAt(0).toUpperCase()}${toolName.slice(1).replace(/_/g, "")}`;
+      return `  server.tool(
+    "${toolName}",
+    ${toolName}Description,
+    ${toolName}Schema.shape,
+    async (args) => {
+      const result = await ${handlerName}(args as any);
+      return { content: [{ type: "text" as const, text: result }] };
+    }
+  );`;
+    })
+    .join("\n\n");
+
   const indexCode = `import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
-import {
-  ToolsListRequest,
-  CallToolRequest,
-  McpError,
-  ErrorCode,
-  Tool,
-} from "@modelcontextprotocol/sdk/types.js";
 
 ${toolImports}
-
-// Tool definitions
-const tools: Tool[] = [
-${toolList}
-];
 
 async function main(): Promise<void> {
   const server = new McpServer({
@@ -751,29 +748,10 @@ async function main(): Promise<void> {
     version: "${manifest.version}",
   });
 
+  // Register tools
+${toolRegistrations}
+
   const transport = new StdioServerTransport();
-
-  server.setRequestHandler(ToolsListRequest, async () => ({
-    tools,
-  }));
-
-  server.setRequestHandler(CallToolRequest, async (request) => {
-    try {
-${toolHandlers}
-
-      throw new McpError(
-        ErrorCode.MethodNotFound,
-        \`Unknown tool: \${request.params.name}\`
-      );
-    } catch (error) {
-      if (error instanceof McpError) throw error;
-      throw new McpError(
-        ErrorCode.InternalError,
-        \`Tool error: \${error instanceof Error ? error.message : String(error)}\`
-      );
-    }
-  });
-
   await server.connect(transport);
   console.error("Dyscalculia Support MCP Server running on stdio");
 }
@@ -805,7 +783,7 @@ function generateMcpPackageJson(manifest: Manifest): void {
       "type-check": "tsc --noEmit",
     },
     dependencies: {
-      "@modelcontextprotocol/sdk": "^0.6.0",
+      "@modelcontextprotocol/sdk": "^1.6.0",
       zod: "^3.22.4",
     },
     devDependencies: {

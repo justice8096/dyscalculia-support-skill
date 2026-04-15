@@ -1,6 +1,6 @@
 {
     "name":  "dyscalculia-support-skill",
-    "version":  "1.0.0",
+    "version":  "1.1.0",
     "description":  "Multi-format dyscalculia support system for CRA methodology, standards compliance, and IEP generation",
     "author":  "Justice",
     "license":  "MIT",
@@ -9,6 +9,8 @@
                     "build":  "tsx build.ts",
                     "build:watch":  "tsx build.ts --watch",
                     "type-check":  "tsc --noEmit",
+                    "audit":  "npm audit --audit-level=high",
+                    "sbom":  "npx @cyclonedx/cyclonedx-npm --output-file sbom.cdx.json --output-reproducible",
                     "clean":  "rm -rf dist",
                     "build:claude-plugin":  "tsx build.ts --format claude-plugin",
                     "build:mcp":  "tsx build.ts --format mcp-server",

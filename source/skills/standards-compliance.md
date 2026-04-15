@@ -1,5 +1,7 @@
 # Dyscalculia Standards Compliance
 
+> **Clinical Framing**: This skill uses a dual-framing approach. For IDEA/Section 504 legal compliance, dyscalculia is classified as a Specific Learning Disorder (DSM-5) or Developmental Learning Disorder (ICD-11). However, the neuroscience evidence (Butterworth, Dehaene, Menon et al.) establishes dyscalculia as a **neurodevelopmental cognitive disorder** — a brain-based difference in numerical processing architecture centered on the intraparietal sulcus (IPS) and associated networks. This distinction matters: accommodations should compensate for a persistent cognitive processing difference, not merely scaffold a temporary learning gap.
+
 Standards compliance framework for dyscalculia identification, intervention, and accommodation under IDEA, Section 504, and evidence-based best practices (NCTM, CEC).
 
 ## IDEA Requirements for Math SLD
@@ -213,6 +215,13 @@ Use this checklist to audit instructional programs, tools, and services for dysc
 - [ ] Math anxiety addressed through environmental and instructional supports
 - [ ] Pacing flexible based on mastery, not grade level
 - [ ] Evidence-based programs used (TouchMath, Number Worlds, Stern, Singapore Math adaptations, Strategic Math)
+- [ ] Data visualizations use bar charts instead of pie charts for comparisons (pie charts require angle/proportion estimation — a core dyscalculia deficit)
+- [ ] All charts include text summaries, direct data labels, and no 3D effects
+- [ ] Charts limited to 3-5 data series; linear representations (number lines, box plots) preferred over radial/circular
+- [ ] Numerical values accompanied by plain-language textual alternatives where possible (W3C COGA: "content usable without understanding math concepts")
+- [ ] Values rounded to whole numbers unless precision is essential (e.g., currency); unnecessary decimal places removed (GOV.UK dyscalculia guidelines)
+- [ ] Percentages accompanied by natural-frequency equivalents (e.g., "25%" shown alongside "about 1 in 4") (W3C COGA Gap Analysis)
+- [ ] Long numbers (5+ digits) chunked with spaces or separators for readability
 
 ### Progress Monitoring
 - [ ] Data collected at minimum bi-weekly
@@ -235,6 +244,16 @@ Use this checklist to audit instructional programs, tools, and services for dysc
 - [ ] Access to resources and tools
 - [ ] Collaboration time for planning and data review built in
 - [ ] Curriculum materials aligned with evidence-based approaches
+
+
+### Cognitive Disorder Accommodation (Neuroscience-Informed)
+- [ ] Dyscalculia framed as a neurodevelopmental cognitive disorder, not a failure to learn or a reflection of low intelligence
+- [ ] Bypass strategies (calculators, reference charts, lookup tables) available as permanent cognitive prosthetics, not temporary scaffolds
+- [ ] Assessment separates conceptual understanding from computational processing (a student may understand division but be unable to execute the algorithm)
+- [ ] Automatic fact retrieval not assumed as prerequisite; reference-based computation permitted without penalty
+- [ ] Working memory demands explicitly managed: external supports (written steps, visible intermediates, scratch space) provided as standard practice
+- [ ] Accommodations designed as lifelong supports reflecting persistent cognitive architecture difference, not time-limited remedial aids
+- [ ] Cognitive load per task quantified and kept within dyscalculia-appropriate limits (max 2-3 novel elements simultaneously)
 
 ### Ethical Standards
 - [ ] Non-discriminatory evaluation procedures (culturally responsive, equitable access)

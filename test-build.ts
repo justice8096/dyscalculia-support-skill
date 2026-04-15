@@ -400,13 +400,13 @@ function testMcpServer() {
     }
   });
 
-  test("tool files import Tool type from MCP SDK", () => {
+  test("tool files import zod for schema validation", () => {
     for (const cmd of commands) {
       const id = cmdId(cmd);
       const content = readText(resolve(mcpDir, "src", "tools", `${id.replace(/-/g, "_")}.ts`));
       assert(
-        content.includes("@modelcontextprotocol/sdk"),
-        `Tool ${id} does not import MCP SDK`
+        content.includes('from "zod"') || content.includes("from 'zod'"),
+        `Tool ${id} does not import zod`
       );
     }
   });

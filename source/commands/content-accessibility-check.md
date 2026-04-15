@@ -218,6 +218,92 @@ Audit thoroughness (default: standard):
 - 2 points: Good support for common comorbidities
 - 3 points: Robust support for multiple comorbidities
 
+
+### 11. Data Visualization Accessibility
+
+**Criteria**:
+- [ ] **Bar Charts Over Pie Charts**: Bar charts used instead of pie charts for comparisons (pie charts require angle/proportion estimation, which is a core dyscalculia deficit)
+- [ ] **Text Summaries**: Every chart has a text summary above or below it stating the key takeaway
+- [ ] **Direct Labels**: Data points labeled directly on the chart, not only in a separate legend
+- [ ] **Limited Data Series**: No more than 3-5 data series per chart to reduce cognitive load
+- [ ] **No 3D Effects**: No 3D chart effects used (3D distorts proportional reasoning and spatial interpretation)
+- [ ] **Annotated Findings**: Key findings annotated directly on the visualization
+- [ ] **Linear Over Radial**: Number lines or box plots used instead of radial/circular representations where possible
+
+**Scoring**:
+- 0 points: Pie charts, unlabeled data, 3D effects, no text summaries
+- 1 point: Some appropriate chart types; inconsistent labeling
+- 2 points: Mostly bar/line charts; most charts labeled and summarized
+- 3 points: All visualizations follow dyscalculia-friendly design; bar charts, direct labels, text summaries, no 3D
+
+
+### 12. Number-to-Word Alternatives
+
+**Criteria** (W3C COGA "Making Content Usable"):
+- [ ] **Textual Alternatives**: Numerical values accompanied by plain-language equivalents (e.g., "about half" alongside "50%")
+- [ ] **Non-Math Pathways**: Users can complete core tasks without requiring mathematical comprehension
+- [ ] **Contextual Labels**: Numbers always appear with explanatory context (e.g., "£42 — roughly the cost of a family meal" rather than "£42" alone)
+- [ ] **Size/Quantity Descriptions**: Relative descriptions available alongside absolute values (e.g., "small / medium / large" in addition to dimensions)
+- [ ] **Time-of-Day Markers**: Visual or verbal time indicators used alongside numerical timestamps (e.g., morning/afternoon icons, not just "15:34")
+- [ ] **Summary Sentences**: Tables and grids preceded by a plain-language sentence explaining what the numbers show
+
+**Scoring**:
+- 0 points: Numbers presented without any textual alternative or context
+- 1 point: Some numbers explained; many still standalone
+- 2 points: Most numerical content has textual alternatives; minor gaps
+- 3 points: All numerical content accompanied by plain-language alternatives; non-math pathways available
+
+### 13. Rounding and Decimal Simplification
+
+**Criteria** (GOV.UK Dyscalculia Design Guidelines):
+- [ ] **Whole Numbers Preferred**: Values rounded to whole numbers wherever precision is not essential
+- [ ] **Decimal Elimination**: Decimal places removed unless the context demands them (e.g., currency)
+- [ ] **Unnecessary Precision Removed**: Data does not use more decimal places than the user needs (e.g., "3 miles" not "2.97 miles")
+- [ ] **Consistent Rounding**: All rounded values use the same rounding convention throughout the content
+- [ ] **Long Number Chunking**: Numbers longer than 4 digits are visually chunked with spaces or separators (e.g., "12 345" or "1,234")
+- [ ] **Multiple Input Formats Accepted**: If users enter numbers, the system accepts varied formats (with/without commas, spaces, leading zeros)
+
+**Scoring**:
+- 0 points: Unnecessary decimals, raw precision, no chunking
+- 1 point: Some rounding; inconsistent application
+- 2 points: Mostly rounded; decimals only where required; some chunking
+- 3 points: All values appropriately rounded; long numbers chunked; flexible input accepted
+
+### 14. Percentage and Ratio Alternatives
+
+**Criteria** (W3C COGA Gap Analysis):
+- [ ] **Plain-Language Percentages**: Percentages accompanied by natural-language equivalents (e.g., "25%" shown as "about 1 in 4")
+- [ ] **Frequency Framing**: Statistical information expressed as natural frequencies ("3 out of 10") rather than abstract percentages
+- [ ] **Visual Proportion Indicators**: Percentages supplemented with simple visual indicators (progress bars, icon arrays) rather than numbers alone
+- [ ] **Ratio Avoidance**: Ratios (e.g., "3:1") explained in plain language ("for every 3 of these, there is 1 of those")
+- [ ] **Contextual Benchmarks**: Large numbers or percentages compared to familiar references (e.g., "about the size of a football pitch" or "roughly the population of your town")
+
+**Scoring**:
+- 0 points: Percentages and ratios presented without alternatives or context
+- 1 point: Some percentages explained; ratios still abstract
+- 2 points: Most percentages have plain-language alternatives; some visual indicators
+- 3 points: All percentages/ratios accompanied by natural frequencies, visual indicators, and contextual benchmarks
+
+
+### 15. Cognitive Processing Accommodation
+
+This dimension treats dyscalculia as a neurodevelopmental cognitive disorder (Butterworth core deficit theory; Menon et al. 2025) — a brain-based difference in numerical processing architecture — rather than a failure to learn. Accommodations should compensate for the cognitive bottleneck, not just re-teach content.
+
+**Criteria**:
+- [ ] **Bypass Strategies Available**: Content provides cognitive bypass tools (calculators, reference charts, lookup tables) alongside remediation — acknowledging that some processing deficits are persistent, not remediable through practice alone
+- [ ] **Working Memory Offloading**: External supports reduce simultaneous processing demands (written step sequences, visible intermediate results, scratch space) rather than expecting internalization
+- [ ] **Magnitude Processing Support**: Explicit visual anchors for quantity (number lines, area models, icon arrays) compensate for intraparietal sulcus (IPS) underactivation — not just as teaching aids but as permanent cognitive prosthetics
+- [ ] **Automaticity Not Assumed**: Content does not require automatic fact retrieval as a prerequisite; allows reference-based computation (fact charts, number grids) without penalty
+- [ ] **Cognitive Load Budget**: Total simultaneous processing demands are quantified and kept within dyscalculia-appropriate limits (max 2-3 novel elements per task; no multi-step operations without external scaffolding)
+- [ ] **Distinction Between Comprehension and Processing**: Assessment separates conceptual understanding from computational execution — a student may understand division conceptually but be unable to execute the algorithm due to processing limitations
+- [ ] **Persistent Accommodation Design**: Supports are designed as permanent features, not scaffolds to be faded — reflecting that the cognitive difference is lifelong, not a temporary learning gap
+
+**Scoring**:
+- 0 points: All accommodations framed as temporary scaffolds; bypass strategies absent; automaticity assumed
+- 1 point: Some bypass tools available; working memory support inconsistent; accommodations treated as temporary
+- 2 points: Good bypass strategy availability; most accommodations designed as permanent; cognitive load generally managed
+- 3 points: Full cognitive disorder model implemented — bypass and remediation balanced, processing separated from comprehension, accommodations permanent, cognitive load budgeted
+
 ## Audit Report Template
 
 ### DYSCALCULIA-FRIENDLY CONTENT AUDIT
@@ -233,7 +319,7 @@ Audit thoroughness (default: standard):
 [1-2 sentence overview of findings; overall compliance percentage]
 
 ### Overall Accessibility Score
-[Composite score across 10 dimensions; 0-30 scale where 30 = excellent dyscalculia-friendliness]
+[Composite score across 15 dimensions; 0-45 scale where 45 = excellent dyscalculia-friendliness]
 
 ### Findings by Dimension
 
@@ -248,7 +334,12 @@ Audit thoroughness (default: standard):
 | Math Anxiety | [0-3] | [Pass/Concern/Fail] | [Brief description] |
 | Progress Monitoring | [0-3] | [Pass/Concern/Fail] | [Brief description] |
 | Equity/Inclusion | [0-3] | [Pass/Concern/Fail] | [Brief description] |
-| Comorbidity Support | [0-3] | [Pass/Concern/Fail] | [Brief description] |
+| Comorbidity Support | [0-3] |
+| Data Visualization | [0-3] |
+| Number-to-Word Alternatives | [0-3] | [Pass/Concern/Fail] | [Brief description] |
+| Rounding/Decimals | [0-3] | [Pass/Concern/Fail] | [Brief description] |
+| Percentage Alternatives | [0-3] |
+| Cognitive Processing | [0-3] | [Pass/Concern/Fail] | [Brief description] |
 
 ### Detailed Findings
 
