@@ -1,3 +1,9 @@
+---
+description: Create a CRA-based dyscalculia remediation plan with four phases (number sense → concrete → representational → abstract), lesson templates, and progress monitoring.
+argument-hint: <student-name> [--duration <weeks>] [--focus <domain>] [--intensity <freq>] [--anxiety <level>]
+allowed-tools: [Read, Write, Edit]
+---
+
 # /remediation-plan
 
 Create a comprehensive, CRA-based remediation plan for dyscalculia intervention.

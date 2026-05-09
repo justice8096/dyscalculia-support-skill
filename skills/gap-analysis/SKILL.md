@@ -1,3 +1,8 @@
+---
+name: gap-analysis
+description: Systematic gap identification across dyscalculia support tools, instruction, assessment, and technology. Use when evaluating EdTech tools, math curricula, or assessment platforms for dyscalculia coverage; auditing content for dyscalculia-friendly design (UX heuristics, content audit checklist); or specifying new measures where gaps exist.
+---
+
 # Dyscalculia Gap Analysis
 
 Systematic identification of critical gaps in dyscalculia support across tools, instruction, assessment, and technology.

@@ -1,7 +1,7 @@
 # Dyscalculia Support Skill
 
 [![CI](https://github.com/justice8096/dyscalculia-support-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/justice8096/dyscalculia-support-skill/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC0-1.0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 A comprehensive, portable dyscalculia support system built on evidence-based CRA (Concrete-Representational-Abstract) methodology with compliance to NCTM, IDEA, and Section 504 standards.
 
@@ -26,7 +26,18 @@ Provides educators, special education professionals, and parents with:
 | `/remediation-plan` | Create a CRA-based remediation plan with lesson templates |
 | `/content-accessibility-check` | Audit content for dyscalculia-friendly design |
 
-## Quick Start
+## Install via Claude Code
+
+This repo is a self-hosted Claude Code plugin marketplace. Add it once, then install the plugin:
+
+```text
+/plugin marketplace add justice8096/dyscalculia-support-skill
+/plugin install dyscalculia-support-skill@dyscalculia-support-skill
+```
+
+Once installed, the four skills (`standards-compliance`, `remediation-strategies`, `document-generation`, `gap-analysis`) auto-trigger on relevant prompts. The four slash commands are invoked with the plugin namespace: `/dyscalculia-support-skill:dyscalculia-audit`, `/dyscalculia-support-skill:generate-iep`, `/dyscalculia-support-skill:remediation-plan`, `/dyscalculia-support-skill:content-accessibility-check`.
+
+## Quick Start (development)
 
 ```bash
 git clone https://github.com/justice8096/dyscalculia-support-skill.git
@@ -95,4 +106,4 @@ Areas where help is especially needed:
 
 ## License
 
-MIT
+[CC0 1.0 Universal](LICENSE) — public-domain dedication. Fork it, rebrand it, fold it into commercial products, build derivative work — no attribution required, no friction. The full legal text is in [LICENSE](LICENSE).

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "dyscalculia-support-skill",
+  "version": "1.2.0",
+  "description": "Evidence-based dyscalculia standards compliance, remediation strategies, document generation, and gap analysis — grounded in CRA methodology, NCTM standards, and IDEA/Section 504 requirements.",
+  "author": {
+    "name": "Justice"
+  },
+  "license": "CC0-1.0",
+  "homepage": "https://github.com/justice8096/dyscalculia-support-skill",
+  "repository": "https://github.com/justice8096/dyscalculia-support-skill",
+  "keywords": [
+    "dyscalculia",
+    "math-disability",
+    "math-learning-disability",
+    "CRA",
+    "concrete-representational-abstract",
+    "number-sense",
+    "math-anxiety",
+    "NCTM",
+    "IDEA",
+    "section-504",
+    "IEP",
+    "remediation",
+    "special-education",
+    "accessibility",
+    "EdTech",
+    "instructional-design",
+    "assessment",
+    "progress-monitoring"
+  ]
+}
