@@ -1,3 +1,9 @@
+---
+description: Audit a dyscalculia program, tool, curriculum, or initiative against IDEA, Section 504, NCTM, and CRA standards. Generates a graded report (A–F) with findings and remediation roadmap into audits/.
+argument-hint: <project-name> [scope-description]
+allowed-tools: [Read, Glob, Grep, Bash, Write, Edit]
+---
+
 # /dyscalculia-audit
 
 Audit a dyscalculia program, tool, curriculum, or educational initiative for compliance with IDEA, Section 504, NCTM standards, and CRA methodology best practices.

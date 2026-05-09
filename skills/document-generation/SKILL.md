@@ -1,3 +1,8 @@
+---
+name: document-generation
+description: Generate dyscalculia-related documents — math-focused IEPs (with PLAAFP, SMART goals, services, accommodations, LRE), Section 504 Plans, Progress Monitoring Reports, Accommodation Letters, dyscalculia screening checklists, and psychoeducational evaluation summaries with assessment-instrument references.
+---
+
 # Dyscalculia Document Generation
 
 Templates and guidance for generating essential documents: IEPs, Section 504 Plans, Progress Monitoring Reports, Accommodation Letters, Screening Checklists, and Psychoeducational Summaries.

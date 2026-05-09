@@ -1,3 +1,8 @@
+---
+name: standards-compliance
+description: Standards-compliance framework for dyscalculia. Use when the user mentions IDEA, Section 504, NCTM standards, IEP / 504 plan compliance, dyscalculia identification, math-SLD assessment (KeyMath-3, TEMA-3, WJ-IV), Response-to-Intervention (RTI) for math, or wants to audit a curriculum, EdTech tool, or program against dyscalculia regulatory requirements.
+---
+
 # Dyscalculia Standards Compliance
 
 Standards compliance framework for dyscalculia identification, intervention, and accommodation under IDEA, Section 504, and evidence-based best practices (NCTM, CEC).

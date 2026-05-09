@@ -1,3 +1,9 @@
+---
+description: Audit math content, materials, or tools for dyscalculia-friendly design across 10 dimensions (CRA fidelity, number-sense emphasis, multisensory, manipulatives, visual accessibility, accommodations, anxiety, assessment, equity, comorbidities).
+argument-hint: <content-name> [--format <type>] [--audience <level>] [--depth <audit-depth>]
+allowed-tools: [Read, Glob, Grep, Bash, Write]
+---
+
 # /content-accessibility-check
 
 Audit math content, materials, or tools for dyscalculia-friendly design and accessibility.

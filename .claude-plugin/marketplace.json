@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dyscalculia-support-skill",
+  "description": "Single-plugin marketplace for the dyscalculia-support-skill plugin.",
+  "owner": {
+    "name": "Justice"
+  },
+  "plugins": [
+    {
+      "name": "dyscalculia-support-skill",
+      "description": "Evidence-based dyscalculia standards compliance, remediation strategies, document generation, and gap analysis — grounded in CRA methodology, NCTM standards, and IDEA/Section 504 requirements.",
+      "category": "education",
+      "source": "./",
+      "homepage": "https://github.com/justice8096/dyscalculia-support-skill"
+    }
+  ]
+}
