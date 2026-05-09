@@ -1,3 +1,8 @@
+---
+name: remediation-strategies
+description: Evidence-based dyscalculia intervention framework grounded in CRA (Concrete-Representational-Abstract) methodology. Use when the user mentions dyscalculia remediation, math intervention planning, multisensory math, manipulatives, math anxiety management, lesson templates, or evidence-based programs (TouchMath, Number Worlds, Stern Structural Arithmetic, Singapore Math).
+---
+
 # Dyscalculia Remediation Strategies
 
 Evidence-based dyscalculia intervention framework grounded in the Concrete-Representational-Abstract (CRA) methodology—the foundational approach proven most effective for remediating number sense and calculation deficits.

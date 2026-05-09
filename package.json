@@ -3,7 +3,7 @@
     "version":  "1.2.0",
     "description":  "Multi-format dyscalculia support system for CRA methodology, standards compliance, and IEP generation",
     "author":  "Justice",
-    "license":  "MIT",
+    "license":  "CC0-1.0",
     "type":  "module",
     "scripts":  {
                     "build":  "tsx build.ts",

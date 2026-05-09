@@ -1,3 +1,9 @@
+---
+description: Generate a comprehensive, legally-compliant, math-focused IEP (PLAAFP, SMART goals, services, accommodations, LRE) from a student profile.
+argument-hint: <student-name> [--grade <grade>] [--subtype <kosc-subtype>] [--anxiety <level>] [--comorbidities <conditions>]
+allowed-tools: [Read, Write, Edit]
+---
+
 # /generate-iep
 
 Generate a comprehensive, legally-compliant, math-focused IEP from student profile data.
