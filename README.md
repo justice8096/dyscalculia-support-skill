@@ -35,7 +35,7 @@ This repo is a self-hosted Claude Code plugin marketplace. Add it once, then ins
 /plugin install dyscalculia-support-skill@dyscalculia-support-skill
 ```
 
-Once installed, the four skills (`standards-compliance`, `remediation-strategies`, `document-generation`, `gap-analysis`) auto-trigger on relevant prompts, and the four slash commands become available: `/dyscalculia-audit`, `/generate-iep`, `/remediation-plan`, `/content-accessibility-check`.
+Once installed, the four skills (`standards-compliance`, `remediation-strategies`, `document-generation`, `gap-analysis`) auto-trigger on relevant prompts. The four slash commands are invoked with the plugin namespace: `/dyscalculia-support-skill:dyscalculia-audit`, `/dyscalculia-support-skill:generate-iep`, `/dyscalculia-support-skill:remediation-plan`, `/dyscalculia-support-skill:content-accessibility-check`.
 
 ## Quick Start (development)
 
