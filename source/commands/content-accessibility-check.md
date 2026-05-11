@@ -1,12 +1,22 @@
 # /content-accessibility-check
 
-Audit math content, materials, or tools for dyscalculia-friendly design and accessibility.
+Audit math content, materials, or tools for dyscalculia-friendly design and accessibility. Locale-aware for US, French, and Spanish content.
 
 ## Usage
 
 ```
-/content-accessibility-check <content-name> [--format <type>] [--audience <level>] [--depth <audit-depth>]
+/content-accessibility-check <content-name> [--format <type>] [--audience <level>] [--depth <audit-depth>] [--locale us|fr|es]
 ```
+
+**`--locale`** (default: `us`):
+- `us` â€” English-focused: cognitive load, font/spacing, color contrast, temporal demands
+- `fr` â€” Adds French diacritic checks, **French number-word irregularity flagging** (60-99 range â€” content using "soixante-dix-huit" without digit support adds dyscalculia-specific transcoding load), Circulaire 2015-016 typography standards (Arial/OpenDyslexic â‰¥14pt for math content), calculatrice-icon presence on math pages per Circulaire 2023-033
+- `es` â€” Adds Spanish tilde/accent rendering checks, transparent base-10 verbal-form verification (use regular -enta), EBAU/EvAU exam content standards (Arial 16pt + 1.5 line spacing), flag automated math-error penalization in assessment systems
+
+**Locale-specific dyscalculia notes:**
+- **French**: number-words 60-99 are uniquely irregular (soixante-dix, quatre-vingts) â€” extra transcoding load not present in English/Spanish. Content using these without digit/numeral support should be flagged for dyscalculic readers.
+- **Spanish**: dyscalculic Spanish-speaking readers primarily face **fluency** (not accuracy) challenges. Design should support reading pace and not penalize slower numerical processing.
+
 
 ## Required Information
 
@@ -242,7 +252,7 @@ Audit thoroughness (default: standard):
 **Criteria** (W3C COGA "Making Content Usable"):
 - [ ] **Textual Alternatives**: Numerical values accompanied by plain-language equivalents (e.g., "about half" alongside "50%")
 - [ ] **Non-Math Pathways**: Users can complete core tasks without requiring mathematical comprehension
-- [ ] **Contextual Labels**: Numbers always appear with explanatory context (e.g., "£42 — roughly the cost of a family meal" rather than "£42" alone)
+- [ ] **Contextual Labels**: Numbers always appear with explanatory context (e.g., "ï¿½42 ï¿½ roughly the cost of a family meal" rather than "ï¿½42" alone)
 - [ ] **Size/Quantity Descriptions**: Relative descriptions available alongside absolute values (e.g., "small / medium / large" in addition to dimensions)
 - [ ] **Time-of-Day Markers**: Visual or verbal time indicators used alongside numerical timestamps (e.g., morning/afternoon icons, not just "15:34")
 - [ ] **Summary Sentences**: Tables and grids preceded by a plain-language sentence explaining what the numbers show
@@ -287,22 +297,22 @@ Audit thoroughness (default: standard):
 
 ### 15. Cognitive Processing Accommodation
 
-This dimension treats dyscalculia as a neurodevelopmental cognitive disorder (Butterworth core deficit theory; Menon et al. 2025) — a brain-based difference in numerical processing architecture — rather than a failure to learn. Accommodations should compensate for the cognitive bottleneck, not just re-teach content.
+This dimension treats dyscalculia as a neurodevelopmental cognitive disorder (Butterworth core deficit theory; Menon et al. 2025) ï¿½ a brain-based difference in numerical processing architecture ï¿½ rather than a failure to learn. Accommodations should compensate for the cognitive bottleneck, not just re-teach content.
 
 **Criteria**:
-- [ ] **Bypass Strategies Available**: Content provides cognitive bypass tools (calculators, reference charts, lookup tables) alongside remediation — acknowledging that some processing deficits are persistent, not remediable through practice alone
+- [ ] **Bypass Strategies Available**: Content provides cognitive bypass tools (calculators, reference charts, lookup tables) alongside remediation ï¿½ acknowledging that some processing deficits are persistent, not remediable through practice alone
 - [ ] **Working Memory Offloading**: External supports reduce simultaneous processing demands (written step sequences, visible intermediate results, scratch space) rather than expecting internalization
-- [ ] **Magnitude Processing Support**: Explicit visual anchors for quantity (number lines, area models, icon arrays) compensate for intraparietal sulcus (IPS) underactivation — not just as teaching aids but as permanent cognitive prosthetics
+- [ ] **Magnitude Processing Support**: Explicit visual anchors for quantity (number lines, area models, icon arrays) compensate for intraparietal sulcus (IPS) underactivation ï¿½ not just as teaching aids but as permanent cognitive prosthetics
 - [ ] **Automaticity Not Assumed**: Content does not require automatic fact retrieval as a prerequisite; allows reference-based computation (fact charts, number grids) without penalty
 - [ ] **Cognitive Load Budget**: Total simultaneous processing demands are quantified and kept within dyscalculia-appropriate limits (max 2-3 novel elements per task; no multi-step operations without external scaffolding)
-- [ ] **Distinction Between Comprehension and Processing**: Assessment separates conceptual understanding from computational execution — a student may understand division conceptually but be unable to execute the algorithm due to processing limitations
-- [ ] **Persistent Accommodation Design**: Supports are designed as permanent features, not scaffolds to be faded — reflecting that the cognitive difference is lifelong, not a temporary learning gap
+- [ ] **Distinction Between Comprehension and Processing**: Assessment separates conceptual understanding from computational execution ï¿½ a student may understand division conceptually but be unable to execute the algorithm due to processing limitations
+- [ ] **Persistent Accommodation Design**: Supports are designed as permanent features, not scaffolds to be faded ï¿½ reflecting that the cognitive difference is lifelong, not a temporary learning gap
 
 **Scoring**:
 - 0 points: All accommodations framed as temporary scaffolds; bypass strategies absent; automaticity assumed
 - 1 point: Some bypass tools available; working memory support inconsistent; accommodations treated as temporary
 - 2 points: Good bypass strategy availability; most accommodations designed as permanent; cognitive load generally managed
-- 3 points: Full cognitive disorder model implemented — bypass and remediation balanced, processing separated from comprehension, accommodations permanent, cognitive load budgeted
+- 3 points: Full cognitive disorder model implemented ï¿½ bypass and remediation balanced, processing separated from comprehension, accommodations permanent, cognitive load budgeted
 
 ## Audit Report Template
 

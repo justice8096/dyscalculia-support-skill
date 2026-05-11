@@ -1,12 +1,19 @@
 # /dyscalculia-audit
 
-Audit a dyscalculia program, tool, curriculum, or educational initiative for compliance with IDEA, Section 504, NCTM standards, and CRA methodology best practices.
+Audit a dyscalculia program, tool, curriculum, or educational initiative for compliance with US (IDEA, Section 504, NCTM, ADA), French (Loi 2005-102, PAP, PPS, Circulaire 2023-033, RQTH), or Spanish (LOE/LOMLOE, ACNEAE/DEA, ACNS, RDL 1/2013) standards. Locale-aware audit checklists.
 
 ## Usage
 
 ```
-/dyscalculia-audit <project-name> [optional: scope description]
+/dyscalculia-audit <project-name> [optional: scope description] [--locale us|fr|es] [--region <ccaa>]
 ```
+
+**`--locale`** selects the legal framework (default: `us`):
+- `us` — United States (IDEA, Section 504, NCTM, ADA workplace)
+- `fr` — France (Loi 2005-102, PAP/PPS, Circulaire 2023-033 — calculatrice for all exams, RQTH for workplace)
+- `es` — Spain (LOE/LOMLOE, ACNEAE/DEA, ACNS, EBAU/EvAU adaptations, RDL 1/2013 for workplace)
+
+**`--region`** (only when `--locale es`): Comunidad Autónoma for region-specific Spanish legislation.
 
 ## What This Command Does
 
@@ -16,14 +23,25 @@ Audit a dyscalculia program, tool, curriculum, or educational initiative for com
 
 ## Audit Scope
 
-The audit evaluates across these domains:
+The audit evaluates across these domains. **Locale-specific accents** noted per domain.
 
-- **Math Instruction Alignment** (25% weight): CRA fidelity, number sense emphasis, multisensory strategies, program selection (TouchMath, Number Worlds, Stern, etc.), manipulative use
-- **Assessment & Evaluation** (20% weight): Comprehensive identification procedures, progress monitoring frequency and quality, assessment instruments, data-based decision making
-- **IEP/504 Compliance** (20% weight): Legal requirement compliance, goal specificity, accommodation appropriateness, service adequacy, documentation
-- **Instructional Methodology** (15% weight): Evidence-based practices, manipulation implementation, anxiety management, Kosc subtype consideration
-- **Progress Monitoring** (10% weight): Data collection frequency, multiple measures, decision rules, intervention adjustment responsiveness
+- **Math Instruction Alignment** (25% weight): CRA fidelity, number sense emphasis, multisensory strategies, program selection
+  - locale=us: TouchMath, Number Worlds, Stern, Singapore Math adaptations
+  - locale=fr: TEDI-MATH-linked, Singapour adapté, MathÉval, explicit instruction on French number-word irregularities (soixante-dix, quatre-vingts)
+  - locale=es: PROCALCULO-linked, Smartick, regletas Cuisenaire, leveraging transparent base-10 system
+- **Assessment & Evaluation** (20% weight): Comprehensive identification, progress monitoring frequency, assessment instruments
+  - locale=us: KeyMath-3, TEMA-3, WRAT-5, WISC-V US norms
+  - locale=fr: TEDI-MATH, Zareki-R, BMT-i, WISC-V French norms — administered via bilan orthophonique
+  - locale=es: PROCALCULO, TEDI-MATH ES, Evamat, WISC-V Spanish norms — administered by orientador/a or EOEP
+- **Plan Compliance** (20% weight): Legal requirement compliance, goal specificity, accommodation appropriateness, documentation
+  - locale=us: IEP/504 compliance with IDEA + Section 504
+  - locale=fr: PAP compliance with Circulaire 2015-016 template; PPS via MDPH where severe; aménagements d'examens per Circulaire 2023-033 with **calculatrice across all exams** as headline accommodation
+  - locale=es: ACNS pathway (NOT Dictamen/ACS unless comorbid NEE — common compliance error); Informe Psicopedagógico completeness
+- **Instructional Methodology** (15% weight): Evidence-based practices, manipulative implementation, anxiety management, Kosc subtype consideration
+- **Progress Monitoring** (10% weight): Data collection frequency, multiple measures, decision rules, intervention adjustment
 - **Ethical Standards & Training** (10% weight): Non-discrimination, confidentiality, professional development, parent collaboration
+
+**FR/ES audits include US crosswalk references** so readers familiar with US legal framework can compare.
 
 ## Report Contents
 
@@ -74,23 +92,26 @@ If auditing an existing project for a second time:
 
 ## Example Audit Scenarios
 
-### Auditing a Curriculum Program
+### US (default)
 ```
 /dyscalculia-audit TouchMath-K2 Audit of TouchMath implementation for K-2 math instruction
+/dyscalculia-audit Elementary-School-Math Compliance audit of district's dyscalculia services
+/dyscalculia-audit Math-Learning-App-v2 Audit of app's CRA methodology, accommodations
 ```
-Output: `audits/Dyscalculia-Compliance-Audit-TouchMath-K2-2026-04-03.md`
 
-### Auditing a School's Special Education Math Services
+### France
 ```
-/dyscalculia-audit Elementary-School-Math Compliance audit of district's dyscalculia identification and intervention services
+/dyscalculia-audit programme-college-Paris-XV --locale fr
+/dyscalculia-audit eleve_pap_dyscalculie.docx --locale fr
+/dyscalculia-audit application-MathÉval --locale fr
 ```
-Output: `audits/Dyscalculia-Compliance-Audit-Elementary-School-Math-2026-04-03.md`
 
-### Auditing a Digital Tool or App
+### Spain
 ```
-/dyscalculia-audit Math-Learning-App-v2 Audit of app's CRA methodology, accommodations, progress monitoring, and accessibility
+/dyscalculia-audit informe_psicopedagogico.docx --locale es
+/dyscalculia-audit programa-PT-CEIP-Madrid --locale es --region madrid
+/dyscalculia-audit app-Smartick-discalculia --locale es --region cataluna
 ```
-Output: `audits/Dyscalculia-Compliance-Audit-Math-Learning-App-v2-2026-04-03.md`
 
 ## Key Questions the Audit Addresses
 
