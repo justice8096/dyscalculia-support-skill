@@ -704,3 +704,356 @@ This checklist is used to identify students at risk for dyscalculia and warranti
 | **WRAT-5** | 5-85 | Math computation | Single-digit facts, multi-digit operations, word problems | Quick screening of math fluency |
 | **WISC-V** | 6-16 | Cognitive ability | Verbal Comprehension, Perceptual Reasoning, Processing Speed, Working Memory | Assess IQ and processing deficits |
 | **CBM Math Probes** | All ages | Fluency monitoring | Computation or applied problems | Weekly/bi-weekly progress monitoring |
+
+---
+
+## French Document Templates (Locale: FR)
+
+Templates for French educational documents related to dyscalculie (trouble spécifique des activités numériques). These documents follow Circulaire n° 2015-016, Code de l'éducation Art. L311-7, and Art. L321-4.
+
+### PAP — Plan d'Accompagnement Personnalisé (Math-Focused)
+
+A PAP does not require MDPH recognition. It requires validation by the médecin de l'Éducation nationale. A student cannot hold both a PAP and a PPS simultaneously.
+
+---
+
+**PLAN D'ACCOMPAGNEMENT PERSONNALISÉ (PAP)**
+
+*Extrait de la circulaire n° 2015-016 du 22 janvier 2015 — Feuillet Mathématiques / Logique*
+
+**Identification de l'élève**
+- Nom / Prénom : [Nom, Prénom]
+- Date de naissance : [Date] | Classe : [Classe] | Établissement : [Établissement]
+- Année scolaire : [Année]
+
+**Trouble(s) identifié(s)**
+- [ ] Dyscalculie (trouble spécifique des activités numériques)
+- [ ] Dyscalculie + trouble associé : [dyslexie / dyspraxie / TDAH / autre]
+- Professionnels extérieurs impliqués dans le suivi :
+  - Orthophoniste : [Nom, coordonnées]
+  - Neuropsychologue : [Nom, coordonnées — si applicable]
+  - Psychomotricien : [Nom — si comorbidité dyspraxie]
+
+**Aménagements — Domaine : Mathématiques et Logique**
+
+*Ces aménagements ne modifient pas les objectifs pédagogiques. Ils adaptent les conditions d'accès et les modalités d'évaluation.*
+
+| Aménagement | Précisions | Mis en place par | Contexte |
+|---|---|---|---|
+| Utilisation de la calculatrice | Calculatrice non programmable autorisée pour tous les travaux et évaluations | Enseignant | Tous les cours de mathématiques et sciences |
+| Tables de multiplication et droite numérique | Tableau de multiplication et droite numérique disponibles en permanence | Enseignant | Classe, évaluations |
+| Adaptation de la présentation des exercices | Une opération par ligne ; papier quadrillé ; police agrandie (Arial 14pt) ; espacement augmenté | Enseignant | Exercices, contrôles |
+| Temps supplémentaire | Tiers-temps accordé pour les travaux écrits et évaluations en mathématiques | Direction, enseignant | Évaluations |
+| Réduction du nombre d'exercices | Même niveau de difficulté, nombre d'items réduit (ex. : 5 exercices représentatifs au lieu de 20) | Enseignant | Travaux, évaluations |
+| Reformulation orale des consignes | Instructions reformulées oralement si nécessaire ; lecture des énoncés de problèmes | Enseignant | Classe, évaluations |
+| Réponse orale acceptée | Explication orale du raisonnement mathématique acceptée en complément ou à la place de la réponse écrite | Enseignant | Évaluations |
+| Outils visuels et manipulables | Matériel de manipulation (blocs base-10, jetons, réglettes) disponible | Enseignant | Cours, exercices |
+| Supports numériques | Logiciel de lecture d'écran ; calculatrice numérique ; traitement de texte pour production écrite | Enseignant, établissement | Selon disponibilité |
+| Éviter la recopie au tableau | Ne pas demander à l'élève de recopier des opérations ou résoudre des problèmes au tableau devant la classe | Enseignant | Cours |
+| Cours disponibles à l'avance | Supports de cours transmis à l'avance (fichier numérique ou copie papier) | Enseignant | Préparation des leçons |
+
+**Aménagements pour les examens et contrôles**
+- [ ] Tiers-temps (+ 1/3 du temps) — *Note : ce tiers-temps doit être mentionné dans le PAP pour être accordé au Brevet et au Baccalauréat*
+- [ ] Salle séparée ou salle de calme
+- [ ] Calculatrice autorisée (y compris là où elle est normalement interdite)
+- [ ] Sujet adapté (police agrandie, espacement, une opération par ligne)
+- [ ] Lecteur d'énoncés (secrétaire lecteur ou enregistrement audio)
+- [ ] Réponse orale (pour expliquer le raisonnement mathématique)
+
+**Suivi et révision**
+- Révision annuelle du PAP : [ ] Oui — date prévue : [Date]
+- Réunion de révision avec : [ ] Enseignants [ ] Famille [ ] Médecin scolaire
+
+**Signatures**
+- Famille : _______________________ Date : _______
+- Médecin de l'Éducation nationale : _______________________ Date : _______
+- Coordonnateur/Professeur principal : _______________________ Date : _______
+
+*Ce PAP ne peut pas coexister avec un PPS pour le même élève.*
+
+---
+
+### PPS — Projet Personnalisé de Scolarisation (Math-Focused, Extrait Pédagogique)
+
+The PPS is issued by the CDAPH (within the MDPH) following a formal disability recognition process. This template covers the pedagogical accommodations component for dyscalculie within a comprehensive PPS document.
+
+---
+
+**PROJET PERSONNALISÉ DE SCOLARISATION (PPS)**
+*Composante pédagogique — Mathématiques*
+*Décision CDAPH n° [numéro] du [date] — MDPH [Département]*
+
+**Identification**
+- Élève : [Nom, Prénom] | Né(e) le : [Date] | Classe : [Classe]
+- Établissement : [Établissement] | Enseignant référent : [Nom, contact]
+- AESH assigné(e) : [Nom — si applicable] | Type d'accompagnement : [Mutualisé / Individuel]
+
+**Reconnaissance du handicap**
+- Trouble reconnu par CDAPH : Dyscalculie (trouble spécifique des activités numériques)
+- Troubles associés reconnus : [Liste si applicable]
+- Numéro de dossier MDPH : [Numéro]
+
+**Modalités de scolarisation**
+- [ ] Scolarisation en classe ordinaire (milieu ordinaire)
+- [ ] ULIS : [Type ULIS — TSA (troubles spécifiques des apprentissages) pour dyscalculie ; TSL si comorbidité dyslexie — vérifier auprès de l'académie]
+- Temps en ULIS : [heures/semaine] | Temps en classe ordinaire : [heures/semaine]
+
+**Aménagements pédagogiques — Mathématiques**
+
+Tous les aménagements du PAP s'appliquent, plus :
+
+| Ressource / Aménagement | Détail | Financement / Responsable |
+|---|---|---|
+| AESH en mathématiques | Présent(e) pendant les cours de mathématiques pour reformuler les consignes, aider à la mise en page, rappeler les procédures | Établissement / PPS |
+| Matériel informatique adapté | Ordinateur ou tablette avec logiciel mathématique adapté (calculatrice avancée, logiciel de géométrie accessible) | MDPH / État |
+| Outils de manipulation personnels | Blocs base-10, réglettes Cuisenaire, droite numérique personnelle — matériel mis à disposition en permanence | Établissement |
+| Emploi du temps adapté | Plages de soutien spécialisé en mathématiques : [fréquence, durée] | Établissement |
+
+**Aménagements aux examens nationaux (Brevet / Baccalauréat)**
+
+*Ces aménagements doivent être demandés au rectorat au 2e trimestre de l'année précédant l'examen, avec copie du PPS.*
+
+- [ ] Tiers-temps (ou majoration supérieure si justifiée)
+- [ ] Salle séparée
+- [ ] Calculatrice autorisée sur toutes les épreuves
+- [ ] Secrétaire lecteur (lecture des énoncés)
+- [ ] Secrétaire scripteur (transcription des réponses dictées)
+- [ ] Sujet adapté (police 14pt+, interligne 1,5, une opération par ligne)
+- [ ] Épreuve orale de remplacement (si justifiée par la sévérité)
+- [ ] Temps de pause (temps suspendu pendant les pauses)
+
+**Coordination et révision**
+- ESS (Équipe de Suivi de Scolarisation) : au moins une réunion par an
+- Prochaine réunion ESS : [Date]
+- Participants ESS : Enseignant référent, famille, enseignants, direction, professionnels extérieurs
+
+**Signatures**
+- Famille : _______________________ Date : _______
+- Enseignant référent : _______________________ Date : _______
+- Direction : _______________________ Date : _______
+
+---
+
+### Aménagements d'Examens — Demande pour Dyscalculie
+
+Template for requesting official exam accommodations through the rectorat (Code de l'éducation Art. D351-27 to D351-32; Circulaire n° 2023-033).
+
+---
+
+**DEMANDE D'AMÉNAGEMENTS D'EXAMENS POUR CANDIDAT(E) PRÉSENTANT UNE DYSCALCULIE**
+
+**Identification du candidat**
+- Nom / Prénom : [Nom, Prénom]
+- Date de naissance : [Date] | N° candidat : [Numéro]
+- Examen préparé : [ ] Brevet des collèges [ ] Baccalauréat [ ] BTS [ ] Autre : [Préciser]
+- Session : [Année] | Académie : [Académie] | Établissement : [Établissement]
+
+**Trouble déclaré**
+- Dyscalculie (trouble spécifique des activités numériques)
+- Documents médicaux joints :
+  - [ ] Certificat médical de moins de 6 mois (prescripteur : Dr [Nom])
+  - [ ] Bilan orthophonique (orthophoniste : [Nom], date : [Date])
+  - [ ] Bilan neuropsychologique (si disponible)
+  - [ ] Copie du PAP ou PPS en vigueur
+
+**Aménagements demandés — Épreuves de mathématiques et sciences**
+
+| Aménagement | Demandé | Justification |
+|---|---|---|
+| **Tiers-temps** | [ ] | Ralentissement du traitement numérique ; temps de calcul augmenté |
+| **Salle séparée** | [ ] | Réduction de l'anxiété mathématique |
+| **Calculatrice** | [ ] | Autorisée y compris là où normalement interdite ; dyscalculie documentée |
+| **Sujet adapté** (police 14pt, interligne 1,5) | [ ] | Lisibilité améliorée des chiffres et symboles |
+| **Secrétaire lecteur** | [ ] | Lecture des énoncés de problèmes |
+| **Réponse orale** | [ ] | Explication orale du raisonnement acceptée |
+| **Temps de pause** | [ ] | Gestion de la fatigue cognitive |
+
+**Aménagements utilisés en classe (traçabilité obligatoire)**
+Ces aménagements sont utilisés en classe depuis [date] dans le cadre du [PAP / PPS] :
+- [ ] Tiers-temps (depuis : [Date])
+- [ ] Calculatrice (depuis : [Date])
+- [ ] Sujet adapté (depuis : [Date])
+
+*Note : La cohérence entre les aménagements demandés aux examens et ceux figurant dans le PAP/PPS est obligatoire (Circulaire 2023-033).*
+
+**Signature et dépôt**
+- Signature de la famille ou du candidat : _______________________ Date : _______
+- Visa du médecin de l'Éducation nationale : _______________________ Date : _______
+- Dépôt à : [Rectorat / Service examens] avant le : [Date limite — 2e trimestre de l'année précédant l'examen]
+
+---
+
+## Spanish Document Templates (Locale: ES)
+
+Templates for Spanish educational documents related to discalculia (dificultad específica de aprendizaje en matemáticas). Documents follow LOE/LOMLOE, with regional terminology noted. The primary support mechanism is the ACNS (Adaptaciones Curriculares No Significativas).
+
+### Plan de Trabajo Individualizado — Matemáticas (PTI / ACI No Significativa)
+
+Regional terminology varies: PTI (Castilla-La Mancha), ACI no significativa, Plan de Apoyo, or Adaptaciones Curriculares No Significativas. The document below uses PTI terminology; substitute regional equivalent as appropriate.
+
+*Note: This is a non-significant adaptation (ACNS) — it does NOT modify curriculum objectives. A Dictamen de Escolarización is NOT required for discalculia classified as DEA.*
+
+---
+
+**PLAN DE TRABAJO INDIVIDUALIZADO (PTI)**
+*Adaptaciones Curriculares No Significativas — Matemáticas*
+*Basado en Informe Psicopedagógico — Dificultad Específica de Aprendizaje (DEA)*
+
+**Datos del alumno/a**
+- Nombre y apellidos : [Nombre completo]
+- Fecha de nacimiento : [Fecha] | Curso : [Curso] | Centro : [Centro educativo]
+- Comunidad Autónoma : [Comunidad] | Año escolar : [Año]
+
+**Clasificación**
+- Categoría ACNEAE : Dificultad Específica de Aprendizaje (DEA)
+- Dificultad identificada : Discalculia (dificultad específica en matemáticas)
+- Dificultades asociadas : [Dislexia / TDAH / Disgrafía / ninguna]
+- *Nota: Esta clasificación NO es NEE. No se requiere Dictamen de Escolarización.*
+
+**Profesionales implicados**
+- Orientador/a : [Nombre] | Centro / EOEP : [Nombre]
+- Maestro/a PT (Pedagogía Terapéutica) : [Nombre — si aplica]
+- Tutor/a : [Nombre]
+- Informe Psicopedagógico fecha : [Fecha] | N° : [Referencia]
+
+**Adaptaciones metodológicas — Matemáticas**
+
+*Estas adaptaciones NO modifican los objetivos curriculares. Adaptan la metodología, los procedimientos de evaluación y el acceso al aprendizaje.*
+
+| Adaptación | Descripción | Responsable | Aplicación |
+|---|---|---|---|
+| Calculadora y tablas de multiplicar | Calculadora básica y tabla de multiplicar disponibles para todos los trabajos y evaluaciones de matemáticas | Profesor/a | Siempre |
+| Tiempo adicional | [25–50%] más de tiempo para actividades y evaluaciones de matemáticas | Profesor/a, jefatura | Por evaluación |
+| Descomposición paso a paso | Problemas de varios pasos descompuestos en pasos individuales ; instrucciones numeradas | Profesor/a | Siempre |
+| Soportes visuales y espaciales | Papel cuadriculado, tabla de valor posicional, recta numérica en papel ; disponibles en todo momento | Profesor/a | Siempre |
+| Reducción de cantidad (igual dificultad) | Misma complejidad conceptual con menor número de ejercicios (ej.: 5 problemas representativos en lugar de 20) | Profesor/a | Actividades, exámenes |
+| Formato de presentación adaptado | Fuente Arial 14pt ; interlineado 1,5 ; un problema por línea ; uso de papel cuadriculado para alineación | Profesor/a | Fichas, exámenes |
+| Apoyos manipulativos | Bloques de base-10, fichas de colores, ábacos — disponibles para el aprendizaje y práctica | Profesor/a, PT | Clases, actividades |
+| Evaluación oral opcional | El alumno/a puede explicar oralmente su razonamiento matemático como alternativa o complemento a la respuesta escrita | Profesor/a | Evaluaciones |
+| Lectura de enunciados | Enunciados de problemas leídos en voz alta si el alumno/a lo solicita | Profesor/a | Exámenes, trabajo en clase |
+| Tecnología de apoyo | Software de calculadora avanzada, aplicaciones matemáticas accesibles, texto a voz para enunciados | Centro, familia | Según disponibilidad |
+
+**Adaptaciones de evaluación — Matemáticas**
+
+- [ ] Tiempo adicional: [especificar porcentaje: 25% / 33% / 50%]
+- [ ] Sala separada o ambiente tranquilo para exámenes
+- [ ] Calculadora autorizada (básica no programable, o según nivel)
+- [ ] Tablas de multiplicar y fórmulas de referencia disponibles
+- [ ] Formato ampliado (Arial 14-16pt, interlineado 1,5)
+- [ ] Lectura en voz alta de enunciados
+- [ ] Respuesta oral aceptada
+- [ ] Múltiple opción en lugar de respuesta abierta (cuando evalúa razonamiento)
+- [ ] Reducción de ítems (misma dificultad, menos cantidad)
+
+**No se aplica**: Adaptación Curricular Significativa (ACS) — los objetivos curriculares NO son modificados.
+
+**Coordinación y seguimiento**
+- Revisión del PTI : al menos anualmente
+- Próxima revisión : [Fecha]
+- Participantes en la revisión : orientador/a, tutor/a, profesores/as, familia
+
+**Firma y consentimiento**
+- Familia / Tutor legal : _______________________ Fecha : _______
+- Tutor/a del alumno/a : _______________________ Fecha : _______
+- Orientador/a : _______________________ Fecha : _______
+- Jefatura de Estudios : _______________________ Fecha : _______
+
+---
+
+### Adaptaciones Curriculares No Significativas — Matemáticas (ACNS)
+
+A shorter, subject-specific ACNS document for use when only mathematics adaptations are needed and a full PTI is not in use.
+
+---
+
+**ADAPTACIONES CURRICULARES NO SIGNIFICATIVAS — ÁREA DE MATEMÁTICAS**
+
+**Alumno/a** : [Nombre] | **Curso** : [Curso] | **Centro** : [Centro]
+**Comunidad Autónoma** : [CA] | **Año** : [Año]
+
+**Clasificación** : DEA — Discalculia | **Informe Psicopedagógico** : [Fecha, orientador/a]
+
+**Adaptaciones de acceso y metodología**
+
+| Área | Adaptación |
+|---|---|
+| Cálculo | Calculadora básica siempre disponible; tablas de multiplicar en papel |
+| Tiempo | [X%] tiempo adicional en evaluaciones y actividades de cálculo |
+| Presentación | Papel cuadriculado; fuente 14pt; un ejercicio por línea |
+| Resolución de problemas | Descomposición en pasos; lectura oral del enunciado si se solicita |
+| Respuesta | Explicación oral del razonamiento aceptada |
+| Organización | Recta numérica y tabla de valor posicional disponibles |
+| Cantidad | Número de ejercicios reducido (misma dificultad conceptual) |
+
+**Aplicación**: Estas adaptaciones se aplican en todos los contextos donde la discalculia afecta al rendimiento: matemáticas, ciencias naturales, física, tecnología, etc.
+
+**Revisión anual** : [Fecha] | **Firma familia** : _______ | **Firma orientador/a** : _______
+
+---
+
+### Carta de Acomodaciones — Matemáticas (Calculator and Time Accommodations)
+
+Template for communicating approved mathematics accommodations to students, families, and subject teachers.
+
+---
+
+**COMUNICACIÓN DE ACOMODACIONES EN MATEMÁTICAS**
+
+[Fecha]
+
+Estimada familia de [Nombre del alumno/a]:
+
+Esta carta detalla las adaptaciones aprobadas para [Nombre del alumno/a] en el área de matemáticas, en el marco del Plan de Trabajo Individualizado / Adaptaciones Curriculares No Significativas vigente.
+
+**Adaptaciones aprobadas para Matemáticas:**
+
+1. **Calculadora**: Uso de calculadora básica (no programable) en todos los trabajos, ejercicios y evaluaciones de matemáticas. Esta adaptación no reduce la exigencia conceptual — evalúa el razonamiento matemático, no el cálculo en papel.
+
+2. **Tiempo adicional**: [X%] de tiempo adicional en todas las evaluaciones escritas de matemáticas. Esto equivale a [X minutos] adicionales por cada hora de examen.
+
+3. **Tablas de referencia**: Acceso permanente a tabla de multiplicar, recta numérica y fórmulas de referencia durante clase y evaluaciones.
+
+4. **Formato adaptado**: Los exámenes se presentarán con fuente Arial [14/16]pt, interlineado 1,5 y un problema por línea cuando sea posible.
+
+5. **Apoyos visuales y manipulativos**: Acceso a papel cuadriculado, tablas de valor posicional y material manipulativo durante la instrucción y práctica independiente.
+
+6. **Respuesta oral**: El alumno/a puede explicar oralmente su razonamiento matemático cuando la respuesta escrita presente dificultades de expresión.
+
+7. **Reducción de cantidad**: En actividades y evaluaciones, el número de ejercicios puede reducirse manteniendo la dificultad conceptual equivalente.
+
+**Implementación**
+
+Estas adaptaciones se aplican en [todas las asignaturas de matemáticas y ciencias / especificar]. Los profesores han sido informados y aplicarán estas adaptaciones de forma consistente.
+
+**Solicitud para EBAU/EvAU** (si procede en Bachillerato)
+
+Para solicitar estas adaptaciones en la EBAU/EvAU, deberá presentar esta documentación junto con el Informe Psicopedagógico ante la autoridad educativa regional ([Consejería de Educación de [CA]]) antes de [fecha límite regional]. Se recomienda contactar con el orientador/a del centro para iniciar este trámite.
+
+**Vigencia y revisión**
+
+Estas adaptaciones están en vigor durante el curso [Año] y serán revisadas en [Fecha]. Para cualquier consulta, contacte con [nombre del orientador/a / tutor/a, correo, teléfono].
+
+Atentamente,
+
+[Firma]
+[Nombre y cargo]
+[Centro educativo]
+
+---
+
+## French vs. Spanish Document Selection Guide
+
+Use this guide to select the correct template for the locale:
+
+| Situation | France (FR) | Spain (ES) |
+|---|---|---|
+| Student needs accommodations; no formal disability recognition | PAP (school physician validates) | ACNS / PTI (based on Informe Psicopedagógico) |
+| Student needs human aide or specialized placement | PPS (via MDPH/CDAPH) | ACS + Dictamen (for NEE — not typical for dyscalculia alone) |
+| Exam accommodation request (national exam) | Demande d'aménagements to rectorat (Brevet/Baccalauréat) | Regional EBAU/EvAU accommodation request to Consejería |
+| Communicating accommodations to family/teachers | PAP document (annual update) | Carta de acomodaciones |
+| Plan review document | ESS meeting notes (PPS) or PAP annual review | Revisión del PTI / Informe de seguimiento |
+
+**Key distinctions**:
+- In France: The PAP requires a school physician signature — this is the validation step. Without it, the PAP is not legally compliant.
+- In Spain: The Informe Psicopedagógico from the EOEP or orientador is the central document — it validates the ACNS. No physician signature is required for ACNS.
+- In both systems: Exam accommodations must be traceable to the plan in use during schooling (PAP/PPS for France; documented ACNS history for Spain).
