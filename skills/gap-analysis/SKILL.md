@@ -551,3 +551,240 @@ Summarize gap analysis findings using this format:
 How will you know when each gap is addressed?
 - [Gap 1]: [Measurable criterion]
 - [Gap 2]: [Measurable criterion]
+
+---
+
+## Cross-Linguistic Number System Analysis
+
+Dyscalculia assessment and intervention are significantly affected by the **number-word structure of the student's language of instruction**. This section provides a framework for analyzing how number-word transparency (or irregularity) interacts with dyscalculia across the three primary locales supported by this plugin.
+
+### The Linguistic Transparency Spectrum
+
+Number systems differ in how directly their number words encode decimal place value. This **linguistic transparency** affects:
+1. **Transcoding** (converting spoken number words to written numerals and vice versa)
+2. **Counting sequence acquisition** (learning the sequence of number names)
+3. **Place value conceptualization** (understanding what each digit position means)
+4. **Mental arithmetic** (using verbal number structure to support calculation)
+
+| Language | Transparency for 11–19 | Transparency for 20–99 | Transparency for 70–99 |
+|---|---|---|---|
+| **Spanish (Castilian)** | Low (11–15 irregular); moderate (16–19) | Very high (additive structure) | Very high |
+| **English** | Low (eleven, twelve, thirteen...) | Moderate (twenty-one = transparent; thirteen = inverted) | High (seventy, eighty, ninety = regular) |
+| **French** | Low (onze, douze...) | High (21–69) | **Very low** (soixante-dix to quatre-vingt-dix-neuf = vigesimal) |
+| **Basque (Euskera)** | Low | Low (vigesimal from 20) | Very low (fully vigesimal) |
+| **Chinese/Japanese/Korean** | **Very high** (shi-yi = 10+1 for 11, etc.) | Very high | Very high |
+
+**Implication for dyscalculia assessment**: Students assessed in languages with transparent number systems (Spanish, Chinese/Japanese/Korean) will show lower transcoding error rates than students in opaque or vigesimal languages (French, English teens), all else equal. Assessment tools normed on transparent-language populations should not be applied to opaque-language learners without adjustment, and vice versa.
+
+### Gap 9: No Structured Assessment Protocol for Cross-Linguistic Number-Word Irregularity
+
+**Problem**: Dyscalculia assessment tools are overwhelmingly developed in English and normed on English-speaking populations. When applied to French or Spanish speakers, they may produce misleading results by failing to account for language-specific number-word structures.
+
+**Manifestation**:
+- French-normed assessments often do not explicitly test transcoding in the 70–99 vigesimal range — or if they do, norms don't differentiate vigesimal processing difficulty from core number sense deficit
+- Spanish-normed assessments may report high accuracy on transcoding while missing processing speed deficits that are the dominant dyscalculia manifestation in transparent-language contexts
+- Multi-lingual students (e.g., French + English; Spanish + Basque) may be assessed in one language and show different error profiles in each
+- No standardized cross-linguistic protocol exists to compare a student's dyscalculia profile across languages of instruction
+
+**Impact**:
+- French students with vigesimal processing difficulty may be over-identified as having broader number sense deficits (false positives in the 70–99 range)
+- Spanish students with processing speed deficits may be under-identified because accuracy-only assessments appear normal (false negatives)
+- Students transitioning between educational systems (e.g., US → France) may have their prior evaluations misinterpreted
+
+**Gap Analysis Recommendation**:
+- Develop a cross-linguistic transcoding assessment battery with language-specific norms:
+  - French: specific subtest for 70–99 vigesimal forms; error analysis protocol
+  - Spanish: mandatory fluency (speed) measure alongside accuracy; 11–15 subtest
+  - English: specific subtest for 13–19 teens (inverted structure)
+- Establish cross-linguistic norming studies comparing same-student performance across languages
+- Include language-of-instruction metadata in all dyscalculia assessment records
+
+### Gap 10: French Vigesimal Structure Not Addressed in Dyscalculia Intervention Programs
+
+**Problem**: Dyscalculia intervention programs (including French-language adaptations of international programs) rarely address the vigesimal structure of French number words as a specific intervention target.
+
+**Manifestation**:
+- CRA programs translated into French proceed through number sense and computation without explicitly targeting the 70–99 vigesimal range
+- Orthophoniste therapy protocols for dyscalculie (logico-mathematical bilans) do not universally include vigesimal transcoding as a tested and treated component
+- School-based PAP accommodations (calculator, number line) help students avoid the vigesimal challenge but do not remediate it
+- Teachers report not receiving specific training on the vigesimal structure as a source of dyscalculia-like errors
+
+**Impact**:
+- Students develop compensatory strategies (avoid 70–99 range, always use calculator) without building the underlying competency
+- The vigesimal gap persists into secondary school and adult literacy
+- Exam accommodations (calculatrice) patch the problem for high-stakes testing but do not address the underlying processing challenge
+
+**Gap Analysis Recommendation**:
+- Add a "Vigesimal Module" to French dyscalculie intervention programs:
+  - Explicit concrete-stage instruction on the vigesimal structure (see Remediation Strategies FR section)
+  - Representational decomposition diagrams for all numbers 70–99
+  - Timed transcoding practice with vigesimal number words
+  - Error analysis protocol specifically for vigesimal transcoding errors
+- Train orthophonistes and special education teachers on vigesimal processing as a distinct intervention target
+- Include vigesimal competency milestones in PAP/PPS mathematics accommodation documentation
+
+### Gap 11: Spanish Transparent System Creates False Negative Risk in Assessment
+
+**Problem**: The transparency of Spanish number words means dyscalculic students may present as more capable on accuracy-based transcoding measures than they truly are. Standard dyscalculia screeners (accuracy-focused) may produce false negatives for Spanish-speaking students.
+
+**Manifestation**:
+- A Spanish-speaking student with dyscalculia can often correctly write a dictated number (because the word directly encodes the digit) while taking 3–5× the normative time to do so
+- Accuracy-based screeners and diagnostic tools do not capture this processing speed deficit
+- Teachers and evaluators in Spain may under-refer students because "they can write the numbers correctly" — not recognizing that the fluency deficit is the dyscalculia signal
+- The Informe Psicopedagógico may not include fluency measures if the EOEP or orientador uses accuracy-only instruments
+
+**Impact**:
+- Under-identification: dyscalculic students in Spain who are accurate-but-slow go undetected and un-accommodated until failure in secondary math makes the deficit undeniable
+- ACNS documents that don't specify fluency accommodations (extended time) leave the student's primary deficit unaddressed
+- Time-limited exams (EBAU/EvAU) disproportionately penalize the unaccommodated fluency deficit
+
+**Gap Analysis Recommendation**:
+- Mandate combined accuracy + fluency measurement in Spanish dyscalculia assessment protocols:
+  - Add timed transcoding probes (words per minute, digits per minute) to PRODISLEX detection checklists
+  - Require processing speed measures in Informe Psicopedagógico for suspected DEA/dyscalculia
+  - Establish Spanish-normed fluency benchmarks by educational stage
+- Update ACNS documentation requirements to explicitly list fluency accommodations (extended time specified as percentage)
+- Train EOEP evaluators and school orientadores on the fluency-accuracy dissociation in transparent-language dyscalculia
+
+### Comparative Number System Analysis: How FR/ES/US Differ for Dyscalculia
+
+| Dimension | France (FR) | Spain (ES) | United States (US) |
+|---|---|---|---|
+| **Primary number-word challenge** | Vigesimal 70–99 (quatre-vingts system) | Irregular 11–15 (once–quince) | Irregular teens (thirteen, fourteen...) |
+| **Transcoding error concentration** | Heavily concentrated 70–99 | Mildly elevated 11–15; generally low otherwise | Moderately elevated in teens; low elsewhere |
+| **False positive risk** | High: vigesimal errors may appear as number sense deficit | Low | Moderate for teen-range errors |
+| **False negative risk** | Low: vigesimal errors are visible | **High**: accurate transcoding masks fluency deficit | Moderate |
+| **Assessment priority** | Error distribution analysis (1–69 vs. 70–99) | Mandatory fluency measurement alongside accuracy | Standard; include teens subtest |
+| **Primary intervention target** | Vigesimal structure + core number sense | Fluency + automaticity + 11–15 rote learning | Core number sense + fluency |
+| **CRA adaptation needed** | Yes: explicit vigesimal concrete/representational stage | Moderate: leverage transparency; add fluency targets | Standard CRA |
+| **Exam accommodation emphasis** | Tiers-temps + calculatrice | Extended time (percentage-specified) + calculator | Extended time + calculator |
+| **Assessment instrument norms** | French population (BMT-i, bilan orthophonique) | Spanish population; regional bilingual context | US population (KeyMath-3, TEMA-3, WISC-V) |
+
+### Cross-Linguistic Assessment Tool Gaps
+
+Current gaps in assessment tools across locales:
+
+| Gap | France (FR) | Spain (ES) | US |
+|---|---|---|---|
+| Vigesimal transcoding subtest | Not standardized | N/A | N/A |
+| Fluency-specific dyscalculia screener | Not available in French norm | **Not available; critical gap** | Partially available (CBM probes) |
+| Cross-linguistic parallel forms | Not available | Not available | Not available |
+| Bilingual dyscalculia assessment (e.g., FR+Basque; ES+Catalan) | Not available | Not available | Limited (English + Spanish some tools) |
+| Teacher screening checklists (non-psychologist, classroom-based) | PRODISLEX not adapted for FR vigesimal | PRODISLEX available | BRIEF, informal screening tools |
+| Progress monitoring tools normed for locale | French CBM norms limited | Spanish CBM norms limited | CBM well-developed |
+
+### Recommended Assessment Additions by Locale
+
+**France (FR)**:
+- Add **vigesimal transcoding probe**: dictate 20 numbers (10 from 1–69; 10 from 70–99), measure accuracy and time separately for each range; compare rates
+- Add **error type analysis**: classify each error as transcoding (vigesimal computation failure), lexical (wrong numeral), graphical (poorly formed digit), or conceptual (wrong magnitude)
+- Specify in PAP/PPS: has vigesimal transcoding been specifically assessed and documented?
+
+**Spain (ES)**:
+- Add **timed transcoding probe**: dictate 20 numbers, measure time-to-response; set fluency benchmarks by grade
+- Add **rapid automatized naming (RAN)** for numerals: measures the verbal-retrieval speed that underlies fact fluency
+- Add **processing speed measure** to Informe Psicopedagógico: digit symbol, coding, or equivalent
+- ACNS must specify: "Extended time [X%] to address processing speed deficit confirmed on [assessment]"
+
+**United States (US)**:
+- Existing tools (KeyMath-3, TEMA-3, WISC-V Processing Speed) generally adequate
+- Add teen-range transcoding subtest for English-specific assessment if not present
+- When assessing Spanish-heritage students: use Spanish-normed tools where available; note language of instruction for each subtest
+
+### New Measure Specifications: Cross-Linguistic Probes
+
+#### French Vigesimal Transcoding Probe
+
+**Measure Name**: Sonde de Transcodage Vigesimal (STV)
+
+**Purpose**: Assess accuracy and speed of verbal-to-written transcoding specifically in the French vigesimal range (70–99)
+
+**Target Construct**: Transcoding fluency; vigesimal processing
+
+**Grade Range**: CE2 (Grade 3) through Seconde (Grade 10)
+
+**Administration Time**: 5 minutes
+
+**Format**: Examiner dictates 20 numbers in random order (10 from 1–69; 10 from 70–99). Student writes each numeral. Time-stamp recorded per item.
+
+**Stimulus Examples**:
+- From 1–69 control set: 23, 47, 61, 15, 38
+- From 70–99 vigesimal set: 72, 85, 91, 78, 99
+
+**Scoring**:
+- Accuracy score: % correct for 1–69 range; % correct for 70–99 range
+- Fluency score: median response time for 1–69 range; median response time for 70–99 range
+- Vigesimal ratio: (70–99 error rate) ÷ (1–69 error rate) — ratio > 2.0 indicates vigesimal-specific processing challenge
+
+**Interpretation**:
+- Vigesimal ratio > 3.0: Strong vigesimal processing challenge; primary intervention target
+- Vigesimal ratio 2.0–3.0: Moderate vigesimal challenge; supplement standard CRA with vigesimal module
+- Vigesimal ratio < 2.0: Errors distributed across range; core number sense deficit likely
+
+#### Spanish Timed Dyscalculia Fluency Probe
+
+**Measure Name**: Sonda de Fluidez Discalcúlica (SFD)
+
+**Purpose**: Assess processing speed for transcoding and arithmetic fact retrieval in Spanish-speaking students; captures fluency deficit masked by accurate transcoding
+
+**Target Construct**: Numerical fluency; processing speed for mathematics
+
+**Grade Range**: 2º Primaria (Grade 2) through 2º ESO (Grade 8)
+
+**Administration Time**: 3 minutes
+
+**Format**: Examiner dictates 30 numbers (numbers 1–99, including proportional representation of 11–15 range). Student writes each numeral as quickly as possible. Time recorded.
+
+**Scoring**:
+- Correct transcriptions per minute (CTPM): primary score
+- Accuracy percent: secondary score
+- 11–15 subtest accuracy: proportion correct for once through quince items
+
+**Benchmarks** (proposed; norming studies needed):
+- 2º Primaria: ≥ 15 CTPM = adequate; < 10 CTPM = significant concern
+- 4º Primaria: ≥ 22 CTPM = adequate; < 15 CTPM = significant concern
+- CTPM < 10 at any grade combined with > 85% accuracy = primary fluency dyscalculia pattern (Spanish transparent-system profile)
+
+**Interpretation**:
+- High accuracy + low CTPM: Processing speed deficit; transparent-system dyscalculia profile; extended time accommodation essential
+- Low accuracy + low CTPM: Broad dyscalculia pattern; begin with CRA foundations
+- Low accuracy only in 11–15: Irregular range deficit; targeted rote learning for once–quince
+
+### Gap Analysis Report: Cross-Linguistic Number System Findings
+
+When conducting a cross-linguistic gap analysis, report findings using this format:
+
+#### CROSS-LINGUISTIC DYSCALCULIA ASSESSMENT AND INTERVENTION GAP REPORT
+
+**Student/Program Locale**: [FR / ES / US]
+**Language(s) of Instruction**: [French / Spanish / English / Bilingual: specify]
+**Date**: [Date] | **Analyst**: [Name]
+
+**Number System Profile**:
+- Transparency level: [High / Moderate / Low]
+- Primary linguistic challenge: [Vigesimal 70–99 (FR) / Irregular 11–15 (ES) / Irregular teens (US)]
+- False positive risk: [High / Medium / Low]
+- False negative risk: [High / Medium / Low]
+
+**Assessment Gaps Identified**:
+
+| Gap | Present? | Impact | Recommendation |
+|---|---|---|---|
+| Vigesimal transcoding not assessed (FR only) | Y/N | False positive risk for core dyscalculia | Add STV probe |
+| Fluency not measured alongside accuracy (ES) | Y/N | False negative risk; fluency deficit undetected | Add SFD probe or equivalent |
+| Assessment tools not normed for locale | Y/N | Invalid norms; under/over-identification | Use locale-appropriate instruments |
+| Bilingual context not documented | Y/N | Language-specific effects uncontrolled | Document language of instruction per task |
+
+**Intervention Gaps Identified**:
+
+| Gap | Present? | Impact | Recommendation |
+|---|---|---|---|
+| Vigesimal module absent (FR) | Y/N | Persistent vigesimal transcoding deficit | Implement FR CRA vigesimal module |
+| Fluency targets absent from ACNS (ES) | Y/N | Extended time not specified; accommodation gap | Add fluency targets and % extended time to ACNS |
+| 11–15 rote learning not addressed (ES) | Y/N | Selective irregular range weakness | Add multisensory rote encoding for once–quince |
+| Standard CRA used without locale adaptation | Y/N | Missed language-specific targets | Adapt CRA per locale module |
+
+**Recommendations**:
+- Quick wins (< 1 week): [Add probe; document bilingual context; update ACNS]
+- Medium-term (1–3 months): [Implement locale-specific CRA module; update assessment protocol]
+- Long-term (3–12 months): [Establish locale-normed benchmarks; train evaluators; update PAP/ACNS templates]
