@@ -107,6 +107,8 @@ Must specify: accommodation, when used, by whom, frequency, assessment impact, c
 
 ## French Legal Framework (Locale: fr)
 
+> *Sources current as of 2026-05. Authority-version pins: Loi n° 2005-102 (11 février 2005), Circulaire n° 2015-016 (22 janvier 2015), Circulaire n° 2023-033 (23 février 2023), Code de l'éducation Art. L321-4, Code du travail Art. L5213-1.*
+
 ### FR-1. Key Laws
 
 | Law / Regulation | Subject |
@@ -226,6 +228,8 @@ For adults with dyscalculia in the workplace:
 
 ## Spanish Legal Framework (Locale: es)
 
+> *Sources current as of 2026-05. Authority-version pins: LOE — Ley Orgánica 2/2006, LOMLOE — Ley Orgánica 3/2020 (Art. 71/72/79 bis/102), Real Decreto 157/2022, Real Decreto Legislativo 1/2013, ICD-11 6A03.2 / DSM-5 315.1 diagnostic criteria. 17-CCAA regional decrees vary; always verify against the specific Comunidad Autónoma.*
+
 ### ES-1. Key Laws
 
 Spain's education system is devolved to 17 Comunidades Autónomas. National organic laws set the floor.
@@ -235,6 +239,7 @@ Spain's education system is devolved to 17 Comunidades Autónomas. National orga
 | **LOE — Ley Orgánica 2/2006** | Foundational education law. Art. 71-72: support for students with learning difficulties. Art. 79 bis (added by LOMLOE): specifically addresses DEA students, requires early identification. |
 | **LOMLOE — Ley Orgánica 3/2020** | 2020 reform. Explicitly broadens ACNEAE to include "trastornos de atención o de aprendizaje" — **discalculia falls under DEA**. Established DUA (Universal Design for Learning) as basic principle. |
 | **Real Decreto 157/2022** | Updated Primary Education curriculum under LOMLOE; reinforces competency-based assessment and inclusive attention. |
+| **LOMLOE Art. 102** | Continuing professional development (*formación permanente del profesorado*); administrations must provide ongoing CPD access. Compliance audits must verify that teachers supporting DEA students have received relevant dyscalculia/DEA training. |
 | **Real Decreto Legislativo 1/2013** (Ley General de Discapacidad) | Adult/workplace disability framework. Centros Especiales de Empleo, 2% reserved-employment quota for firms ≥50, certificado de discapacidad ≥33% as gateway to workplace protections. |
 | **Regional legislation** | Each CCAA enacts implementing decrees. Key examples: Andalucía (Instrucciones 12/12/2014, was among first to address discalculia explicitly), Cataluña (Decret 150/2017), Madrid (Orden 19/01/2021), País Vasco (Decreto 236/2015). |
 

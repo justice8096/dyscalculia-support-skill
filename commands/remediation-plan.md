@@ -1,9 +1,8 @@
 ---
-description: Create a CRA-based dyscalculia remediation plan with four phases (number sense → concrete → representational → abstract), lesson templates, and progress monitoring.
+description: Create a CRA-based math remediation plan customized by student name, focus area, intensity level, anxiety profile, and locale. US: TouchMath/Number Worlds/Stern/Singapore Math adaptations. France: Bilan orthophonique-linked intervention with attention to French number-word irregularities (soixante-dix/quatre-vingts) and orthophoniste-classroom coordination. Spain: PROCALCULO + Spanish transparent base-10 fluency emphasis; regletas Cuisenaire / ábacos as CRA manipulatives.
 argument-hint: <student-name> [--duration <weeks>] [--focus <domain>] [--intensity <freq>] [--anxiety <level>]
 allowed-tools: [Read, Write, Edit]
 ---
-
 # /remediation-plan
 
 Create a comprehensive, CRA-based remediation plan for dyscalculia intervention.
@@ -53,7 +52,7 @@ Math anxiety level (influences environmental and motivational design):
 
 1. **Analyzes Student Profile**: Identifies specific deficits and strengths
 2. **Selects Instructional Programs**: Recommends evidence-based programs based on profile (TouchMath, Number Worlds, Stern, Singapore Math adaptations, Strategic Math)
-3. **Designs CRA Progression**: Creates concrete→representational→abstract sequence aligned to student needs
+3. **Designs CRA Progression**: Creates concreteâ†’representationalâ†’abstract sequence aligned to student needs
 4. **Specifies Manipulatives**: Details which concrete tools needed for each lesson phase
 5. **Plans Lesson Sequence**: Phase 1 (number sense), Phase 2 (concrete operations), Phase 3 (representational), Phase 4 (abstract)
 6. **Creates Sample Lessons**: Detailed lesson plans demonstrating CRA progression
@@ -356,7 +355,7 @@ Based on student profile, detailed guidance for:
 
 Use this checklist to verify plan implementation with fidelity:
 
-- [ ] CRA progression followed: concrete→representational→abstract
+- [ ] CRA progression followed: concreteâ†’representationalâ†’abstract
 - [ ] Manipulatives used in all Phase 1-2 lessons
 - [ ] Concrete stage mastery verified before advancing
 - [ ] Progress monitoring data collected weekly (Phase 1-2) or bi-weekly (Phase 3)
@@ -376,3 +375,4 @@ Use this checklist to verify plan implementation with fidelity:
 - `skills/remediation-strategies`: Full CRA methodology, programs, lesson templates
 - `skills/standards-compliance`: Progress monitoring specifications
 - `skills/document-generation`: Progress monitoring report templates
+

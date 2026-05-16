@@ -1,7 +1,7 @@
 {
   "name": "dyscalculia-support-skill",
-  "version": "1.2.0",
-  "description": "Comprehensive dyscalculia support system treating dyscalculia as a neurodevelopmental cognitive disorder (not merely a learning disability) with brain-based numerical processing deficits centered on the intraparietal sulcus. Implements CRA (Concrete-Representational-Abstract) methodology, cognitive bypass strategies, and standards compliance across three legal jurisdictions: United States (IDEA, Section 504, NCTM, ADA workplace), France (Loi n° 2005-102, Code de l'éducation Art. L321-4, PAP/PPS via MDPH/CDAPH, aménagements d'examens with calculatrice across all exams, RQTH for workplace), and Spain (LOE/LOMLOE Art. 71/72/79 bis, ACNEAE/DEA framework with discalculia under DEA, ACNS pathway, EBAU/EvAU exam adaptations, 17-Comunidad-Autónoma regional variation, RDL 1/2013 for workplace). Grounded in Butterworth core deficit theory and intraparietal sulcus research, with locale-aware adaptations for French number-word irregularities (soixante-dix, quatre-vingts) and Spanish transparent base-10 system (regular -enta suffix).",
+  "version": "1.3.0",
+  "description": "Comprehensive dyscalculia support system treating dyscalculia as a neurodevelopmental cognitive disorder (not merely a learning disability) with brain-based numerical processing deficits centered on the intraparietal sulcus. Implements CRA (Concrete-Representational-Abstract) methodology, cognitive bypass strategies, and standards compliance across three legal jurisdictions: United States (IDEA, Section 504, NCTM, ADA workplace), France (Loi n\u00c2\u00b0 2005-102, Code de l'\u00c3\u00a9ducation Art. L321-4, PAP/PPS via MDPH/CDAPH, am\u00c3\u00a9nagements d'examens with calculatrice across all exams, RQTH for workplace), and Spain (LOE/LOMLOE Art. 71/72/79 bis, ACNEAE/DEA framework with discalculia under DEA, ACNS pathway, EBAU/EvAU exam adaptations, 17-Comunidad-Aut\u00c3\u00b3noma regional variation, RDL 1/2013 for workplace). Grounded in Butterworth core deficit theory and intraparietal sulcus research, with locale-aware adaptations for French number-word irregularities (soixante-dix, quatre-vingts) and Spanish transparent base-10 system (regular -enta suffix).",
   "author": "Justice",
   "license": "CC0-1.0",
   "keywords": [
@@ -62,35 +62,73 @@
       "name": "Standards Compliance",
       "description": "Audit educational content against NCTM Principles & Standards, IDEA and Section 504 requirements (US), Loi 2005-102 / PAP / PPS / Circulaire 2023-033 (France), LOE/LOMLOE / ACNEAE / DEA / ACNS (Spain), and ADA Title I / RQTH / RDL 1/2013 (workplace layer across jurisdictions). Identifies gaps in universal design principles and provides locale-aware compliance recommendations.",
       "category": "compliance",
-      "tags": ["NCTM", "IDEA", "504", "accessibility", "PAP", "PPS", "ACNEAE", "DEA", "France", "Spain", "RQTH"]
+      "tags": [
+        "NCTM",
+        "IDEA",
+        "504",
+        "accessibility",
+        "PAP",
+        "PPS",
+        "ACNEAE",
+        "DEA",
+        "France",
+        "Spain",
+        "RQTH"
+      ]
     },
     {
       "id": "gap-analysis",
       "name": "Gap Analysis",
       "description": "Analyze student mathematical understanding across number sense domains. Identifies specific deficits in concrete-representational-abstract progression and foundational competencies. Cross-linguistic analysis surfaces locale-specific gaps: French number-word irregularities (soixante-dix/quatre-vingts) compounding transcoding deficits, Spanish-language assessment tool availability (TEDI-MATH ES, PROCALCULO), French Bilan orthophonique vs Spanish orientador-led pathways.",
       "category": "assessment",
-      "tags": ["assessment", "CRA", "diagnostics", "number-sense", "cross-linguistic", "TEDI-MATH"]
+      "tags": [
+        "assessment",
+        "CRA",
+        "diagnostics",
+        "number-sense",
+        "cross-linguistic",
+        "TEDI-MATH"
+      ]
     },
     {
       "id": "remediation-strategies",
       "name": "Remediation Strategies",
       "description": "Generate CRA-based remediation plans with concrete manipulatives, representational models, and abstract symbol work. Customizable by student anxiety level, duration, intensity, and comorbidities. Locale-aware adaptations: French intervention via orthophoniste with explicit attention to irregular number-word transcoding (60-99 range); Spanish intervention leveraging transparent base-10 system to emphasize fluency over accuracy.",
       "category": "intervention",
-      "tags": ["CRA", "intervention", "remediation", "evidence-based", "orthophoniste", "transcoding", "fluency"]
+      "tags": [
+        "CRA",
+        "intervention",
+        "remediation",
+        "evidence-based",
+        "orthophoniste",
+        "transcoding",
+        "fluency"
+      ]
     },
     {
       "id": "document-generation",
       "name": "Document Generation",
-      "description": "Create compliant accommodation documents with specific, measurable goals aligned to mathematics standards across three jurisdictions: US IEP/504 plans, French PAP (Circulaire 2015-016) / PPS dossier / demande aménagements d'examens / RQTH application, Spanish ACNS / Informe Psicopedagógico / EBAU adaptation request / workplace accommodation request (RDL 1/2013).",
+      "description": "Create compliant accommodation documents with specific, measurable goals aligned to mathematics standards across three jurisdictions: US IEP/504 plans, French PAP (Circulaire 2015-016) / PPS dossier / demande am\u00c3\u00a9nagements d'examens / RQTH application, Spanish ACNS / Informe Psicopedag\u00c3\u00b3gico / EBAU adaptation request / workplace accommodation request (RDL 1/2013).",
       "category": "documentation",
-      "tags": ["IEP", "504", "PAP", "PPS", "ACNS", "RQTH", "EBAU", "documentation", "legal", "accommodation"]
+      "tags": [
+        "IEP",
+        "504",
+        "PAP",
+        "PPS",
+        "ACNS",
+        "RQTH",
+        "EBAU",
+        "documentation",
+        "legal",
+        "accommodation"
+      ]
     }
   ],
   "commands": [
     {
       "id": "dyscalculia-audit",
       "name": "Dyscalculia Audit",
-      "description": "Run a comprehensive compliance audit on a project/curriculum against NCTM, IDEA, and Section 504 standards (US, default) or Loi 2005-102 / PAP / PPS / Circulaire 2023-033 (France, --locale fr) or LOE/LOMLOE / ACNEAE / DEA / ACNS (Spain, --locale es, with optional --region for Comunidad Autónoma). Generates detailed report with specific remediation paths; FR/ES audits include US crosswalk.",
+      "description": "Run a comprehensive compliance audit on a project/curriculum against NCTM, IDEA, and Section 504 standards (US, default) or Loi 2005-102 / PAP / PPS / Circulaire 2023-033 (France, --locale fr) or LOE/LOMLOE / ACNEAE / DEA / ACNS (Spain, --locale es, with optional --region for Comunidad Aut\u00c3\u00b3noma). Generates detailed report with specific remediation paths; FR/ES audits include US crosswalk.",
       "category": "compliance",
       "syntax": "/dyscalculia-audit [project_name] [--scope=curriculum|assessment|both] [--locale=us|fr|es] [--region=<ccaa>]",
       "parameters": [
@@ -104,7 +142,11 @@
           "name": "scope",
           "type": "enum",
           "required": false,
-          "values": ["curriculum", "assessment", "both"],
+          "values": [
+            "curriculum",
+            "assessment",
+            "both"
+          ],
           "default": "both",
           "description": "Focus area for audit"
         },
@@ -112,7 +154,11 @@
           "name": "locale",
           "type": "enum",
           "required": false,
-          "values": ["us", "fr", "es"],
+          "values": [
+            "us",
+            "fr",
+            "es"
+          ],
           "default": "us",
           "description": "Legal-framework locale: 'us' (IDEA/504/NCTM/ADA), 'fr' (France: Loi 2005-102, PAP/PPS, RQTH for workplace), or 'es' (Spain: LOE/LOMLOE, ACNEAE/DEA, ACNS)"
         },
@@ -120,7 +166,7 @@
           "name": "region",
           "type": "string",
           "required": false,
-          "description": "For locale=es: Comunidad Autónoma (e.g. 'madrid', 'cataluna', 'andalucia', 'pais-vasco', 'valencia', 'galicia') to apply region-specific legislation"
+          "description": "For locale=es: Comunidad Aut\u00c3\u00b3noma (e.g. 'madrid', 'cataluna', 'andalucia', 'pais-vasco', 'valencia', 'galicia') to apply region-specific legislation"
         }
       ],
       "output": "Detailed compliance audit report with checklist, findings, and recommendations (locale-aware: includes US crosswalk for FR/ES audits)"
@@ -128,7 +174,7 @@
     {
       "id": "content-accessibility-check",
       "name": "Content Accessibility Check",
-      "description": "Analyze content for dyscalculia accessibility: cognitive load, font/spacing, color contrast, temporal demands, working memory requirements. Locale-aware checks: FR — French number-word irregularity flagging (soixante-dix/quatre-vingts present complex multi-step transcoding for dyscalculic readers), diacritic rendering; ES — Spanish-language number presentation (transparent base-10 conventions, regular -enta suffix), EBAU/EvAU exam format standards (Arial 16pt + 1.5 line spacing).",
+      "description": "Analyze content for dyscalculia accessibility: cognitive load, font/spacing, color contrast, temporal demands, working memory requirements. Locale-aware checks: FR \u00e2\u20ac\u201d French number-word irregularity flagging (soixante-dix/quatre-vingts present complex multi-step transcoding for dyscalculic readers), diacritic rendering; ES \u00e2\u20ac\u201d Spanish-language number presentation (transparent base-10 conventions, regular -enta suffix), EBAU/EvAU exam format standards (Arial 16pt + 1.5 line spacing).",
       "category": "accessibility",
       "syntax": "/content-accessibility-check [content_name] [--format=text|video|interactive] [--audience=elementary|secondary|adult] [--depth=quick|detailed] [--locale=us|fr|es]",
       "parameters": [
@@ -142,7 +188,12 @@
           "name": "format",
           "type": "enum",
           "required": false,
-          "values": ["text", "video", "interactive", "mixed"],
+          "values": [
+            "text",
+            "video",
+            "interactive",
+            "mixed"
+          ],
           "default": "text",
           "description": "Content format type"
         },
@@ -150,7 +201,11 @@
           "name": "audience",
           "type": "enum",
           "required": false,
-          "values": ["elementary", "secondary", "adult"],
+          "values": [
+            "elementary",
+            "secondary",
+            "adult"
+          ],
           "default": "secondary",
           "description": "Target audience age group"
         },
@@ -158,7 +213,10 @@
           "name": "depth",
           "type": "enum",
           "required": false,
-          "values": ["quick", "detailed"],
+          "values": [
+            "quick",
+            "detailed"
+          ],
           "default": "detailed",
           "description": "Analysis depth level"
         },
@@ -166,7 +224,11 @@
           "name": "locale",
           "type": "enum",
           "required": false,
-          "values": ["us", "fr", "es"],
+          "values": [
+            "us",
+            "fr",
+            "es"
+          ],
           "default": "us",
           "description": "Locale for language/orthography-specific checks. 'fr' flags French number-word irregularities and applies Circulaire 2015-016 typography standards. 'es' applies Spanish transparent-base-10 conventions and EBAU/EvAU standards (Arial 16pt + 1.5 line spacing)."
         }
@@ -176,7 +238,7 @@
     {
       "id": "generate-iep",
       "name": "Generate Accommodation Document (IEP, 504, PAP, ACNS, etc.)",
-      "description": "Generate a compliant, math-focused accommodation document for a student with dyscalculia. US: IEP, 504, ADA workplace request, higher-ed DSR. France: PAP (Circulaire 2015-016, four cycle templates), MDPH dossier for PPS, demande d'aménagements d'examens (Circulaire 2023-033), RQTH application. Spain: ACNS (Adaptaciones Curriculares No Significativas), Informe Psicopedagógico checklist, EBAU/EvAU adaptation request, RDL 1/2013 workplace accommodation request.",
+      "description": "Generate a compliant, math-focused accommodation document for a student with dyscalculia. US: IEP, 504, ADA workplace request, higher-ed DSR. France: PAP (Circulaire 2015-016, four cycle templates), MDPH dossier for PPS, demande d'am\u00c3\u00a9nagements d'examens (Circulaire 2023-033), RQTH application. Spain: ACNS (Adaptaciones Curriculares No Significativas), Informe Psicopedag\u00c3\u00b3gico checklist, EBAU/EvAU adaptation request, RDL 1/2013 workplace accommodation request.",
       "category": "documentation",
       "syntax": "/generate-iep [student_name] [grade] [--subtype=kosc1..kosc6] [--anxiety=low|moderate|high] [--comorbidities=ADHD,dyslexia,OCD] [--locale=us|fr|es] [--document_type=iep|504|pap|pps-dossier|fr-exam-accommodation|rqth|acns|informe|es-exam-accommodation] [--fr_cycle=maternelle|elementaire|college|lycee]",
       "parameters": [
@@ -196,14 +258,25 @@
           "name": "subtype",
           "type": "enum",
           "required": false,
-          "values": ["kosc1", "kosc2", "kosc3", "kosc4", "kosc5", "kosc6"],
+          "values": [
+            "kosc1",
+            "kosc2",
+            "kosc3",
+            "kosc4",
+            "kosc5",
+            "kosc6"
+          ],
           "description": "Kosc's dyscalculia subtype classification (verbal, practognostic, lexical, graphical, operational, ideognostical)"
         },
         {
           "name": "anxiety",
           "type": "enum",
           "required": false,
-          "values": ["low", "moderate", "high"],
+          "values": [
+            "low",
+            "moderate",
+            "high"
+          ],
           "default": "moderate",
           "description": "Math anxiety level"
         },
@@ -217,7 +290,11 @@
           "name": "locale",
           "type": "enum",
           "required": false,
-          "values": ["us", "fr", "es"],
+          "values": [
+            "us",
+            "fr",
+            "es"
+          ],
           "default": "us",
           "description": "Jurisdiction. Selects document-language vocabulary and legal references. Must be consistent with document_type."
         },
@@ -225,7 +302,20 @@
           "name": "document_type",
           "type": "enum",
           "required": false,
-          "values": ["iep", "504", "ada-workplace-request", "higher-ed-dsr", "pap", "pps-dossier", "fr-exam-accommodation", "rqth-application", "acns", "informe-psicopedagogico-checklist", "es-exam-accommodation", "es-workplace-accommodation"],
+          "values": [
+            "iep",
+            "504",
+            "ada-workplace-request",
+            "higher-ed-dsr",
+            "pap",
+            "pps-dossier",
+            "fr-exam-accommodation",
+            "rqth-application",
+            "acns",
+            "informe-psicopedagogico-checklist",
+            "es-exam-accommodation",
+            "es-workplace-accommodation"
+          ],
           "default": "iep",
           "description": "Type of document to generate"
         },
@@ -233,14 +323,19 @@
           "name": "fr_cycle",
           "type": "enum",
           "required": false,
-          "values": ["maternelle", "elementaire", "college", "lycee"],
+          "values": [
+            "maternelle",
+            "elementaire",
+            "college",
+            "lycee"
+          ],
           "description": "For locale=fr K-12 documents: PAP template version varies by school cycle"
         },
         {
           "name": "region",
           "type": "string",
           "required": false,
-          "description": "For locale=es: Comunidad Autónoma for region-specific document variants"
+          "description": "For locale=es: Comunidad Aut\u00c3\u00b3noma for region-specific document variants"
         }
       ],
       "output": "Compliant accommodation document in target language with present levels, annual goals, accommodations, and monitoring plan (locale-aware)"
@@ -248,7 +343,7 @@
     {
       "id": "remediation-plan",
       "name": "Remediation Plan",
-      "description": "Create a CRA-based math remediation plan customized by student name, focus area, intensity level, anxiety profile, and locale. US: TouchMath/Number Worlds/Stern/Singapore Math adaptations. France: Bilan orthophonique-linked intervention with attention to French number-word irregularities (soixante-dix/quatre-vingts) and orthophoniste-classroom coordination. Spain: PROCALCULO + Spanish transparent base-10 fluency emphasis; regletas Cuisenaire / ábacos as CRA manipulatives.",
+      "description": "Create a CRA-based math remediation plan customized by student name, focus area, intensity level, anxiety profile, and locale. US: TouchMath/Number Worlds/Stern/Singapore Math adaptations. France: Bilan orthophonique-linked intervention with attention to French number-word irregularities (soixante-dix/quatre-vingts) and orthophoniste-classroom coordination. Spain: PROCALCULO + Spanish transparent base-10 fluency emphasis; regletas Cuisenaire / \u00c3\u00a1bacos as CRA manipulatives.",
       "category": "intervention",
       "syntax": "/remediation-plan [student_name] [--duration=4|8|12|16] [--focus=number-sense|computation|fractions|algebra] [--intensity=1|2|3] [--anxiety=low|moderate|high] [--locale=us|fr|es]",
       "parameters": [
@@ -262,7 +357,12 @@
           "name": "duration",
           "type": "enum",
           "required": false,
-          "values": ["4", "8", "12", "16"],
+          "values": [
+            "4",
+            "8",
+            "12",
+            "16"
+          ],
           "default": "8",
           "description": "Duration in weeks"
         },
@@ -270,7 +370,14 @@
           "name": "focus",
           "type": "enum",
           "required": false,
-          "values": ["number-sense", "computation", "fractions", "algebra", "mixed", "transcoding"],
+          "values": [
+            "number-sense",
+            "computation",
+            "fractions",
+            "algebra",
+            "mixed",
+            "transcoding"
+          ],
           "default": "number-sense",
           "description": "Primary focus area. 'transcoding' especially relevant for locale=fr (irregular number words)."
         },
@@ -278,15 +385,23 @@
           "name": "intensity",
           "type": "enum",
           "required": false,
-          "values": ["1", "2", "3"],
+          "values": [
+            "1",
+            "2",
+            "3"
+          ],
           "default": "2",
-          "description": "Instructional intensity (1=Tier 1, 2=Tier 2, 3=Tier 3). For locale=fr orthophonie cadence (1-2x/week) often insufficient for severe dyscalculia — flag intensity gap."
+          "description": "Instructional intensity (1=Tier 1, 2=Tier 2, 3=Tier 3). For locale=fr orthophonie cadence (1-2x/week) often insufficient for severe dyscalculia \u00e2\u20ac\u201d flag intensity gap."
         },
         {
           "name": "anxiety",
           "type": "enum",
           "required": false,
-          "values": ["low", "moderate", "high"],
+          "values": [
+            "low",
+            "moderate",
+            "high"
+          ],
           "default": "moderate",
           "description": "Math anxiety level affecting approach"
         },
@@ -294,7 +409,11 @@
           "name": "locale",
           "type": "enum",
           "required": false,
-          "values": ["us", "fr", "es"],
+          "values": [
+            "us",
+            "fr",
+            "es"
+          ],
           "default": "us",
           "description": "Drives program-pool selection and orthographic/transcoding context defaults"
         }

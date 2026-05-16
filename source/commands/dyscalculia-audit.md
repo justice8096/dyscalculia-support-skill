@@ -39,7 +39,7 @@ The audit evaluates across these domains. **Locale-specific accents** noted per 
   - locale=es: ACNS pathway (NOT Dictamen/ACS unless comorbid NEE — common compliance error); Informe Psicopedagógico completeness
 - **Instructional Methodology** (15% weight): Evidence-based practices, manipulative implementation, anxiety management, Kosc subtype consideration
 - **Progress Monitoring** (10% weight): Data collection frequency, multiple measures, decision rules, intervention adjustment
-- **Ethical Standards & Training** (10% weight): Non-discrimination, confidentiality, professional development, parent collaboration
+- **Ethical Standards & Training** (10% weight): Non-discrimination, confidentiality, professional development, family collaboration; **locale-specific**: FR — CAPPEI for specialized roles, formation continue for general staff; ES — LOMLOE Art. 102 *formación permanente del profesorado* requirements; US — state certification + IDEA-mandated personnel preparation
 
 **FR/ES audits include US crosswalk references** so readers familiar with US legal framework can compare.
 

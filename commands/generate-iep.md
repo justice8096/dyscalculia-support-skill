@@ -1,9 +1,8 @@
 ---
-description: Generate a comprehensive, legally-compliant, math-focused IEP (PLAAFP, SMART goals, services, accommodations, LRE) from a student profile.
+description: Generate a compliant, math-focused accommodation document for a student with dyscalculia. US: IEP, 504, ADA workplace request, higher-ed DSR. France: PAP (Circulaire 2015-016, four cycle templates), MDPH dossier for PPS, demande d'aménagements d'examens (Circulaire 2023-033), RQTH application. Spain: ACNS (Adaptaciones Curriculares No Significativas), Informe Psicopedagógico checklist, EBAU/EvAU adaptation request, RDL 1/2013 workplace accommodation request.
 argument-hint: <student-name> [--grade <grade>] [--subtype <kosc-subtype>] [--anxiety <level>] [--comorbidities <conditions>]
 allowed-tools: [Read, Write, Edit]
 ---
-
 # /generate-iep
 
 Generate a comprehensive, legally-compliant, math-focused IEP from student profile data.
@@ -182,3 +181,4 @@ Co-occurring conditions (determines accommodation and multisensory emphasis):
 - `skills/standards-compliance`: Full IDEA requirements, IEP goal development, accommodation specifications
 - `skills/document-generation`: IEP templates and guidance
 - `skills/remediation-strategies`: CRA methodology, instructional programs, behavior guidelines
+

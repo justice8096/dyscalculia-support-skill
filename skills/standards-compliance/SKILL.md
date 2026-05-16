@@ -1,11 +1,18 @@
 ---
 name: standards-compliance
-description: Standards-compliance framework for dyscalculia. Use when the user mentions IDEA, Section 504, NCTM standards, IEP / 504 plan compliance, dyscalculia identification, math-SLD assessment (KeyMath-3, TEMA-3, WJ-IV), Response-to-Intervention (RTI) for math, or wants to audit a curriculum, EdTech tool, or program against dyscalculia regulatory requirements.
+description: Audit educational content against NCTM Principles & Standards, IDEA and Section 504 requirements (US), Loi 2005-102 / PAP / PPS / Circulaire 2023-033 (France), LOE/LOMLOE / ACNEAE / DEA / ACNS (Spain), and ADA Title I / RQTH / RDL 1/2013 (workplace layer across jurisdictions). Identifies gaps in universal design principles and provides locale-aware compliance recommendations.
 ---
-
 # Dyscalculia Standards Compliance
 
-Standards compliance framework for dyscalculia identification, intervention, and accommodation under IDEA, Section 504, and evidence-based best practices (NCTM, CEC).
+> **Clinical Framing**: This skill uses a dual-framing approach. For IDEA/Section 504 legal compliance, dyscalculia is classified as a Specific Learning Disorder (DSM-5 315.1) or Developmental Learning Disorder (ICD-11 6A03.2). However, the neuroscience evidence (Butterworth, Dehaene, Menon et al.) establishes dyscalculia as a **neurodevelopmental cognitive disorder** — a brain-based difference in numerical processing architecture centered on the intraparietal sulcus (IPS) and associated networks. This distinction matters: accommodations should compensate for a persistent cognitive processing difference, not merely scaffold a temporary learning gap.
+
+Standards compliance framework for dyscalculia identification, intervention, and accommodation across three jurisdictions:
+
+- **United States** — IDEA (K-12), Section 504 (K-12 + higher ed), ADA Title I (workplace), NCTM mathematics standards, CEC professional standards.
+- **France** — Loi n° 2005-102 (Loi Handicap), Code de l'éducation Art. L321-4, PAP (Circulaire 2015-016), PPS via MDPH/CDAPH, aménagements d'examens (Circulaire 2023-033) — calculatrice authorized for ALL exams as standard dyscalculia accommodation. RQTH for adult/workplace contexts.
+- **Spain** — LOE/LOMLOE Art. 71/72/79 bis, ACNEAE/DEA framework (**discalculia falls under DEA, not NEE** — common compliance error to apply Dictamen/ACS), ACNS (Adaptaciones Curriculares No Significativas), EBAU/EvAU exam accommodations, 17-Comunidad-Autónoma regional variation. RDL 1/2013 (Ley General de Discapacidad) for workplace.
+
+**Locale-specific note for dyscalculia**: French number-word irregularities (soixante-dix=70, quatre-vingts=80, quatre-vingt-dix=90) impose additional transcoding load on dyscalculic learners that is absent in English or Spanish (which both have regular -ty / -enta decade suffixes). Compliance auditing of French content must check that transcoding instruction is explicitly addressed. Conversely, Spanish's transparent base-10 system means dyscalculic learners typically show **fluency** rather than **accuracy** deficits — interventions should target processing speed.
 
 ## IDEA Requirements for Math SLD
 
@@ -19,7 +26,7 @@ The Individuals with Disabilities Education Act (IDEA) mandates specific require
 - **Processing Deficits**: Assess working memory, processing speed, visual-spatial processing (IPS, Rapid Naming, etc.)
 - **Response to Intervention (RTI)**: Document that intensive Tier 2/3 interventions (minimum 8-10 weeks) did not produce adequate progress
 - **Classroom Assessment**: Work samples, curriculum-based measurement (CBM) data showing persistent deficit
-- **Exclusionary Factors**: Vision/hearing impairment, intellectual disability, emotional disturbance, environmental/economic disadvantage, language proficiency—must be ruled out
+- **Exclusionary Factors**: Vision/hearing impairment, intellectual disability, emotional disturbance, environmental/economic disadvantage, language proficiencyâ€”must be ruled out
 
 #### IEP Goal Areas (Math-Specific)
 
@@ -101,6 +108,270 @@ Section 504 provides accommodations to ensure access to math curriculum without 
 
 ### 504 Plan Documentation
 Must specify: accommodation, when used, by whom, frequency, assessment impact, classroom implementation, and monitoring.
+
+## French Legal Framework (Locale: fr)
+
+### FR-1. Key Laws
+
+| Law / Regulation | Subject |
+|---|---|
+| **Loi n° 2005-102 du 11 février 2005** (Loi Handicap) | Foundational disability statute. Establishes universal right to mainstream schooling, creates MDPH/CDAPH, defines disability broadly to include troubles DYS (dyscalculie included) when they constitute lasting limitation on activity or participation. |
+| **Code de l'éducation, Art. L321-4** | Schools **must** provide specific accommodations for students with learning disorders (dyscalculie explicitly within scope); when difficulties are severe and permanent, adapted teaching is required. **Not discretionary.** |
+| **Circulaire n° 2015-016 du 22 janvier 2015** | PAP implementing circular. Standardized template (four cycle versions). PAP document organizes accommodations by domain — including a dedicated **"Mathématiques / logique"** domain for dyscalculia. |
+| **Circulaire n° 2023-033 du 23 février 2023** | Exam accommodations for DYS candidates. **Critical for dyscalculia**: calculatrice non programmable authorized for ALL examinations (Brevet, Baccalauréat, BTS), including subjects where calculators are normally prohibited. |
+| **Code du travail, Art. L5213-1 et suivants** | Workplace disability framework. RQTH (Reconnaissance de la Qualité de Travailleur Handicapé) opens access to AGEFIPH (private) / FIPHFP (public) funding for adaptive math tools (calculators, spreadsheet templates, etc.). |
+
+### FR-2. K-12 Support Plan Types
+
+Same four-plan structure as for dyslexia (PPRE → PAP → PPS → PAI). For dyscalculia:
+
+| Plan | When to use for dyscalculia |
+|---|---|
+| **PPRE** | First-line academic difficulty support; not specific to disability |
+| **PAP** | Lasting dyscalculie diagnosed by médecin; pedagogical accommodations only; school physician validation. **The default route for most dyscalculia students.** No MDPH needed. |
+| **PPS** | Severe dyscalculia requiring AESH (human aide), ULIS placement, or state-funded equipment (specialized calculators, math software). MDPH dossier required. |
+| **PAI** | Only when comorbid health condition warrants (not dyscalculia-specific) |
+
+### FR-3. MDPH Process
+
+Same as dyslexia (one MDPH per département; CDAPH grants recognition; ESS coordinates PPS). Required **only for the PPS pathway**; the more common dyscalculia PAP pathway has no MDPH involvement.
+
+### FR-4. Assessment and Diagnosis (Dyscalculia-Specific)
+
+| Professional | Role |
+|---|---|
+| **Orthophoniste** | Conducts the **bilan orthophonique** — in France the orthophoniste evaluates **both** dyslexie and dyscalculie. Central evaluation; prescription from treating physician required. |
+| **Neuropsychologue** | WISC-V French norms (working memory, processing speed), Conners CPT, NEPSY-II for executive function; central to differential diagnosis. |
+| **Psychomotricien** | Spatial reasoning + finger gnosia evaluation — important when practognostic or graphical dyscalculia suspected, and for comorbid dyspraxie. |
+| **Médecin traitant / Pédiatre** | Prescribes assessments, coordinates synthesis, issues formal diagnosis. |
+| **Médecin de l'Éducation nationale** | School physician; validates PAP. |
+| **CRTLA** | Centre de Référence des Troubles du Langage et des Apprentissages — hospital-based multidisciplinary team for complex/severe cases. |
+
+**Key French-normed dyscalculia assessment tools:**
+- **TEDI-MATH** (Test Diagnostique des Compétences de Base en Mathématiques) — gold-standard French/Belgian-normed battery; ages 3-9 + secondary version.
+- **Zareki-R** (Batterie pour l'évaluation du traitement des nombres et du calcul chez l'enfant) — French adaptation; ages 6-11.
+- **BMT-i** (Batterie Modulable de Tests informatisés) — computerized screening, ages 4-13, includes numerical subtests.
+- **UDN-II** (Utilisation du Nombre) for younger learners (preschool to early elementary).
+- **WISC-V** French norms — for IQ and cognitive profile.
+
+**Diagnostic criteria**: CIM-11/ICD-11 (6A03.2 — Developmental learning disorder with impairment in mathematics) / DSM-5 (315.1). Significant persistent discrepancy between expected and actual math achievement, not explained by intellectual disability, sensory deficit, inadequate instruction, or psychosocial factors. French clinical practice often uses < Pc 10 on TEDI-MATH/Zareki-R subtests as operational threshold.
+
+### FR-5. Required K-12 Accommodations (Dyscalculia-Specific)
+
+Under Art. L321-4 Code de l'éducation, dyscalculia accommodations are legally mandatory, not discretionary.
+
+**Standard dyscalculia accommodations (PAP "Mathématiques / logique" section):**
+- **Calculatrice non programmable autorisée** — calculator authorized including in subjects where normally prohibited
+- Table de multiplication et ligne numérique accessibles en permanence
+- Présentation adaptée: une opération par ligne, papier quadrillé (graph paper) for column alignment
+- Temps supplémentaire pour les activités de calcul
+- Acceptation de l'explication orale du raisonnement à la place du calcul écrit
+- Réduction de la quantité d'exercices (mêmes concepts, moins d'items)
+- Sujets adaptés: police agrandie pour les chiffres, espacement des opérations
+- **Spécifique au français: instruction explicite sur les irrégularités lexicales des nombres** (soixante-dix, quatre-vingts, quatre-vingt-dix) — these create extra transcoding load not present in English/Spanish; explicit instruction must be documented in PAP
+
+### FR-6. Exam Accommodations — Calculatrice for All
+
+Key principle: **Exam accommodations must be consistent with what the student uses in class.** Calculatrice across all exams is the headline dyscalculia accommodation per Circulaire 2023-033.
+
+| Accommodation | French term | Note |
+|---|---|---|
+| Calculatrice | Calculatrice non programmable | **All examinations including subjects normally prohibited from calculator use** |
+| Extra time | Tiers-temps | One-third additional; can be increased for severe cases |
+| Table de multiplication | Aide-mémoire mathématique | Reference table authorized during exam |
+| Adapted materials | Sujets adaptés | Enlarged numerals, single-operation-per-line layout |
+| Scribe | Secrétaire scripteur | For dyscalculia comorbid with dysgraphia |
+| Calculator-friendly question variants | Énoncés adaptés | When the question presupposes mental calculation, an adapted variant is offered |
+| Oral substitution | Épreuve orale de remplacement | When written calculation is impossible |
+
+**Application procedure**: Filed during second trimester of year preceding the exam. Medical certificate + bilan orthophonique + evidence of classroom use required. Decision by recteur. Appeal to Défenseur des Droits if refused.
+
+### FR-7. Higher Education (Université / CFA)
+
+PAP does not transfer to higher education. Universities have their own **service handicap** (disability services office). For dyscalculia, the relevant accommodations:
+- Calculator authorized in numerically-loaded exams
+- Tiers-temps for math-heavy assessments
+- Note-taker (preneur de notes) for math-heavy lectures (transcribing formulas under time pressure is acute)
+- Foreign-language requirement waiver where mathematically-loaded subjects intersect
+
+### FR-8. Adult / Workplace Context
+
+For adults with dyscalculia in the workplace:
+
+- **RQTH (Reconnaissance de la Qualité de Travailleur Handicapé)** — issued by CDAPH; opens AGEFIPH (private sector) / FIPHFP (public sector) funding.
+- **Adapted tools** for adult dyscalculic workers:
+  - Calculator + spreadsheet (Excel/LibreOffice) as primary computation aids
+  - Templates for routine numerical tasks (expense reports, invoicing)
+  - Adapted time-management software (visual timers, calendar scaffolds)
+  - Specialized math AT (e.g., MathTalk, EquatIO for equation entry)
+- **CRP (Centres de Réadaptation Professionnelle)** for career retraining when initial career was impacted.
+- **Loi Avenir Professionnel (2018)** — référent handicap mandate at firms ≥250 employees.
+
+### FR-9. Teacher Training
+
+- No nationally mandated minimum hours on dyscalculia in initial teacher training (gap vs US specialist certifications).
+- **CAPPEI** voluntary certification for inclusive education; required for ULIS coordinators and enseignants référents.
+- Continuing education via PAF (Plans Académiques de Formation) is voluntary.
+- Legal obligation is on the institution, not on individual teacher certification.
+
+### FR-10. France–US Crosswalk (Dyscalculia)
+
+| French Framework | US Equivalent | Key Difference |
+|---|---|---|
+| Loi du 11 février 2005 | IDEA + Section 504 + ADA | French law is a single statute; US splits across three |
+| PAP | Section 504 Plan | PAP requires school physician validation; 504 requires school-based evaluation |
+| PPS | IEP under IDEA | PPS created by MDPH; IEP by school team |
+| Calculatrice toutes épreuves | Calculator on math sections only | **France's all-exam calculator policy is more generous than typical US 504** |
+| Bilan orthophonique (incl. dyscalculia) | School psych eval + math achievement battery | French orthophoniste covers what US splits across SLP + ed. psychologist |
+| TEDI-MATH / Zareki-R | KeyMath-3 / TEMA-3 / WJ-IV | Different test traditions; not directly cross-comparable |
+| RQTH | ADA Title I (workplace) | RQTH is voluntary status unlocking AGEFIPH funding; ADA coverage is automatic for qualified individuals |
+| AESH | 1:1 paraprofessional aide | AESH is PPS-only |
+| Défenseur des Droits | OCR / EEOC | Different escalation body |
+
+## Spanish Legal Framework (Locale: es)
+
+### ES-1. Key Laws
+
+Spain's education system is devolved to 17 Comunidades Autónomas. National organic laws set the floor.
+
+| Law / Regulation | Subject |
+|---|---|
+| **LOE — Ley Orgánica 2/2006** | Foundational education law. Art. 71-72: support for students with learning difficulties. Art. 79 bis (added by LOMLOE): specifically addresses DEA students, requires early identification. |
+| **LOMLOE — Ley Orgánica 3/2020** | 2020 reform. Explicitly broadens ACNEAE to include "trastornos de atención o de aprendizaje" — **discalculia falls under DEA**. Established DUA (Universal Design for Learning) as basic principle. |
+| **Real Decreto 157/2022** | Updated Primary Education curriculum under LOMLOE; reinforces competency-based assessment and inclusive attention. |
+| **LOMLOE Art. 102** | Continuing professional development (*formación permanente del profesorado*); administrations must provide ongoing CPD access. Compliance audits must verify that teachers supporting DEA students have received relevant dyscalculia/DEA training. |
+| **Real Decreto Legislativo 1/2013** (Ley General de Discapacidad) | Adult/workplace disability framework. Centros Especiales de Empleo, 2% reserved-employment quota for firms ≥50, certificado de discapacidad ≥33% as gateway to workplace protections. |
+| **Regional legislation** | Each CCAA enacts implementing decrees. Key examples: Andalucía (Instrucciones 12/12/2014, was among first to address discalculia explicitly), Cataluña (Decret 150/2017), Madrid (Orden 19/01/2021), País Vasco (Decreto 236/2015). |
+
+### ES-2. ACNEAE Framework — DEA (not NEE) for Discalculia
+
+**Critical compliance distinction**: Discalculia falls under **DEA (Dificultades Específicas de Aprendizaje)**, a subcategory of ACNEAE, but is **NOT** classified as NEE (Necesidades Educativas Especiales). This determines which support pathway applies.
+
+| ACNEAE Subcategory | Includes | Support Pathway |
+|---|---|---|
+| NEE | Disability, severe behavioral disorders, severe communication disorders | Dictamen de Escolarización + possible ACS |
+| **DEA** | **Dislexia, discalculia, disgrafía, disortografía** | **ACNS (primary tool) — NOT Dictamen** |
+| TDAH | Attention deficit hyperactivity disorder | ACNS |
+| Altas Capacidades | Giftedness | Enrichment measures |
+
+**Common compliance error**: Applying NEE / Dictamen pathway to a sole-diagnosis discalculia student. Correct pathway is DEA / ACNS unless comorbid NEE-qualifying condition.
+
+### ES-3. K-12 Support Plan Types
+
+| Plan | Spanish Name | Used for discalculia? |
+|---|---|---|
+| **ACNS** | Adaptaciones Curriculares No Significativas | **YES — primary tool.** Modifies methodology, assessment procedures, access — does NOT change curriculum content/objectives. |
+| **ACS** | Adaptaciones Curriculares Significativas | NO (NEE only). Inappropriate for sole-diagnosis discalculia. |
+| **PTI** | Plan de Trabajo Individualizado | YES in some CCAA (Castilla-La Mancha) — regional equivalent of ACNS |
+| **PAD** | Plan de Atención a la Diversidad | School-level (not student-specific); should include DEA protocols |
+
+**Regional terminology note**: The ACNS concept may be called ACI no significativa, PTI, Plan de Apoyo depending on CCAA. Always verify regional terminology.
+
+### ES-4. Assessment Process (Dyscalculia-Specific)
+
+| Professional/Team | Role |
+|---|---|
+| **EOEP** (Equipos de Orientación Educativa y Psicopedagógica) | External teams for primary schools; interdisciplinary |
+| **Departamento de Orientación** | Internal guidance department in secondary schools (IES) |
+| **Orientador/a Educativo/a** | School guidance counselor; conducts evaluations, coordinates ACNS |
+| **Maestro/a de PT** | Pedagogía Terapéutica specialist; direct support |
+| **EAP** (Cataluña) / **Berritzegune** (País Vasco) | Regional equivalents of EOEP |
+
+**Key Spanish-normed dyscalculia assessment tools:**
+- **PROCALCULO** — Prueba de Evaluación del Cálculo en Educación Primaria; main Spanish-language dyscalculia screening battery
+- **TEDI-MATH (Spanish adaptation)** — validated for Spanish-speaking populations (Castilian Spanish norms)
+- **Evamat** — Spanish-language math evaluation battery for primary and secondary
+- **WISC-V Spanish norms** — for cognitive profile
+- **EVALEC** — Spanish reading-and-related-cognition battery (relevant when comorbid)
+
+**Assessment pathway:**
+1. PRODISLEX-style screening or teacher referral
+2. Teacher documents observed difficulties + interventions tried
+3. Psychopedagogical evaluation by orientador/a or EOEP (cognitive + math achievement + exclusionary criteria)
+4. **Informe Psicopedagógico** — formal report with DEA classification
+5. ACNS designed based on report; family agreement required
+
+**Diagnostic threshold**: Some CCAA (Andalucía, Cataluña, Murcia, Navarra) use achievement below Pc 25 on Spanish-normed math test with exclusionary criteria; others less specifically defined.
+
+### ES-5. Required K-12 Accommodations (Dyscalculia-Specific)
+
+Under LOMLOE Art. 71/72/79 bis:
+
+**Standard discalculia ACNS accommodations:**
+- Uso de calculadora y tabla de multiplicar permitido
+- Materiales manipulativos (regletas Cuisenaire, bloques base-10, ábacos) accesibles en todo momento
+- Descomposición visual de problemas paso a paso
+- Reducción del número de problemas (mismo nivel de dificultad, menor volumen)
+- Tiempo adicional (25-50% según región)
+- Sin penalización por errores de cálculo cuando el razonamiento es correcto
+- Formato ampliado: Arial 14-16pt, interlineado 1,5 para problemas matemáticos
+- Posibilidad de respuesta oral del razonamiento como alternativa al cálculo escrito
+- Acceso a hoja de cálculo (Excel) en evaluaciones que lo permitan
+- **Aprovechamiento del sistema base-10 transparente del español**: Spanish's regular -enta suffix (veinte, treinta, cuarenta, cincuenta…) means transcoding is less error-prone than in French — intervention should leverage this strength
+
+### ES-6. EBAU/EvAU Exam Accommodations
+
+The university entrance exam (EBAU/EvAU, formerly Selectividad) is administered by each CCAA. For discalculia:
+
+- Calculadora autorizada en pruebas matemáticas (and physics/chemistry where applicable)
+- Tiempo adicional (30 min adicional habitual; varies by región)
+- Formato ampliado: Arial 16pt, interlineado 1,5
+- Sala separada / tribunal específico (algunas regiones)
+- Sin penalización por errores de cálculo aritmético cuando se demuestra razonamiento correcto
+- Historial documentado de ACNS durante Bachillerato es requisito de facto
+
+**Requirements**: Informe Psicopedagógico, ACNS history during Bachillerato, application within regional deadlines.
+
+### ES-7. Higher Education (Universidad)
+
+Spanish universities operate **oficinas de atención a la diversidad** (or **servicios de apoyo a estudiantes con discapacidad**). For discalculia:
+- Tiempo adicional en pruebas con carga numérica
+- Uso de calculadora cuando proceda
+- Software adaptado (hoja de cálculo, software de manipulación algebraica)
+- Reducción de carga académica en cursos matemáticamente intensivos
+- Exención de requisito de lengua extranjera (raro; caso por caso)
+
+### ES-8. Adult / Workplace Context
+
+**Real Decreto Legislativo 1/2013 (Ley General de Discapacidad)**:
+- **Certificado de discapacidad ≥33%** issued by regional Centro Base — gateway to workplace protections, tax benefits, reserved-employment quota access
+- **Reserved-employment quota**: firms ≥50 employees must reserve 2% of positions
+- **Centros Especiales de Empleo**: specialized workplaces (≥70% employees with disability)
+- **Adapted tools for dyscalculic adult workers**:
+  - Calculator + spreadsheet templates as primary aids
+  - Spanish-language math AT (Symbolab Spanish, GeoGebra ES)
+  - Time-management software with visual scaffolds
+- **Anti-discrimination**: Estatuto de los Trabajadores Art. 17 + LGD Art. 35-37
+- **Recourse**: Inspección de Trabajo, Tribunales de lo Social
+
+### ES-9. Regional Variation Summary
+
+| Aspect | Varies by Region | Uniform Nationally |
+|---|---|---|
+| Diagnostic criteria thresholds | Yes (Pc varies) | — |
+| Support plan terminology (PTI vs ACI vs ACNS) | Yes | — |
+| EBAU accommodation specifics | Yes | — |
+| Assessment team names (EOEP/EAP/Berritzegune) | Yes | — |
+| Right to non-significant adaptations | — | Yes (LOMLOE) |
+| Discalculia under DEA classification | — | Yes (LOMLOE) |
+| Certificado de discapacidad threshold (33%) | — | Yes (RDL 1/2013) |
+| Reserved-employment quota (2% / firms ≥50) | — | Yes (RDL 1/2013) |
+
+### ES-10. Spain–US Crosswalk (Dyscalculia)
+
+| US Framework | Spanish Equivalent | Key Difference |
+|---|---|---|
+| IDEA | LOE/LOMLOE Title II | IDEA more prescriptive; LOE sets principles for regional implementation |
+| Section 504 Plan | ACNS + Informe Psicopedagógico | **Closest match for discalculia** — both provide accommodations without modifying curriculum standards |
+| IEP (for disability) | Dictamen + ACS | Spain: two separate documents; Dictamen = placement, ACS = curriculum modification; **only for NEE — NOT for discalculia** |
+| SLD eligibility (math) | DEA classification (ACNEAE) | Functionally equivalent |
+| RTI/MTSS | Medidas ordinarias → específicas → extraordinarias | Structurally equivalent |
+| Calculator policy | Variable by IEP/504 | Spain ACNS routinely authorizes calculator across math exams |
+| ADA Title I (workplace) | RDL 1/2013 | Spain has 2% reserved-employment quota; US does not |
+| Disability Services Office | Oficina de Atención a la Diversidad | Functionally equivalent |
+| School Psychologist | Orientador/a Educativo/a | Closest equivalent |
+| Special Education Teacher | Maestro/a de PT | Direct support specialist |
+| EEOC | Inspección de Trabajo / Tribunales de lo Social | Different enforcement body |
 
 ## NCTM Standards
 
@@ -210,7 +481,7 @@ Use this checklist to audit instructional programs, tools, and services for dysc
 - [ ] Student/parent involvement in plan development
 
 ### Instructional Program
-- [ ] Instruction follows CRA progression: Concrete → Representational → Abstract
+- [ ] Instruction follows CRA progression: Concrete â†’ Representational â†’ Abstract
 - [ ] Multisensory strategies employed (tactile, kinesthetic, visual, auditory, proprioceptive)
 - [ ] Number sense prioritized as foundation before computation
 - [ ] Manipulatives available and used regularly
@@ -218,6 +489,13 @@ Use this checklist to audit instructional programs, tools, and services for dysc
 - [ ] Math anxiety addressed through environmental and instructional supports
 - [ ] Pacing flexible based on mastery, not grade level
 - [ ] Evidence-based programs used (TouchMath, Number Worlds, Stern, Singapore Math adaptations, Strategic Math)
+- [ ] Data visualizations use bar charts instead of pie charts for comparisons (pie charts require angle/proportion estimation � a core dyscalculia deficit)
+- [ ] All charts include text summaries, direct data labels, and no 3D effects
+- [ ] Charts limited to 3-5 data series; linear representations (number lines, box plots) preferred over radial/circular
+- [ ] Numerical values accompanied by plain-language textual alternatives where possible (W3C COGA: "content usable without understanding math concepts")
+- [ ] Values rounded to whole numbers unless precision is essential (e.g., currency); unnecessary decimal places removed (GOV.UK dyscalculia guidelines)
+- [ ] Percentages accompanied by natural-frequency equivalents (e.g., "25%" shown alongside "about 1 in 4") (W3C COGA Gap Analysis)
+- [ ] Long numbers (5+ digits) chunked with spaces or separators for readability
 
 ### Progress Monitoring
 - [ ] Data collected at minimum bi-weekly
@@ -241,6 +519,104 @@ Use this checklist to audit instructional programs, tools, and services for dysc
 - [ ] Collaboration time for planning and data review built in
 - [ ] Curriculum materials aligned with evidence-based approaches
 
+
+### Cognitive Disorder Accommodation (Neuroscience-Informed)
+- [ ] Dyscalculia framed as a neurodevelopmental cognitive disorder, not a failure to learn or a reflection of low intelligence
+- [ ] Bypass strategies (calculators, reference charts, lookup tables) available as permanent cognitive prosthetics, not temporary scaffolds
+- [ ] Assessment separates conceptual understanding from computational processing (a student may understand division but be unable to execute the algorithm)
+- [ ] Automatic fact retrieval not assumed as prerequisite; reference-based computation permitted without penalty
+- [ ] Working memory demands explicitly managed: external supports (written steps, visible intermediates, scratch space) provided as standard practice
+- [ ] Accommodations designed as lifelong supports reflecting persistent cognitive architecture difference, not time-limited remedial aids
+- [ ] Cognitive load per task quantified and kept within dyscalculia-appropriate limits (max 2-3 novel elements simultaneously)
+
+### French Compliance Audit Checklist (Locale: fr)
+
+#### PAP Compliance (K-12)
+- [ ] Student has a diagnosed trouble dyscalculique documented by qualified professional (médecin)
+- [ ] PAP validated by médecin de l'Éducation nationale (school physician)
+- [ ] PAP uses standardized Circulaire 2015-016 template with correct cycle sheet (maternelle / élémentaire / collège / lycée)
+- [ ] PAP lists external care professionals involved (orthophoniste central; psychomotricien if comorbid dyspraxia)
+- [ ] PAP "Mathématiques / logique" domain populated with specific accommodations
+- [ ] **Calculatrice non programmable** explicitly authorized in PAP
+- [ ] **Table de multiplication and ligne numérique** authorized as permanent reference tools
+- [ ] **French number-word irregularity instruction** documented (soixante-dix / quatre-vingts transcoding focus)
+- [ ] Papier quadrillé / one-operation-per-line layout specified for written calculation
+- [ ] Annual review documented
+- [ ] Signed by family, school physician, pedagogical team
+- [ ] Student does NOT simultaneously hold a PPS
+
+#### PPS Compliance (K-12)
+- [ ] MDPH/CDAPH disability recognition obtained
+- [ ] Enseignant référent assigned
+- [ ] ESS meeting held at least annually
+- [ ] If AESH: documented in PPS (typical when comorbid dyspraxia + severe dyscalculia)
+- [ ] Material aids (specialized calculators, math software) funded via CDAPH allocation if needed
+
+#### Exam Accommodation Compliance
+- [ ] Requested during second trimester of year preceding exam
+- [ ] Medical certificate + bilan orthophonique + bilan neuropsychologique (if available) included
+- [ ] **Calculatrice non programmable** explicitly requested for all exam papers
+- [ ] **Aide-mémoire mathématique** (multiplication table) requested if needed
+- [ ] Classroom-use history of accommodations documented in PAP/PPS
+- [ ] Tiers-temps appropriate for computation-heavy subjects
+- [ ] Decision by recteur documented
+
+#### Adult / Workplace Compliance (RQTH layer)
+- [ ] RQTH status applicable and pursued where worker needs funded math-AT
+- [ ] AGEFIPH (private) / FIPHFP (public) funding pathways documented
+- [ ] Workplace adaptive math tools available (calculator, spreadsheet templates, equation editors)
+- [ ] If firm ≥250 employees: référent handicap identified (Loi Avenir Professionnel 2018)
+
+#### Accommodation Adequacy (K-12)
+- [ ] Art. L321-4 obligations met: adapted teaching provided for severe/permanent dyscalculie
+- [ ] Numerals presented in adapted font and spacing
+- [ ] Computational shortcuts (estimation, mental math) not assumed in evaluations
+- [ ] French-language math AT availability (TEDI-MATH-aligned digital tools, not English-only)
+
+### Spanish Compliance Audit Checklist (Locale: es)
+
+#### Classification and Identification (K-12)
+- [ ] Student correctly classified as DEA (NOT NEE) for discalculia
+- [ ] ACNS pathway used (NOT Dictamen/ACS pathway for sole-diagnosis discalculia)
+- [ ] Initial detection via teacher observation or PRODISLEX-style screening
+- [ ] Informe Psicopedagógico completed by orientador/a or EOEP
+- [ ] Diagnostic criteria met: math achievement below normative threshold with exclusionary criteria checked
+- [ ] **Spanish-normed math battery used** (PROCALCULO, TEDI-MATH ES, or Evamat)
+- [ ] Family notified and consent obtained
+
+#### ACNS Documentation (Discalculia-Specific)
+- [ ] ACNS documented in writing
+- [ ] Based on Informe Psicopedagógico findings
+- [ ] Family agreement documented
+- [ ] **Calculadora authorized** in ACNS
+- [ ] **Materiales manipulativos** (regletas, bloques base-10, ábacos) availability specified
+- [ ] Tiempo adicional specified (25-50% depending on región)
+- [ ] No penalization for arithmetic errors when reasoning is correct
+- [ ] Reduced number of problems (same complexity) authorized
+- [ ] Annual review documented
+- [ ] Regional terminology verified (ACNS / ACI no significativa / PTI / Plan de Apoyo)
+
+#### EBAU/EvAU Exam Accommodations
+- [ ] Official diagnosis (Informe Psicopedagógico) included
+- [ ] Documented ACNS history during Bachillerato
+- [ ] Calculadora authorized in math exam
+- [ ] Tiempo adicional requested (30 min adicional typical)
+- [ ] Application filed within regional deadlines
+- [ ] Consistency between classroom and exam accommodations
+- [ ] Regional procedure followed for CCAA
+
+#### Specialist Resources
+- [ ] Maestro/a de PT (or AL where comorbid language-focused) involved
+- [ ] EOEP involvement documented for complex cases
+- [ ] PAD (Plan de Atención a la Diversidad) at school level includes DEA protocols including discalculia
+
+#### Adult / Workplace Compliance (RDL 1/2013 layer)
+- [ ] Certificado de discapacidad ≥33% obtained where worker needs RDL 1/2013 protections
+- [ ] If firm ≥50 employees: 2% reserved-employment quota compliance documented
+- [ ] Workplace accommodations include Spanish-language math AT
+- [ ] Centros Especiales de Empleo or Empleo Inclusivo programs referenced where applicable
+- [ ] LOPD-GDD data protection respected on disability disclosure
+
 ### Ethical Standards
 - [ ] Non-discriminatory evaluation procedures (culturally responsive, equitable access)
 - [ ] Confidentiality maintained
@@ -254,8 +630,8 @@ When auditing a dyscalculia program or project, generate a comprehensive complia
 
 ### Audit Directory and File Naming
 - Create subdirectory: `audits/`
-- File naming format: `Dyscalculia-Compliance-Audit-<project-name>-<YYYY-MM-DD>-<locale>.md`
-- Example: `audits/Dyscalculia-Compliance-Audit-Math-App-2026-04-03-us.md`
+- File naming format: `Dyscalculia-Compliance-Audit-<project-name>-<YYYY-MM-DD>.md`
+- Example: `audits/Dyscalculia-Compliance-Audit-Math-App-2026-04-03.md`
 
 ### Report Structure
 
@@ -360,7 +736,7 @@ Weighted scoring across domains:
 - **Progress Monitoring** (10%): Frequency, measures, data use, intervention adjustment
 - **Ethical Standards & Training** (10%): Non-discrimination, confidentiality, professional development, parent collaboration
 
-**Formula**: (Domain Score × Weight) + (Domain Score × Weight) ... = Composite Score (0-100)
+**Formula**: (Domain Score Ã— Weight) + (Domain Score Ã— Weight) ... = Composite Score (0-100)
 
 #### 8. Score Interpretation Scale
 
@@ -425,477 +801,3 @@ Document composite score change and updated grade.
 - CEC Standards for Special Education Teachers: https://www.cec.sped.org/
 - LD Online Resources: https://www.ldonline.org/
 
----
-
-## Locale: France (FR) — Cadre Légal et Conformité
-
-French dyscalculia compliance is governed by a dual-track plan system under the Code de l'éducation, with mathematics-specific considerations arising from French number-word irregularities.
-
-### French Legal Framework
-
-#### Key Laws
-
-| Law / Regulation | Subject |
-|---|---|
-| **Loi n° 2005-102 du 11 février 2005** (Loi Handicap) | Foundational disability statute; created MDPH and CDAPH; universal right to mainstream schooling |
-| **Code de l'éducation Art. L112-1 to L112-5** | Right to free appropriate education; adapted teaching; educator training |
-| **Code de l'éducation Art. L311-7, D311-13** | Legal basis for the PAP; defines procedure and content |
-| **Code de l'éducation Art. L321-4** | Mandates specific accommodations for language/learning disorders including dyscalculie |
-| **Circulaire n° 2015-016 du 22 janvier 2015** | Implementing circular for the PAP; standardized template; annual review requirement |
-| **Circulaire n° 2023-033 du 23 février 2023** | Exam accommodations (aménagements d'examens) for candidates with disabilities |
-| **Stratégie TND 2023-2027** | National neurodevelopmental disorder strategy; ~520,000 students with disabilities in mainstream schools |
-
-#### French Support Plan System
-
-France uses a **dual-track system**: PAP (school-based, no MDPH required) or PPS (MDPH-dependent, for severe cases).
-
-| Plan | French Equivalent | US Equivalent | MDPH Required | Key Feature |
-|---|---|---|---|---|
-| **PPRE** | Programme Personnalisé de Réussite Éducative | RTI Tier 1-2 | No | First-line, teacher-driven, short-term |
-| **PAP** | Plan d'Accompagnement Personnalisé | Section 504 Plan | No | Pedagogical accommodations only; school physician validates |
-| **PPS** | Projet Personnalisé de Scolarisation | IEP | Yes (via CDAPH) | Comprehensive; can include AESH aide, ULIS placement, state-funded AT |
-| **PAI** | Projet d'Accueil Individualisé | Health-specific 504/IHP | No | Chronic health conditions; rarely used for DYS alone |
-
-**Decision tree**:
-- Temporary difficulty → PPRE
-- Lasting trouble des apprentissages, pedagogical accommodations only → **PAP**
-- Needs human assistant (AESH), specialized placement, or state-funded equipment → **PPS** (via MDPH)
-
-#### PAP: Required Content (per Circulaire 2015-016)
-
-A compliant PAP for dyscalculie must include:
-- Student identification and identified disorder(s)
-- External care professionals involved (orthophoniste, neuropsychologue, etc.)
-- Mathematics/logic accommodations:
-  - Use of calculator (including for exams)
-  - Number line, multiplication tables, reference charts
-  - Adapted problem presentation (one operation per line, graph paper, enlarged spacing)
-  - Extra time for calculation-heavy tasks
-  - Reduced number of exercises (same concepts, fewer items)
-  - Oral explanation of mathematical reasoning accepted
-  - Use of manipulatives and visual aids
-- Annual review requirement and signatures (family, school physician, pedagogical team)
-
-#### PPS: When Used for Dyscalculie
-
-PPS is appropriate when the dyscalculie is severe enough to require:
-- AESH (Accompagnant d'Élève en Situation de Handicap) — human aide
-- ULIS unit placement (specialized class within mainstream school)
-- State-funded assistive technology
-- Financial allocation (AEEH — Allocation d'Éducation de l'Enfant Handicapé)
-
-PPS is coordinated by an **enseignant référent** and reviewed at least annually through the **ESS** (Équipe de Suivi de Scolarisation).
-
-#### MDPH Process for PPS
-
-1. Family files dossier with departmental MDPH (Cerfa n° 15692*01 + medical certificate)
-2. MDPH équipe pluridisciplinaire evaluates (physicians, psychologists, orthophoniste, social workers)
-3. CDAPH decides on disability recognition, PPS content, and compensation rights
-4. Enseignant référent coordinates implementation within school
-
-#### French Assessment and Identification
-
-**Diagnosis authority**: Only a physician (médecin) can formally diagnose a trouble DYS. Assessment is multidisciplinary:
-
-| Professional | Role |
-|---|---|
-| **Orthophoniste** | Central evaluator; bilan orthophonique includes logico-mathematical assessment for dyscalculie |
-| **Neuropsychologue** | IQ, executive function, memory, differential diagnosis |
-| **Médecin de l'Éducation nationale** | School physician; validates PAP; may use BMT-i screening |
-| **Psychomotricien** | Spatial/motor assessment (relevant for comorbid dyspraxie) |
-
-**Diagnostic criteria**: CIM-11 (Trouble spécifique des apprentissages, 6A03) and DSM-5 referenced. Significant persistent discrepancy between expected and actual mathematical achievement, not explained by intellectual disability or other factors.
-
-#### Exam Accommodations (Aménagements d'Examens)
-
-Under Circulaire 2023-033 and Code de l'éducation Art. D351-27 to D351-32:
-
-| Accommodation | French Term | Math-Specific Use |
-|---|---|---|
-| Extra time | **Tiers-temps** (1/3 additional; adjustable) | For all exams including math |
-| Calculator | **Calculatrice** | Authorized even where normally prohibited (dyscalculie-specific) |
-| Rest breaks | **Temps de pause** | Clock pauses during breaks |
-| Separate room | **Salle séparée** | Reduces anxiety and distraction |
-| Reader | **Secrétaire lecteur** | Reads word problems aloud |
-| Scribe | **Secrétaire scripteur** | Writes candidate's dictated answers |
-| Adapted format | **Sujets adaptés** | Enlarged print, modified spacing |
-| Oral substitute | **Épreuve orale de remplacement** | Oral math exam substituted for written |
-
-**Critical audit checkpoint**: Exam accommodations must be **consistent with what the student uses in class** (PAP/PPS documentation required). A student who does not have tiers-temps in their PAP cannot easily obtain it for the Baccalauréat.
-
-**Application timeline**: Filed during the second trimester of the year preceding the exam. Appeals go to the Défenseur des Droits.
-
-### French Mathematics: Number-Word Irregularities and Dyscalculie
-
-France's number system creates **unique assessment and intervention challenges** not present in English or Spanish. Compliance audits for the FR locale must account for these linguistic factors.
-
-#### The French Vigesimal (Base-20) Problem
-
-French uses a mixed decimal/vigesimal counting system for numbers 70–99:
-
-| Range | French Words | Structure | Place Value Transparency |
-|---|---|---|---|
-| 1–69 | un, deux... soixante-neuf | Broadly decimal | High |
-| **70–79** | soixante-dix through soixante-dix-neuf | 60+10 through 60+19 | **Very low** — requires mental addition |
-| **80–89** | quatre-vingts through quatre-vingt-neuf | 4×20 through 4×20+9 | **Very low** — requires multiplication |
-| **90–99** | quatre-vingt-dix through quatre-vingt-dix-neuf | 4×20+10 through 4×20+19 | **Very low** — requires multi-step computation |
-
-Contrast: Belgium and Switzerland use "septante" (70), "huitante/octante" (80), "nonante" (90) — decimal and transparent. French students in France must navigate the vigesimal forms.
-
-#### Transcoding Errors in the 70–99 Range
-
-**Transcoding** is converting between verbal number representation and written numerals. For dyscalculic students, French number words in the 70–99 range create compounded cognitive demands:
-
-- Hearing "quatre-vingt-dix-neuf" requires computing 4×20+10+9=99 before writing the numeral
-- This imposes **working memory load** during an already-demanding task
-- Students with dyscalculie show **disproportionately high error rates** in the 70–99 range compared to US or Spanish peers
-- Common errors: writing 619 for 79 (soixante-dix-neuf → 60+19=619 transcoding error), writing 489 for 89 (quatre-vingt-neuf → 4∥80+9, concatenating "quatre" and "vingts" as 480 then adding neuf), writing 4+20+19=49+19 → mixed errors
-
-#### Base-10 Transparency Issues
-
-French number words 70–99 undermine the **transparent base-10 structure** that underpins place value understanding:
-
-- Students learning place value in base-10 encounter number words that encode base-20 operations
-- The disconnect between spoken numbers and written numerals is more severe than in English or Spanish
-- Students may develop correct place value understanding of written numerals while struggling with verbal-to-written transcoding
-
-#### CRA Methodology Adapted for French Number-Word Irregularities
-
-The standard CRA sequence requires modification for French-speaking students:
-
-**Concrete Stage (Adapted)**:
-- Use base-10 blocks explicitly alongside the irregular number words
-- For 70–79: physically show 6 tens + additional ones, then name aloud ("soixante-dix = six tens and ten more = seventy")
-- For 80–89: show 8 tens (modeling that quatre-vingts = 4 groups of 20 = 8 groups of 10), then count
-- For 90–99: show 9 tens, connect to both the vigesimal word and the decimal structure
-- Use a **tableau des nombres** (hundred chart) with dual labeling: French words and digit numerals side-by-side
-
-**Representational Stage (Adapted)**:
-- Draw number lines with the 70–99 range explicitly labeled with both French words and numerals
-- Create visual bridges: quatre-vingt-dix-neuf → [4×20] + [10+9] → [80+19] → [90+9] → 99
-- Use color-coding to distinguish the vigesimal component from the added units
-
-**Abstract Stage**:
-- Practice transcoding exercises specifically targeting 70–99
-- Error analysis protocol: identify whether errors are transcoding errors (linguistic) vs. calculation errors (numerical)
-- Delayed introduction of abstract computation in 70–99 range until concrete mastery is solid
-
-#### French-Specific Assessment Considerations
-
-When auditing assessments for the FR locale:
-
-- **Norm validation**: Assessment instruments must be normed on French-speaking populations (not UK English or US populations). The BMT-i and French orthophoniste bilan batteries are norm-referenced on French children.
-- **Transcoding subtest**: A compliant assessment should specifically test verbal-to-written transcoding accuracy in the 70–99 range
-- **Differential diagnosis**: High error rates in 70–99 may reflect linguistic processing of vigesimal forms rather than core number sense deficit — assessors must disentangle these
-- **WISC-V French norms**: Use the French standardization; results are not interchangeable with US norms
-
-### French Compliance Audit Checklist
-
-- [ ] Active plan type correctly identified: PAP (no MDPH) or PPS (with MDPH/CDAPH)
-- [ ] PAP validated by médecin de l'Éducation nationale (school physician signature present)
-- [ ] PPS created by MDPH équipe pluridisciplinaire with CDAPH decision (if applicable)
-- [ ] PAP/PPS reviewed annually (ESS meeting documented for PPS)
-- [ ] Mathematics accommodations explicitly listed in PAP/PPS: calculator, reference charts, adapted formatting, extra time
-- [ ] Diagnosis by physician based on bilan orthophonique and/or neuropsychological evaluation
-- [ ] CIM-11 or DSM-5 criteria documented
-- [ ] Assessment normed on French-speaking population
-- [ ] Transcoding assessment includes 70–99 range (vigesimal number words)
-- [ ] Exam accommodations (tiers-temps, calculatrice, salle séparée) traced to PAP/PPS documentation
-- [ ] Exam accommodation application filed with rectorat within second trimester of preceding year
-- [ ] Teacher training: CAPPEI for specialized roles; institutional training for mainstream teachers
-- [ ] Plan type constraint respected: student does not hold both PAP and PPS simultaneously
-- [ ] AESH assignment documented in PPS (not PAP)
-- [ ] Dispute pathway identified: Défenseur des Droits for exam accommodation refusals
-
-### France–US Crosswalk Reference
-
-| French Framework | US Equivalent | Key Difference |
-|---|---|---|
-| PAP | Section 504 Plan | PAP requires school physician validation; 504 requires school-based team decision |
-| PPS | IEP | PPS created by external MDPH; IEP created by school-based team |
-| PPRE | RTI/MTSS Tier 1-2 | PPRE less formalized than US RTI |
-| MDPH/CDAPH | LEA eligibility determination | MDPH is departmental; US is district-level |
-| Tiers-temps | Extended time (1.5x) | Both provide extra time; tiers-temps specifically means +1/3 |
-| AESH | Paraprofessional/1:1 aide | AESH documented in PPS only; US paraprofessional in IEP |
-| Orthophoniste | Speech-Language Pathologist | Orthophoniste is central to DYS diagnosis in France; SLP is one of many US evaluators |
-| Défenseur des Droits | OCR complaint/Due process | Different escalation bodies |
-
----
-
-## Locale: Spain (ES) — Marco Legal y Cumplimiento
-
-Spanish dyscalculia compliance is governed by LOE/LOMLOE national law with significant regional (Comunidad Autónoma) variation. Students with dyscalculia (discalculia) are classified as DEA within the ACNEAE framework, with non-significant curricular adaptations (ACNS) as the primary support mechanism.
-
-### Spanish Legal Framework
-
-#### Key Laws
-
-| Law / Regulation | Subject |
-|---|---|
-| **LOE (Ley Orgánica 2/2006, de 3 de mayo)** | Foundational education law; Title II establishes right to support for diverse needs |
-| **LOMLOE (Ley Orgánica 3/2020, de 29 de diciembre)** | 2020 reform; explicitly includes trastornos de atención o de aprendizaje in ACNEAE; mandates DUA (Universal Design for Learning) |
-| **LOE Art. 71** | Administrations must ensure maximum personal/intellectual development and resources for students with learning difficulties |
-| **LOE Art. 79 bis** (added by LOMLOE) | Specifically addresses DEA; requires early identification, normalization, inclusion, non-discrimination |
-| **Real Decreto 157/2022** | Updated Primary curriculum under LOMLOE; competency-based assessment, inclusive attention |
-| **Real Decreto 217/2022** | ESO curriculum under LOMLOE; diversity measures |
-| **Orden de 14 de febrero de 1996** | Baseline procedures for psychopedagogical evaluation and Dictamen de Escolarización |
-| **LOMLOE Art. 102** | Continuing professional development (formación permanente del profesorado); administrations must provide access to ongoing CPD programs; audit should verify teachers supporting DEA students have received relevant dyscalculia/DEA training |
-
-#### Spanish Support Framework: ACNEAE and DEA
-
-**ACNEAE** (Alumnado con Necesidad Específica de Apoyo Educativo) is the umbrella category. Dyscalculia falls under **DEA** (Dificultades Específicas de Aprendizaje):
-
-| Category | Includes | Plan Type | Dictamen Required |
-|---|---|---|---|
-| **NEE** (Necesidades Educativas Especiales) | Disability, severe behavioral/communication disorders | ACS + Dictamen | **Yes** |
-| **DEA** (Dificultades Específicas de Aprendizaje) | Dyslexia, **dyscalculia**, dysgraphia, dysorthography | **ACNS** | **No** |
-| TDAH | ADHD | ACNS | No |
-| Altas Capacidades | Giftedness | Support plan | No |
-
-**Critical distinction**: Students with dyscalculia classified as DEA do **not** receive the Dictamen de Escolarización (that pathway is for NEE/disability students). They receive ACNS — non-significant adaptations that modify methodology and assessment without changing curriculum objectives.
-
-#### Tiered Support Structure (Spanish RTI Equivalent)
-
-Spain uses a three-tier support progression:
-
-| Tier | Spanish Term | Description | DEA Applicability |
-|---|---|---|---|
-| Tier 1 | **Medidas ordinarias** | Universal classroom adaptations for all students | All students |
-| Tier 2 | **Medidas específicas** | ACNS for ACNEAE students; formal psychopedagogical evaluation | DEA/dyscalculia primary pathway |
-| Tier 3 | **Medidas extraordinarias** | ACS for NEE students; Dictamen required | NEE only; not typical for dyscalculia |
-
-#### ACNS: Primary Support Mechanism for Dyscalculia
-
-Adaptaciones Curriculares No Significativas modify **methodology, assessment procedures, and access** but do NOT change curriculum content or learning objectives.
-
-**For dyscalculia specifically**:
-- Calculator and multiplication tables authorized
-- Extended time for mathematics tasks (typically 25–50% additional, varies by region)
-- Visual and manipulative aids
-- Step-by-step problem decomposition
-- Alternative assessment formats (oral exam, multiple choice instead of open response)
-- Reduced quantity of exercises (same difficulty level)
-- Adapted problem presentation (enlarged spacing, graph paper)
-
-**Legal requirements for ACNS documentation**:
-- Must be documented in writing (based on Informe Psicopedagógico)
-- Agreed upon with the family
-- Reviewed periodically (at least annually)
-- Applied across all subjects where difficulties manifest
-- Regional terminology varies: may be called ACI no significativa, PTI, Plan de Apoyo depending on Comunidad Autónoma
-
-#### Identification and Assessment Process
-
-1. **Detection/Screening**: Teacher or family identifies difficulty; PRODISLEX protocols provide standardized detection checklists by stage
-2. **Teacher Request**: Tutor formally requests psychopedagogical evaluation with documented observations and interventions attempted
-3. **Psychopedagogical Evaluation** by orientador/a or EOEP:
-   - Standardized cognitive and achievement testing
-   - Mathematics assessment (for dyscalculia)
-   - Exclusionary criteria check (IQ not below average, no sensory impairment, adequate instruction provided)
-   - Context assessment (family, school environment)
-4. **Informe Psicopedagógico**: Formal report documenting findings, DEA classification, recommended ACNS
-5. **Family Notification**: Parents informed and consent required
-
-**Diagnostic threshold**: Typically achievement below Pc 25 on normative mathematics tests, with exclusionary criteria satisfied. Varies by region.
-
-**Who assesses**:
-
-| Professional | Role |
-|---|---|
-| **EOEP** (Equipos de Orientación Educativa y Psicopedagógica) | External interdisciplinary teams for primary schools; sector-based |
-| **Orientador/a** (secondary school) | Internal guidance counselor conducts assessments |
-| **PT** (Maestro/a de Pedagogía Terapéutica) | Special education teacher; provides direct support |
-| **AL** (Maestro/a de Audición y Lenguaje) | Speech-language support |
-
-#### Exam Accommodations: EBAU/EvAU/PAU
-
-University entrance exam accommodations are administered **regionally** — each Comunidad Autónoma sets its own procedures. Common adaptations:
-
-| Accommodation | Details |
-|---|---|
-| Extended time | Typically 30 additional minutes per exam (varies; Cataluña explicitly 30 min) |
-| Enlarged text | Arial 16pt, 1.5 line spacing common |
-| Oral reading of questions | Tribunal members read questions upon request |
-| Separate exam room | Available when needed |
-| Computer use | Permitted in some regions |
-| Reduced spelling penalties | Scoring guidelines reduce deductions for dyslexia-related errors |
-
-Requirements: Officially certified diagnosis (Informe Psicopedagógico), documented history of accommodations during schooling (typically at least during Bachillerato), applied within regional deadlines.
-
-**Regional highlights**:
-- **Madrid**: Resolution April 27, 2023 — specific EVAU adaptations for DEA
-- **Cataluña**: 30 additional minutes, specialized evaluation tribunals, adapted spelling scoring
-- **Andalucía**: December 12, 2014 instructions established DEA evaluation measures; basis for EBAU accommodations
-- **Murcia**: Specialized psychopedagogical team for DEA
-
-#### Regional Variation: Critical Audit Consideration
-
-Spain's education is **significantly devolved** to 17 Comunidades Autónomas. An audit must identify the specific region and apply regional regulations alongside national law:
-
-| Aspect | Varies by Region |
-|---|---|
-| Diagnostic criteria thresholds | Yes (Pc < 25 in some; less defined in others) |
-| Terminology for support plans | Yes (PTI, ACI, Plan de Apoyo, etc.) |
-| EBAU accommodation specifics | Yes (each region sets own procedures) |
-| Assessment team names | Yes (EOEP, EAP [Cataluña], Berritzegune [País Vasco], etc.) |
-| Bilingual assessment complexity | Critical in Cataluña, País Vasco, Galicia, Valencia |
-
-**National floor is uniform**: Right to non-significant adaptations; inclusion as default placement.
-
-### Spanish Mathematics: Transparent Number System and Dyscalculia
-
-Spain's number system has features that are both advantageous and potentially misleading when assessing and remediating dyscalculia in Spanish-speaking students.
-
-#### Advantages of Spanish Number-Word Transparency
-
-Spanish number words are **highly transparent** — they directly encode place value:
-
-| Range | Spanish Words | Structure | Place Value Transparency |
-|---|---|---|---|
-| 1–15 | uno through quince | Irregular for 11–15 | Low for 11–15 |
-| 16–19 | dieciséis through diecinueve | Compound: diez+y+seis → dieciséis | Moderate (transparent when spoken out) |
-| 20–99 | veinte, veintiuno... noventa y nueve | Decade + units | **High** — directly encodes place value |
-| 100–999 | cien, ciento... novecientos | Hundred + tens + units | **High** |
-| 1,000+ | mil, dos mil... | Thousand + remainder | **High** |
-
-Compare to French (70–99 vigesimal) or English (eleven, twelve, thirteen — opaque teens): Spanish is significantly more regular above 15.
-
-**Practical implication**: Spanish-speaking dyscalculic students may show **better transcoding accuracy** in the 20–99+ range compared to French or English-speaking peers. Weakness in transcoding, if present, is more likely to reflect core number sense deficit rather than linguistic irregularity.
-
-**Assessment implication**: Unusually high transcoding error rates (above what Spanish linguistic transparency would predict) are a stronger signal of underlying dyscalculia when assessed in Spanish.
-
-#### Residual Irregularities (11–19)
-
-Despite overall transparency, Spanish 11–15 are irregular:
-- 11 = once, 12 = doce, 13 = trece, 14 = catorce, 15 = quince
-- 16–19 are compound but not always obvious in spelling (dieciséis, diecisiete, dieciocho, diecinueve)
-
-Students with dyscalculia may show **selective weakness** in the 11–15 range due to these irregular forms. Assessors should distinguish this from broader place value deficits.
-
-#### Fluency vs. Accuracy in Spanish Dyscalculia Assessment
-
-Because Spanish number words are transparent, dyscalculic students in Spain may achieve **adequate accuracy** on transcoding tasks while still demonstrating the signature dyscalculia profile of:
-- Slow processing speed on calculation
-- Weakness in fact retrieval and automaticity
-- Working memory overload on multi-step operations
-- Poor magnitude comparison despite accurate numeral reading
-
-Audit and assessment tools must measure **both accuracy and fluency** — not only accuracy — to avoid false negatives in Spanish-speaking populations.
-
-#### ACNS Adapted for Spanish Math Context
-
-For LOMLOE-compliant ACNS documents addressing dyscalculia:
-- Calculator and multiplication tables for all math tasks (explicitly listed)
-- Extra time (not just "more time" — document percentage, typically 25–50%)
-- Step-by-step decomposition of multi-step problems
-- Visual-spatial supports (graph paper, place value charts in Spanish)
-- Alternative assessment formats (oral exam option for all math assessments)
-- No reduction in conceptual demands — only methodology and access adapted
-- Leverage the transparent number system: emphasize verbal/oral number sense work as a strength bridge to written numerals
-
-#### PRODISLEX and PRODISCALCULIA Protocols
-
-PRODISLEX detection protocols (DISFAM/UIB) provide stage-specific detection for dyslexia. For dyscalculia audits in Spain, verify:
-- Detection indicators by educational stage are documented
-- Teacher detection tools are available and in use
-- Early identification at Educación Infantil and early Primaria levels
-- Referral pathway to EOEP or orientador is established
-
-### Spanish Compliance Audit Checklist
-
-- [ ] Student classified under correct category: DEA (not NEE) for dyscalculia as primary diagnosis
-- [ ] Informe Psicopedagógico produced by EOEP (primary) or orientador (secondary) with documented findings
-- [ ] Diagnostic threshold met: achievement below Pc 25 on normative mathematics tests with exclusionary criteria documented
-- [ ] ACNS document produced and signed (not ACS — significant adaptations are not appropriate for DEA)
-- [ ] Dictamen de Escolarización NOT produced unless student has comorbid NEE classification
-- [ ] ACNS applies across all subjects where dyscalculia manifests (not math only)
-- [ ] Family notification and consent documented
-- [ ] ACNS reviewed at least annually
-- [ ] Mathematics accommodations explicitly listed: calculator, multiplication tables, extended time (percentage specified), visual aids
-- [ ] Regional-specific requirements applied (identify Comunidad Autónoma and applicable regional legislation)
-- [ ] EBAU/EVAU accommodations history: accommodations used during Bachillerato documented to support exam accommodation request
-- [ ] Assessment instruments normed on Spanish population; bilingual context documented if applicable (Cataluña, País Vasco, Galicia, Valencia)
-- [ ] Both accuracy and fluency assessed — not accuracy alone — to avoid false negatives in transparent number system
-- [ ] PRODISLEX or equivalent detection protocols used for initial identification
-- [ ] PT and/or orientador involved in support plan development
-
-### Spain–US Crosswalk Reference
-
-| Spanish Framework | US Equivalent | Key Difference |
-|---|---|---|
-| ACNS (DEA pathway) | Section 504 Plan | ACNS does not change curriculum objectives; 504 can include broader supports |
-| Dictamen + ACS (NEE pathway) | IEP | Dictamen is primarily placement decision; IEP covers services and goals |
-| ACNEAE/DEA classification | SLD (Specific Learning Disability) under IDEA | Functionally equivalent; both cover dyscalculia |
-| Informe Psicopedagógico | Evaluation Report | Both document findings and recommend supports |
-| EOEP (primary) | School Psychology team / district evaluators | EOEP is sector-based external team; US evaluation is district-based |
-| Orientador/a | School Psychologist | Closest equivalent; conducts assessments, coordinates support |
-| PT (Pedagogía Terapéutica) | Special Education Teacher | Direct support specialist |
-| PRODISLEX detection protocols | RTI screening tools | Stage-specific detection indicators |
-| LOE Art. 79 bis / early identification | Child Find mandate (IDEA) | Both require proactive identification; Spain's implementation varies by region |
-| Principio de normalización | LRE (Least Restrictive Environment) | Same concept; mainstream default |
-
----
-
-## Locale Selection for Compliance Audits
-
-When conducting a compliance audit or generating compliance-related documents, the locale determines which legal framework, standards, and mathematics-specific considerations apply.
-
-### Locale Options
-
-| Locale | Code | Framework | Primary Plans | Math Considerations |
-|---|---|---|---|---|
-| United States | `us` | IDEA, Section 504, NCTM | IEP, 504 Plan | Standard base-10; English number-word transparency moderate (teens irregular) |
-| France | `fr` | Code de l'éducation, Loi 2005-102 | PAP (= 504), PPS (= IEP) | Vigesimal 70–99; transcoding errors in soixante-dix through quatre-vingt-dix-neuf range |
-| Spain | `es` | LOE/LOMLOE, ACNEAE/DEA framework | ACNS (= 504), Dictamen+ACS (= IEP, NEE only) | Transparent number system; assess fluency not only accuracy; 11–15 irregular |
-
-### Audit Locale Behavior
-
-**When locale = us**: Evaluate against IDEA, Section 504, NCTM standards; apply US assessment compliance tiers; US crosswalk in audit metadata.
-
-**When locale = fr**: Evaluate against Code de l'éducation requirements; determine PAP vs. PPS pathway; validate MDPH involvement if PPS; include French-specific math section on number-word irregularity and transcoding; require tiers-temps traceability to plan documentation; reference France–US crosswalk.
-
-**When locale = es**: Evaluate against LOE/LOMLOE; verify DEA classification (not NEE) for dyscalculia; validate ACNS documentation; apply regional regulations of named Comunidad Autónoma; include Spanish-specific math section on transparent number system and fluency assessment; reference Spain–US crosswalk. Flag if ACS was applied when ACNS was appropriate.
-
-### Cross-Locale Considerations
-
-When a student transitions between locales (e.g., moving from US to France), or when a program serves multilingual populations:
-- Map existing plan documentation to the destination locale's equivalent (using crosswalk tables above)
-- Verify that accommodations documented in the origin locale are re-documented in the destination locale's format
-- For math specifically: assess whether the student's number-word competency has been evaluated in the target language
-- Transcoding skills developed in English or Spanish do not automatically transfer to French vigesimal forms — reassess in the 70–99 range
-
-### French Terms Glossary (Audit Reference)
-
-| Term | Translation |
-|---|---|
-| AESH | Human student aide (Accompagnant d'Élève en Situation de Handicap) |
-| Bilan orthophonique | Speech-language therapy assessment (central DYS evaluation) |
-| CAPPEI | Specialized inclusive education teaching certification |
-| CDAPH | Disability rights commission within MDPH; grants PPS |
-| CRTLA | Hospital-based reference center for language/learning disorders |
-| ESS | Schooling monitoring team for PPS annual review |
-| MDPH | Departmental disability services center |
-| Orthophoniste | Speech-language therapist |
-| Tiers-temps | One-third extra time exam accommodation |
-| Troubles DYS | Collective term: dyslexia, dyscalculie, dysorthographie, dyspraxie |
-| TSLA | Troubles Spécifiques du Langage et des Apprentissages |
-| ULIS | Specialized class within mainstream school (PPS placement) |
-
-### Spanish Terms Glossary (Audit Reference)
-
-| Term | Translation |
-|---|---|
-| ACNEAE | Students with Specific Educational Support Needs (umbrella category) |
-| ACNS / ACI no significativa | Non-Significant Curricular Adaptations (primary DEA support tool) |
-| ACS | Significant Curricular Adaptations (NEE only; not for dyscalculia alone) |
-| DEA | Specific Learning Difficulties (includes dyslexia and dyscalculia) |
-| Dictamen de Escolarización | Schooling recommendation (NEE only) |
-| DUA | Universal Design for Learning (Diseño Universal para el Aprendizaje) |
-| EBAU / EvAU / PAU | University entrance exam (formerly Selectividad) |
-| EOEP | Educational and Psychopedagogical Guidance Teams (primary school assessment) |
-| Informe Psicopedagógico | Psychopedagogical report (basis for ACNS) |
-| NEE | Special Educational Needs (disability; triggers Dictamen) |
-| Orientador/a | School guidance counselor (secondary; conducts evaluations) |
-| PRODISLEX | Dyslexia detection protocols (DISFAM/UIB) |
-| PT | Special education teacher (Pedagogía Terapéutica) |
-| PTI | Individualized Work Plan (Castilla-La Mancha terminology for ACNS equivalent) |

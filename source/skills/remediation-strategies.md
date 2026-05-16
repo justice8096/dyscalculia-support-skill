@@ -220,6 +220,8 @@ Every remediation plan should explicitly identify which skills are remediation t
 
 ## French Remediation Context (Locale: fr)
 
+> *Sources current as of 2026-05. Authority-version pins: TEDI-MATH (Van Nieuwenhoven, Grégoire, Noël — De Boeck Université), Zareki-R (Von Aster — adapted French version), Méthode Singapour (la Librairie des Écoles éditions), orthophonie via décret n° 2002-721 (nomenclature des actes professionnels). Sécurité Sociale prescription pathway per Code de la santé publique Art. R4341-1 et suivants.*
+
 ### FR Numerical Profile: Irregular Number-Word System
 
 French has one of the **most irregular number-word systems** among major European languages, and this directly compounds dyscalculic transcoding deficits:
@@ -289,6 +291,8 @@ When generating a remediation plan for a French student:
 ---
 
 ## Spanish Remediation Context (Locale: es)
+
+> *Sources current as of 2026-05. Authority-version pins: TEDI-MATH-2 Spanish adaptation, EVAMAT (Eduardo Garcia-Vidal — TEA Ediciones), Método ABN (Jaime Martínez Montero — Algoritmos Basados en Números). Public coverage via Sistema Nacional de Salud convenios; private orientation through Colegio Profesional de Logopedas (regional colegios).*
 
 ### ES Numerical Profile: Transparent Base-10 System
 

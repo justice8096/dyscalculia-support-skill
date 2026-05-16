@@ -727,6 +727,8 @@ This checklist is used to identify students at risk for dyscalculia and warranti
 
 ## French Document Templates (Locale: fr)
 
+> *Sources current as of 2026-05. Template structures derived from Circulaire n° 2015-016 (PAP, four cycle versions), Circulaire n° 2023-033 (aménagements d'examens), MDPH/CDAPH PPS procédure standard (Code de l'action sociale et des familles). RQTH dossier per Code du travail Art. L5213-2.*
+
 ### FR-1. PAP — Plan d'Accompagnement Personnalisé (Dyscalculie)
 
 Standardized template per Circulaire 2015-016. Four cycle versions; this template emphasizes the **Mathématiques / logique** domain for dyscalculie.
@@ -969,6 +971,8 @@ Médecin certificateur: _________ Date: ___________
 ---
 
 ## Spanish Document Templates (Locale: es)
+
+> *Sources current as of 2026-05. Template structures aligned with LOMLOE (Ley Orgánica 3/2020) ACNEAE/DEA framework, ACNS procedures per regional implementing decrees (Andalucía Instrucciones 12/12/2014, Cataluña Decret 150/2017, Madrid Orden 19/01/2021, País Vasco Decreto 236/2015). Workplace certification per Real Decreto Legislativo 1/2013 (≥33% certificado de discapacidad threshold).*
 
 ### ES-1. ACNS — Adaptaciones Curriculares No Significativas (Discalculia)
 

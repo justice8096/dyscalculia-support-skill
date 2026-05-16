@@ -1,11 +1,10 @@
 ---
 name: remediation-strategies
-description: Evidence-based dyscalculia intervention framework grounded in CRA (Concrete-Representational-Abstract) methodology. Use when the user mentions dyscalculia remediation, math intervention planning, multisensory math, manipulatives, math anxiety management, lesson templates, or evidence-based programs (TouchMath, Number Worlds, Stern Structural Arithmetic, Singapore Math).
+description: Generate CRA-based remediation plans with concrete manipulatives, representational models, and abstract symbol work. Customizable by student anxiety level, duration, intensity, and comorbidities. Locale-aware adaptations: French intervention via orthophoniste with explicit attention to irregular number-word transcoding (60-99 range); Spanish intervention leveraging transparent base-10 system to emphasize fluency over accuracy.
 ---
-
 # Dyscalculia Remediation Strategies
 
-Evidence-based dyscalculia intervention framework grounded in the Concrete-Representational-Abstract (CRA) methodology—the foundational approach proven most effective for remediating number sense and calculation deficits.
+Evidence-based dyscalculia intervention framework grounded in the Concrete-Representational-Abstract (CRA) methodologyâ€”the foundational approach proven most effective for remediating number sense and calculation deficits.
 
 ## Core Concepts
 
@@ -16,7 +15,7 @@ CRA is the research-validated instructional progression for dyscalculia remediat
 1. **Concrete Stage** (Physical Manipulatives)
    - Students interact with physical objects: base-10 blocks, counters, money, Stern materials
    - Builds neural pathways for quantity and magnitude understanding
-   - Prerequisite: Never skip this stage—cognitive neuroscience shows dyscalculic brains require extended concrete experience
+   - Prerequisite: Never skip this stageâ€”cognitive neuroscience shows dyscalculic brains require extended concrete experience
    - Duration: Multiple lessons per concept; progress only when mastery is evident
 
 2. **Representational Stage** (Pictorial/Drawn Models)
@@ -155,11 +154,31 @@ Math anxiety significantly impairs performance and must be integrated into remed
 
 ### Intervention Components
 - **Early Success**: Design activities to ensure frequent, visible success
-- **Normalization**: Explicitly discuss that dyscalculia is a learning difference, not stupidity
+- **Normalization**: Explicitly discuss that dyscalculia is a neurodevelopmental cognitive disorder � a brain-based difference in how numbers are processed (intraparietal sulcus), not a reflection of intelligence, effort, or character
 - **Growth Mindset**: Emphasize improvement and effort, not innate ability
 - **Reduced Pressure**: Untimed practice, private assessment, non-evaluative exploration
 - **Positive Reinforcement**: Specific praise for effort and strategic thinking
 - **Autonomy**: Student choice in manipulatives, problem types, and pacing
+
+
+## Bypass vs. Remediation Balance
+
+> **Critical Principle**: Because dyscalculia is a persistent cognitive disorder (not a temporary learning gap), effective intervention must balance remediation (strengthening weak pathways) with bypass (providing alternative routes around processing bottlenecks). Neither approach alone is sufficient.
+
+### Remediation Targets (Trainable with Sufficient Intensity)
+- **Subitizing**: Can be improved with targeted practice (dot enumeration, finger patterns)
+- **Magnitude comparison**: Responds to number line training and anchored estimation
+- **Counting principles**: Procedural knowledge can be strengthened through CRA
+- **Strategy use**: Metacognitive awareness of when/how to apply strategies
+
+### Bypass Targets (Persistent Deficits Requiring Permanent Accommodation)
+- **Automatic fact retrieval**: Many dyscalculic individuals never achieve automatic recall of multiplication tables or addition facts � reference charts and calculators should be permanent tools, not crutches to be withdrawn
+- **Multi-step mental arithmetic**: Working memory limitations make complex mental computation unreliable � written/visual intermediate steps should always be available
+- **Time estimation**: Difficulty with temporal magnitude is often persistent � visual timers, relative time displays, and calendar scaffolds should be standard
+- **Rapid number comparison**: Speed of magnitude judgment may not normalize � untimed environments should be the default, not an accommodation
+
+### Integration Principle
+Every remediation plan should explicitly identify which skills are remediation targets (expected to improve) and which are bypass targets (expected to require permanent accommodation). Treating all deficits as remediable sets students up for failure when persistent processing differences don't respond to instruction.
 
 ## Remediation Plan Structure
 
@@ -201,6 +220,157 @@ Math anxiety significantly impairs performance and must be integrated into remed
 - Visual supports (number lines, place value charts) as permanent tools
 - Alternative input/output methods (verbal response, calculator use for complex operations)
 
+---
+
+## French Remediation Context (Locale: fr)
+
+### FR Numerical Profile: Irregular Number-Word System
+
+French has one of the **most irregular number-word systems** among major European languages, and this directly compounds dyscalculic transcoding deficits:
+
+| Range | French construction | Issue for dyscalculia |
+|---|---|---|
+| 10-19 | onze, douze, treize, quatorze, quinze, seize, dix-sept, dix-huit, dix-neuf | Mixed system: 11-16 are atomic, 17-19 are 10+7, 10+8, 10+9 — students must learn TWO patterns |
+| 20-59 | vingt, trente, quarante, cinquante (regular -ante suffix) | Consistent; transcoding load like English/Spanish |
+| 60-79 | soixante (60), soixante-et-onze (71), soixante-douze (72)… soixante-dix-neuf (79) | **70-79 expressed as "60-and-X" — three lexical pieces for one numeral, must mentally add 60 + (10..19)** |
+| 80-99 | quatre-vingts (80 = "four-twenties"), quatre-vingt-un (81)… quatre-vingt-dix-neuf (99 = "four-twenty-ten-nine") | **Base-20 vestige; 99 requires THREE additions: 4×20 + 10 + 9** |
+
+**Implication for dyscalculia intervention**:
+- Working memory load during transcoding (number-word ↔ digit) is **substantially higher than English/Spanish** for the 60-99 range.
+- Students with dyscalculia in French frequently make transcoding errors in this range even after digit-level operations are mastered.
+- **Explicit transcoding instruction is required** — not just phonological awareness of the words but the conceptual mapping from spoken form to base-10 digit form.
+- Belgian and Swiss French use the regular forms (septante, huitante/octante, nonante) — moving between Francophone regions adds another layer of variability.
+
+### FR Intervention Delivery System
+
+Like dyslexia, **dyscalculia remediation is primarily delivered by an orthophoniste** in France:
+
+| Feature | France | US Comparison |
+|---|---|---|
+| Primary remediation provider | Orthophoniste (external, clinic-based; prescription required); same professional handles both dyslexia and dyscalculia | Specialized math teacher / math interventionist (school-based) |
+| Intervention setting | Individual or small group in private practice | Resource room, pull-out, push-in |
+| Frequency | Usually 1-2 sessions/week, 30-45 min | Tier 3 typically 4-5x/week |
+| Funding | Sécurité Sociale covers most sessions with prescription | IDEA special-ed funding |
+| **Intensity gap** | **1-2x/week is typically insufficient for moderate-severe dyscalculia** | Research supports 4-5x/week for meaningful gains |
+
+**Intensity gap flag**: When generating remediation plans for French students, explicitly flag that the standard 1-2x/week orthophonie cadence may be insufficient for moderate-to-severe dyscalculia. SSEFS or intensive CRTLA programs may be needed for non-responders.
+
+### FR Evidence-Based Approaches (Dyscalculia-Specific)
+
+- **TEDI-MATH**-linked intervention: Assessment-driven targeting of identified deficit areas (subitizing, counting, comparison, operations, problem solving)
+- **Méthode Singapour adaptée en français** — Singapore Math materials translated and culturally adapted (regletas, modélisation en barres)
+- **MathÉval** — French digital intervention platform aligned with TEDI-MATH framework
+- **La construction du nombre chez l'enfant** (Brissiaud) — influential French theoretical framework for number development
+- **Stratégies de Calcul Mental** (Pluvinage / Charnay) — French-pedagogy approach to mental computation strategies
+- **Logiciels adaptés**: Lectramini (numérique), Cabri Géomètre (geometry), Géogebra (French interface), Numalik (number sense apps)
+
+**Honest evidence note**: French dyscalculia interventions have a smaller formal RCT base than English-language programs. Most are clinical-practitioner-driven; same structured principles applied with French adaptations.
+
+### FR Cognitive Prosthetics (French-Language AT for Math)
+
+| Tool type | French-language options |
+|---|---|
+| Calculator | Calculatrice non programmable (mandated as PAP accommodation across all exams) |
+| Reference tables | Aide-mémoire mathématique (multiplication table, formula sheets) |
+| Spreadsheet | LibreOffice Calc en français, Excel français |
+| Equation editor | MathType français, GeoGebra (FR interface) |
+| Number-line tools | Apps mobiles francophones (LogicMaths, AppliMaths) |
+| Audio math | Speak4Math (FR voice for read-back), Cabri en synthèse vocale |
+| Dyslexia-friendly fonts | OpenDyslexic, Lexend (support French diacritics on number-words) |
+
+**Workplace AT layer**: For adult French workers with dyscalculia, AGEFIPH/FIPHFP can fund the above tools as workplace accommodations under RQTH status.
+
+### FR Remediation Plan Additions
+
+When generating a remediation plan for a French student:
+
+1. **Transcoding focus for 60-99 range** — explicit, systematic instruction on French number-word irregularities. Sub-goals: "Student will transcode spoken French numbers 60-99 to digit form with 90% accuracy."
+2. **Orthophoniste coordination** — document classroom intervention vs clinic-based orthophonie; communication protocol between settings.
+3. **Acceptance of Belgian/Swiss regular forms** when student has been exposed to them; explicit comparison to standard French forms as a meta-cognitive bridge.
+4. **Bilan orthophonique data** as starting point — target areas identified by TEDI-MATH / Zareki-R subtest profile.
+5. **French-language AT** — never default to English-only calculators or apps; check that French diacritics and number-words render correctly.
+
+---
+
+## Spanish Remediation Context (Locale: es)
+
+### ES Numerical Profile: Transparent Base-10 System
+
+Spanish has one of the **most regular** number-word systems among major languages, contrasting sharply with French:
+
+| Range | Spanish construction | Implication |
+|---|---|---|
+| 11-15 | once, doce, trece, catorce, quince | Atomic words (like English) |
+| 16-19 | dieciséis, diecisiete, dieciocho, diecinueve | **Transparent compound**: "ten-and-six," etc. — directly maps to 10+X |
+| 20-29 | veinte, veintiuno, veintidós… | Regular within decade |
+| 30-99 | treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa (regular -enta suffix) | **Fully transparent base-10** — every decade follows the same morphological rule |
+
+**Implication for dyscalculia intervention**:
+- Transcoding load (number-word ↔ digit) is **substantially lower than French and somewhat lower than English** (English has the "thirteen-fifteen" exceptions).
+- Spanish-speaking dyscalculic students typically show **fluency** deficits rather than transcoding accuracy deficits — they can compute correctly but slowly.
+- **Intervention should leverage** the transparent system: explicit articulation of the "diez-y-..." pattern, the regular -enta suffix, makes Spanish a relatively friendly orthography for early number-sense work.
+- **Primary intervention target shifts** from transcoding accuracy (small deficit) to fluency and automatic fact retrieval (the persistent core deficit).
+
+### ES Intervention Delivery System
+
+Spain's school-based delivery model is closer to the US than to France:
+
+| Feature | Spain | Notes |
+|---|---|---|
+| Primary provider | Maestro/a de PT (Pedagogía Terapéutica), in coordination with orientador/a | School-based, integrated in school day |
+| Setting | Pull-out small group most common; in-class support increasingly used per LOMLOE inclusive principle | |
+| Frequency | Variable by región and individual ACNS; typically 2-3 sessions/week | Higher than French clinic model |
+| Funding | Public education system | |
+
+### ES Evidence-Based Approaches (Dyscalculia-Specific)
+
+- **PROCALCULO**-linked intervention: assessment-driven targeting of subitizing, comparison, operations, problem-solving
+- **Regletas Cuisenaire** — strong Spanish-educational tradition; widely available and used as primary concrete manipulative
+- **Ábacos** (especially japanese-style soroban) — used in some Spanish schools for place-value instruction
+- **Método Singapur en español** — Singapore Math adaptations with Spanish-language materials
+- **Smartick** (Spanish online math platform) — adaptive practice, evidence-based, widely used in Spain
+- **EntusiasMAT** — Spanish primary math program with strong manipulative emphasis
+- **Aprender Matemáticas con Estrategias** — strategy-instruction approach
+
+### ES Cognitive Prosthetics (Spanish-Language AT for Math)
+
+| Tool type | Spanish-language options |
+|---|---|
+| Calculator | Calculadora estándar (autorizada en ACNS) |
+| Reference | Tabla de multiplicar, formularios |
+| Spreadsheet | LibreOffice Calc en español, Excel español |
+| Equation editor | MathType español, GeoGebra (ES interface) |
+| Math apps | Smartick (ES), Khan Academy en español, Matific |
+| Symbolic math | Symbolab español, Wolfram Alpha (ES queries) |
+
+**Workplace AT layer**: For adult Spanish workers with discalculia and certificado ≥33%, tools may be reimbursed through RDL 1/2013 workplace accommodation funding.
+
+### ES Fluency-First Intervention Framework
+
+When generating remediation plans for Spanish students, shift priorities relative to English/French:
+
+| Priority | Target | Approach |
+|---|---|---|
+| 1 — PRIMARY | Fact-retrieval fluency (especially multiplication tables, basic addition/subtraction) | Spaced retrieval practice, timed drills with anxiety management, Smartick-style adaptive systems |
+| 2 — PRIMARY | Magnitude comparison automaticity | Number-line work, comparison drills, mental estimation |
+| 3 — SECONDARY | Computational accuracy in multi-step operations | CRA with regletas Cuisenaire, Singapore bar models |
+| 4 — SUPPORTING | Subitizing (often less impaired in Spanish-speaking cohorts than English-speaking, possibly due to transparent number-words supporting earlier number-concept development) | Standard subitizing practice |
+| 5 — SUPPORTING | Word-problem comprehension | Visual problem representation, language-of-math instruction |
+
+### ES Remediation Plan Additions
+
+When generating a remediation plan for a Spanish student:
+
+1. **Leverage transparent base-10 system** — frame instruction explicitly: "Cada decena sigue la misma regla: -enta. Sabes veinte, sabes treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa."
+2. **Fluency baseline at start** — measure operaciones por minuto on basic facts; track as primary outcome metric.
+3. **Smartick or equivalent adaptive practice** — high-quality Spanish-language tools exist; use them.
+4. **Regletas Cuisenaire as default manipulative** — culturally embedded in Spanish math education; students likely already familiar.
+5. **PROCALCULO subtest profile** — target intervention to specific subtest weaknesses identified during assessment.
+6. **Regional adaptation** — verify if student is in a bilingual region (Cataluña, País Vasco, Galicia, Valencia) and ensure assessment + intervention happens in both languages of instruction; math vocabulary may differ.
+7. **ACNS coordination** — ensure extended-time accommodation matches the fluency deficit (time pressure = primary classroom manifestation for Spanish-speaking dyscalculic students).
+
+---
+
 ## Behavior Guidelines
 
 ### Conceptual Before Procedural
@@ -209,7 +379,7 @@ Math anxiety significantly impairs performance and must be integrated into remed
 - Avoid procedural memorization divorced from concrete understanding
 
 ### Never Skip the Concrete Stage
-- Extended concrete experience is not "remedial" or "below grade level"—it's essential neural development
+- Extended concrete experience is not "remedial" or "below grade level"â€”it's essential neural development
 - Students must demonstrate concrete mastery before transition
 - Premature advancement to abstract work causes frustration and failure
 
@@ -222,6 +392,12 @@ Math anxiety significantly impairs performance and must be integrated into remed
 - **Dyslexia + Dyscalculia**: May have difficulty with verbal counting sequences or reading numerals; emphasize multisensory input
 - **ADHD + Dyscalculia**: Shorter tasks, frequent breaks, movement-based activities, external supports for organization
 - **Dyscalculia + Dysgraphia**: Accommodate writing demands; consider verbal response or typed output
+
+### Locale-Specific Guidelines
+
+- **locale=fr (French students)**: Primary intervention via orthophoniste; recommend referral as first-line support. Explicitly flag the 1-2x/week intensity gap for moderate/severe cases. **Prioritize French number-word irregularity instruction** (60-99 range — soixante-dix, quatre-vingts patterns) — this is a measurable, dyscalculia-specific deficit in French not present in other languages. Use TEDI-MATH/Zareki-R subtest profile to target intervention. Coordinate with school PAP "Mathématiques / logique" domain.
+- **locale=es (Spanish students)**: Do NOT default to French-style transcoding-focused intervention — Spanish base-10 is transparent. **Primary intervention target: fluency** (operaciones por minuto). Use PROCALCULO subtest profile and Spanish-language tools (Smartick, regletas Cuisenaire). Coordinate with school ACNS — calculator authorized as standard.
+- **Multilingual students in bilingual Spanish regions** (Cataluña, País Vasco, Galicia, Valencia) — assess and intervene in language(s) of instruction, not only home language; mathematical vocabulary may differ across the languages.
 
 ## Evidence Base
 
@@ -244,276 +420,3 @@ Research supports CRA methodology and multisensory instruction for dyscalculia r
 - [ ] Generalization to new contexts (strategy applies to related problems)
 - [ ] Long-term retention verified (skill maintained after 2+ weeks without practice)
 
----
-
-## French-Specific Remediation Strategies (Locale: FR)
-
-French-speaking students with dyscalculia face a unique cognitive burden not present in English or Spanish: the French number system is **vigesimal (base-20) for numbers 70–99**, creating compounded demands on working memory and transcoding.
-
-### Understanding the French Number-Word Irregularity Problem
-
-The French counting system breaks from decimal transparency at 70:
-
-| Number | French | Cognitive Operation Required |
-|---|---|---|
-| 70 | soixante-dix | 60+10 — must add |
-| 75 | soixante-quinze | 60+15 — must add |
-| 79 | soixante-dix-neuf | 60+10+9 — must add twice |
-| 80 | quatre-vingts | 4×20 — must multiply |
-| 85 | quatre-vingt-cinq | (4×20)+5 — must multiply then add |
-| 89 | quatre-vingt-neuf | (4×20)+9 — must multiply then add |
-| 90 | quatre-vingt-dix | (4×20)+10 — must multiply then add |
-| 99 | quatre-vingt-dix-neuf | (4×20)+10+9 — must multiply then add twice |
-
-A student hearing "quatre-vingt-dix-neuf" must compute (4×20)+10+9=99 in working memory before writing the digit — simultaneously managing the transcoding task and the arithmetic. This is precisely the type of multi-step working memory demand that is most impaired in dyscalculia.
-
-**Contrast**: Belgium/Switzerland use "septante" (70), "huitante/octante" (80), "nonante" (90) — transparent decimal forms. French students in France face a uniquely elevated transcoding load.
-
-### Impact on Counting and Transcoding
-
-**Counting sequences**: When counting forward through the 60s–90s, students must shift number-word construction strategies mid-sequence. This is cognitively disruptive for dyscalculic students who rely on sequential counting.
-
-**Transcoding errors** specific to French vigesimal forms:
-- Writing **619** for 79 (interpreting soixante-dix-neuf as 60-19 → 619)
-- Writing **4** (or leaving blank) for 80 (inability to compute quatre-vingts)
-- Writing **49** for 89 (quatre-vingt-neuf → [4+2]+9 or similar miscalculation)
-- Omitting the tens digit entirely in the 70–99 range when writing from dictation
-- Reversing the components: writing 97 for soixante-dix-sept (70+7 → 77, then reversing digit order)
-
-**Counting forward/backward**: Students with dyscalculia who can count through 1–69 reliably may show sudden disintegration in the 70s, restarting or using fingers when the vigesimal structure begins.
-
-### Adapted CRA for French Vigesimal Forms
-
-The standard CRA progression must be explicitly extended to cover French number-word irregularities. Do not assume that mastery of 1–69 implies readiness for 70–99.
-
-#### Concrete Stage — Vigesimal Adaptation
-
-**Goal**: Build an embodied, physical understanding of the vigesimal structure before expecting verbal-to-written transcoding.
-
-**Materials needed**:
-- Base-10 blocks (tens and ones)
-- Hundred chart (tableau des nombres 1–100) with French words and Arabic numerals side-by-side
-- Color-coded tens strips (e.g., 6 tens in blue = soixante; the 7th–9th tens in orange = the vigesimal zone)
-- Blank number lines 60–100
-
-**Lesson sequence**:
-1. Build 70 with 7 ten-blocks. Say aloud: "Sept dizaines. En français, on dit soixante-dix — soixante, c'est six dizaines, plus dix, ça fait sept dizaines en tout." Handle the blocks while saying the word.
-2. Repeat for 71–79: physically add one unit block at a time while saying the number word. Connect the word structure to the block structure after each.
-3. For 80: "Quatre-vingts, c'est quatre fois vingt. Vingt, c'est deux dizaines. Quatre fois deux dizaines, c'est huit dizaines." Build with 8 ten-blocks. Lay out 4 groups of 2 tens to show the vigesimal structure concretely, then combine into 8 tens.
-4. For 90–99: combine the multiplication (4×20=80) with addition of ten-blocks and unit blocks.
-
-**Key principle**: Never rush to the word. Build the blocks, count them, then attach the word. The word must be the label for an already-understood quantity, not a computation.
-
-#### Representational Stage — Vigesimal Adaptation
-
-**Goal**: Create visual bridges between the French word structure and the decimal numeral.
-
-**Strategies**:
-
-*Decomposition diagrams*: For quatre-vingt-dix-sept (97):
-```
-quatre-vingt-dix-sept
-      │        │
-    4 × 20   10 + 7
-      │        │
-      80    +  17
-            = 97
-```
-Practice drawing these decomposition trees for each number in the 70–99 range before writing the numeral.
-
-*Dual number line*: Create a number line 60–100 with French words written above and Arabic numerals below. Students trace along both representations simultaneously.
-
-*Color-coded hundred chart*: Mark 70–99 in a distinct color. Write both forms in each cell: "70 / soixante-dix". Use the chart as a permanent reference during representational work.
-
-*Bridging sentences*: "Soixante-dix-huit = soixante + dix-huit = 60 + 18 = 78." Practice writing these bridging sentences before the pure abstract numeral.
-
-#### Abstract Stage — Vigesimal Adaptation
-
-**Goal**: Fluent transcoding between French number words and Arabic numerals in the 70–99 range without supportive materials.
-
-**Only advance to this stage when**:
-- Student can build any number 70–99 with base-10 blocks without hesitation
-- Student can draw the decomposition diagram for any number 70–99 independently
-- Student can write the numeral for any number 70–99 given the decomposition diagram
-
-**Abstract practice**:
-- Dictation of numbers from the entire 70–99 range (oral French word → written numeral)
-- Translation exercises: numeral → French word
-- Error analysis: have the student identify and correct common vigesimal transcoding errors
-- Controlled introduction of these numbers in arithmetic contexts (e.g., 73+6=?) — only after transcoding is secure
-
-### Distinguishing Vigesimal Transcoding Errors from Core Dyscalculia
-
-Clinicians and teachers must distinguish:
-
-| Error Type | Characteristic | Implication |
-|---|---|---|
-| **Vigesimal transcoding error** | Errors concentrated in 70–99 range; accurate in 1–69 and 100+ | Primarily linguistic-mathematical processing; address with vigesimal-specific CRA |
-| **Core number sense deficit** | Errors distributed across all ranges, including 1–69 | Broader dyscalculia pattern; begin CRA from foundations |
-| **Mixed** | Elevated errors in 70–99 on top of broader difficulties | Address both simultaneously; vigesimal work on top of number sense foundation |
-
-**Assessment prompt**: Dictate 20 numbers in random order — 10 from 1–69 and 10 from 70–99. Compare error rates. A significantly higher error rate in 70–99 suggests vigesimal processing as the primary challenge.
-
-### French Classroom Context: CRA Implementation
-
-**PAP/PPS accommodation integration with CRA**:
-- The hundred chart (tableau des nombres) qualifies as a reference chart authorized in PAP accommodations
-- Calculators (authorized in PAP) do not eliminate the need for transcoding instruction — students still need to write numerals from verbal problem statements
-- The vigesimal decomposition diagrams can be laminated as a personal reference tool
-
-**For exams (Brevet/Baccalauréat)**:
-- Students should practice writing vigesimal numbers in exam conditions (timed, alone)
-- Encourage students to write the decomposition sentence first, then the numeral, when transcoding in an exam
-
-**Collaboration with orthophoniste**:
-- The orthophoniste's bilan logico-mathématique should include vigesimal transcoding subtests
-- Share CRA strategies with the orthophoniste for consistency across school and therapy settings
-- Request that the orthophoniste's report explicitly documents whether errors concentrate in the 70–99 range
-
-### French Math Anxiety Considerations
-
-The vigesimal structure creates an additional anxiety trigger specific to French math:
-- Students may succeed through 60s and then suddenly fail when they reach 70 — this creates a visible, consistent failure point that damages self-efficacy
-- Frame the vigesimal structure as a quirk of the French language, not a sign of mathematical inability: "Le système français est compliqué ici — même les adultes trouvent ça difficile"
-- Use Belgian/Swiss equivalents (septante, nonante) in early instruction to demonstrate that the NUMERAL 70 is not inherently difficult — only the French word is complex
-- Explicitly celebrate mastery of vigesimal forms as a sophisticated achievement
-
----
-
-## Spanish-Specific Remediation Strategies (Locale: ES)
-
-Spanish-speaking students with dyscalculia work within a **highly transparent number system** — Spanish number words directly encode place value for most of the counting range. This transparency provides a strategic advantage for remediation, but also creates specific risks of assessment false negatives and overlooked fluency deficits.
-
-### Understanding the Spanish Transparent Number System
-
-Spanish number words are largely regular and structurally transparent:
-
-| Range | Structure | Transparency |
-|---|---|---|
-| 1–10 | uno, dos, tres... diez | Irregular (arbitrary) — foundational vocabulary |
-| 11–15 | once, doce, trece, catorce, quince | **Irregular** — must be learned by rote |
-| 16–19 | dieciséis, diecisiete, dieciocho, diecinueve | Compound (diez+y+seis) — moderately transparent |
-| 20 | veinte | Irregular form of the base — must be learned |
-| 21–29 | veintiuno, veintidós... veintinueve | Fused compound — high transparency |
-| 30–99 | treinta y uno, cuarenta y dos... noventa y nueve | Additive structure — **very high transparency** |
-| 100–999 | ciento cincuenta y seis | Additive — very high transparency |
-| 1,000+ | mil doscientos treinta y cuatro | Additive — very high transparency |
-
-A student hearing "setenta y ocho" immediately has access to the place value structure: 7 tens and 8 ones → 78. No multi-step arithmetic is required.
-
-**Contrast with French**: Quatre-vingt-dix-huit (98) requires 4×20+10+8=98. Spanish "noventa y ocho" directly yields 90+8=98.
-
-### Leveraging Transparency: Verbal Instruction as a Strength Bridge
-
-The transparent structure allows instructors to use verbal number words as a **scaffold for written numeral understanding**:
-
-**Strategy: Oral anchoring before written work**
-- Before any written number task, say the number aloud and have the student repeat it
-- Use the verbal structure to preview the written form: "Cuarenta y cinco — ¿cuántas decenas? cuatro. ¿Cuántas unidades? cinco. Escribe: 45."
-- For students who struggle with written notation, oral rehearsal of the place value structure provides a reliable bridge to the correct written form
-
-**Strategy: Transparent-structure number lines**
-- Create number lines with Spanish words and numerals — the regularity makes these easier to use than English or French equivalents
-- Have students build the verbal number as a decomposition, then write the digit
-
-**Strategy: Verbal skip counting**
-- Spanish skip counting chants are highly accessible due to regularity: "diez, veinte, treinta, cuarenta..." — the pattern is transparent
-- Use auditory rhythm and chanting to build verbal number fluency before written fluency
-- This is particularly effective for students with verbal dyscalculia subtype
-
-### Fluency-Focused Assessment and Instruction
-
-Because Spanish number words are transparent, a dyscalculic student may achieve **adequate accuracy** on transcoding tasks while still demonstrating the core dyscalculia profile. Remediation in Spanish must therefore emphasize:
-
-#### Processing Speed Targets (Not Just Accuracy)
-
-A student who can correctly write "47" from hearing "cuarenta y siete" — but takes 8 seconds per number rather than 2 seconds — is still demonstrating a clinically significant fluency deficit despite 100% accuracy.
-
-Spanish remediation targets must include:
-- Transcoding fluency: numbers per minute (oral → written and written → oral)
-- Single-digit fact retrieval speed: not just correctness but automaticity
-- Multi-digit computation speed: monitoring for slow processing on conceptually understood operations
-
-**Progress monitoring adapted for Spanish transparent system**:
-- Use timed transcoding probes: 20 numbers dictated orally, measure accuracy and time
-- Set both accuracy AND fluency benchmarks in ACNS documents
-- Include a processing speed measure (e.g., digits-per-minute CBM) alongside accuracy measures
-
-#### The 11–15 Irregular Zone
-
-Spanish 11–15 (once, doce, trece, catorce, quince) are irregular — unlike 30–99, they cannot be decoded from place value structure. Students with dyscalculia may show **selective difficulty** in this zone:
-
-- Cannot retrieve "doce" or "trece" quickly without counting
-- Confuse 12 and 13 (doce/trece) — similar sound structure
-- Inconsistent accuracy: correct on some days, wrong on others
-
-**Remediation for 11–15**:
-- Treat these six numbers as **rote vocabulary** requiring multisensory encoding (similar to sight words in reading)
-- Use tactile cards (raised number on one side, Spanish word on other), mnemonic stories, and rhythmic chanting
-- Do not delay broader number sense work — address 11–15 as a parallel track
-- Once automatic in the 20–99 range, use that transparent structure to anchor: "quince = 15 = diez y cinco — recuerda: una decena y cinco unidades"
-
-### Adapted CRA for Spanish Classroom Context
-
-#### Concrete Stage
-
-The concrete stage proceeds identically to standard CRA principles. Key additions for Spanish context:
-
-- **Oral anchoring during concrete work**: Name the number aloud in Spanish while handling manipulatives — use the transparent structure ("cuatro decenas y tres unidades — cuarenta y tres")
-- **Irregular zone awareness**: For 11–15, supplement concrete work with word cards; do not assume the verbal label is automatic
-- **Manipulative labeling**: Label manipulative containers in Spanish (unidades, decenas, centenas) to reinforce vocabulary during hands-on work
-
-**Recommended materials** (aligned with Spanish curriculum context):
-- Base-10 blocks (bloques de base-10 / material multibase)
-- Ábaco (abacus) — widely used in Spanish primary classrooms; excellent for place value
-- Rekenrek / collar de cuentas (bead string)
-- Tablero de valor posicional (place value chart in Spanish)
-- Juegos de fichas (counter games)
-
-#### Representational Stage
-
-- Create visual models with Spanish labels (unidades, decenas, centenas)
-- Transparency advantage: students can write the decomposition verbally before drawing it ("setenta y dos = 70 + 2 = 7 decenas + 2 unidades")
-- Number line work — the regular structure makes number lines intuitive in Spanish above 20
-- Bar model / Singapore-style diagrams work well in Spanish context given the clear additive structure of number words
-
-#### Abstract Stage
-
-- Spanish-transparent computation benefits: students who master place value understanding will find mental math strategies more accessible due to transparent number words
-- "Cincuenta y tres más veinte = setenta y tres" can be verbally reasoned without written support in a way that English or French computation cannot
-- Introduce mental math strategies explicitly — leverage transparency as a cognitive tool
-
-### Fluency vs. Accuracy in ACNS Documentation
-
-The ACNS document for a Spanish dyscalculia student must specify:
-
-- **Accuracy targets**: [%] accuracy on mathematics tasks (standard)
-- **Fluency targets**: [digits per minute / problems per minute] at each stage — this is the additional requirement for Spanish transparent-system assessment
-- **Accommodations that address fluency gap**: extended time is the primary accommodation for fluency deficits — document as a percentage (e.g., 33% additional time) not just "more time"
-
-**Avoid the false negative trap**: An ACNS that lists only "calculator available" and "reduced items" may be sufficient for an English-speaking student with accuracy-based dyscalculia. For Spanish-speaking students whose transparency means accuracy is often adequate, also list explicit fluency accommodations (extended time, untimed practice, processing speed assessed separately from accuracy).
-
-### Regional Bilingual Contexts
-
-In Comunidades Autónomas with co-official languages, math instruction may occur in Catalan, Basque (Euskera), Galician, or Valencian — each with different number-word structures:
-
-| Language | Number System | Dyscalculia Consideration |
-|---|---|---|
-| **Catalan** | Similar to Spanish; largely transparent above 20 | Additional vocabulary learning; transparency advantage broadly maintained |
-| **Basque (Euskera)** | Vigesimal for 20+ (hogei=20, berrogei=40, hirurogei=60, laurogei=80) | Similar vigesimal challenge to French for 20+; assess separately in Basque and Castilian |
-| **Galician** | Transparent, similar to Spanish/Portuguese | Minimal additional challenge |
-| **Valencian** | Similar to Catalan | Transparent above 20 |
-
-**Basque note**: Basque uses a fully vigesimal (base-20) system above 20, meaning students in Euskadi/País Vasco receiving instruction in Basque face vigesimal complexity similar to French students. The CRA adaptations from the French vigesimal section above apply to Basque-medium instruction.
-
-For bilingual contexts:
-- Assess dyscalculia in BOTH languages if instruction occurs in both
-- Document which language of instruction was used for each assessment
-- Ensure ACNS applies to instruction and assessment in all languages of instruction
-
-### Spanish Math Anxiety Considerations
-
-- Transparency advantage can also create a unique anxiety trigger: students who succeed verbally may feel more intensely judged when written computation fails ("Pero si lo sé... ¿por qué no puedo escribirlo?")
-- Explicitly validate the transparency-access strength: "Sabes perfectamente el número cuando lo oyes — eso es una habilidad matemática real. Lo que practicamos ahora es escribirlo más rápido."
-- Frame fluency deficits as processing speed, not mathematical ignorance
-- Avoid timed tests in early stages — these disproportionately penalize processing speed deficits that transparency may hide in accuracy-only assessment
