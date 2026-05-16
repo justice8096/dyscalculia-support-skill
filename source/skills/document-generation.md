@@ -24,7 +24,7 @@ Templates and guidance for generating essential documents: IEPs, Section 504 Pla
 
 ---
 
-### PRESENT LEVELS OF ACADEMIC PERFORMANCE (PLAAFP) â€” MATHEMATICS
+### PRESENT LEVELS OF ACADEMIC PERFORMANCE (PLAAFP) — MATHEMATICS
 
 **Math Strengths**
 - Reasoning and problem-solving ability: [Description]
@@ -82,7 +82,7 @@ Templates and guidance for generating essential documents: IEPs, Section 504 Pla
 
 ---
 
-### ANNUAL GOALS â€” MATHEMATICS (IEP Year)
+### ANNUAL GOALS — MATHEMATICS (IEP Year)
 
 **Goal 1: Number Sense Foundation**
 
@@ -151,7 +151,7 @@ Expected Growth: [Reduced avoidance, increased self-efficacy, resilience with st
 
 ---
 
-### ACCOMMODATIONS â€” MATHEMATICS
+### ACCOMMODATIONS — MATHEMATICS
 
 **Accommodations do NOT reduce conceptual demands but provide access to math curriculum.**
 
@@ -200,7 +200,7 @@ Expected Growth: [Reduced avoidance, increased self-efficacy, resilience with st
 
 ---
 
-### ACCOMMODATIONS â€” STANDARDIZED TESTING
+### ACCOMMODATIONS — STANDARDIZED TESTING
 
 - Extended time (1.5x-2x)
 - Separate setting with minimal distractions
@@ -254,7 +254,7 @@ Opportunities for parent input on progress and accommodation effectiveness at ea
 
 ## Section 504 Plan for Dyscalculia
 
-### 504 PLAN â€” MATHEMATICS ACCOMMODATIONS
+### 504 PLAN — MATHEMATICS ACCOMMODATIONS
 
 **Student**: [Name] | **Age**: [Age] | **Grade**: [Grade]
 **School**: [School] | **Date**: [Date]
@@ -284,7 +284,7 @@ Opportunities for parent input on progress and accommodation effectiveness at ea
 
 ## Progress Monitoring Report Template
 
-### PROGRESS MONITORING REPORT â€” MATHEMATICS
+### PROGRESS MONITORING REPORT — MATHEMATICS
 
 **Student**: [Name] | **Report Period**: [Dates]
 **IEP/504 Goals**: [List relevant goals]
@@ -597,8 +597,8 @@ This checklist is used to identify students at risk for dyscalculia and warranti
 
 - Cognitive ability: [Full Scale IQ classification]
 - Discrepancy between IQ and math achievement: [Standard deviation gap; meets IDEA criteria for SLD if 1.5+ SD discrepancy]
-- Processing strengths: [If anyâ€”verbal reasoning, perceptual reasoning, etc.]
-- Processing weaknesses: [Impacting math learningâ€”working memory, processing speed, visual-spatial, etc.]
+- Processing strengths: [If any—verbal reasoning, perceptual reasoning, etc.]
+- Processing weaknesses: [Impacting math learning—working memory, processing speed, visual-spatial, etc.]
 
 #### Comorbidities
 
@@ -692,6 +692,8 @@ This checklist is used to identify students at risk for dyscalculia and warranti
 
 ## Assessment Instruments Quick Reference
 
+### US (English-normed)
+
 | Instrument | Age Range | Domain | Subtests | Use Case |
 |------------|-----------|--------|----------|----------|
 | **KeyMath-3** | K-12 | Math achievement | Number Concepts, Operations, Applications | Comprehensive diagnosis of math strengths/weaknesses |
@@ -699,4 +701,499 @@ This checklist is used to identify students at risk for dyscalculia and warranti
 | **WRAT-5** | 5-85 | Math computation | Single-digit facts, multi-digit operations, word problems | Quick screening of math fluency |
 | **WISC-V** | 6-16 | Cognitive ability | Verbal Comprehension, Perceptual Reasoning, Processing Speed, Working Memory | Assess IQ and processing deficits |
 | **CBM Math Probes** | All ages | Fluency monitoring | Computation or applied problems | Weekly/bi-weekly progress monitoring |
+
+### France (French-normed)
+
+| Instrument | Age Range | Domain | Use Case |
+|---|---|---|---|
+| **TEDI-MATH** | 3-9 | Math achievement | Gold-standard French/Belgian-normed dyscalculia battery |
+| **TEDI-MATH Grands** | 8-15 | Math achievement (secondary) | Continuation of TEDI-MATH for older students |
+| **Zareki-R** | 6-11 | Number processing + calculation | Specifically for dyscalculia diagnosis |
+| **BMT-i** | 4-13 | Computerized screening (multi-domain) | Quick screening including numerical subtests |
+| **UDN-II** | 4-6 | Number-sense | Pre-primary number development |
+| **WISC-V French norms** | 6-16 | Cognitive ability | IQ and processing profile |
+
+### Spain (Spanish-normed)
+
+| Instrument | Age Range | Domain | Use Case |
+|---|---|---|---|
+| **PROCALCULO** | Primaria | Math screening | Main Spanish-language dyscalculia battery |
+| **TEDI-MATH (adaptación española)** | 3-9 | Math achievement | Spanish adaptation of TEDI-MATH |
+| **Evamat** | Primary/Secondary | Comprehensive math | Spanish math evaluation battery |
+| **WISC-V Spanish norms** | 6-16 | Cognitive ability | IQ and processing profile |
+| **EVALEC** | Reading-related cognition | When discalculia comorbid with dislexia | |
+
+---
+
+## French Document Templates (Locale: fr)
+
+> *Sources current as of 2026-05. Template structures derived from Circulaire n° 2015-016 (PAP, four cycle versions), Circulaire n° 2023-033 (aménagements d'examens), MDPH/CDAPH PPS procédure standard (Code de l'action sociale et des familles). RQTH dossier per Code du travail Art. L5213-2.*
+
+### FR-1. PAP — Plan d'Accompagnement Personnalisé (Dyscalculie)
+
+Standardized template per Circulaire 2015-016. Four cycle versions; this template emphasizes the **Mathématiques / logique** domain for dyscalculie.
+
+```
+PLAN D'ACCOMPAGNEMENT PERSONNALISÉ (PAP) — DYSCALCULIE
+Circulaire n° 2015-016 du 22 janvier 2015
+
+Cycle: ☐ Maternelle  ☐ Élémentaire  ☐ Collège  ☐ Lycée
+École / Établissement: [Nom]
+Année scolaire: [XXXX–XXXX]
+
+─── IDENTIFICATION DE L'ÉLÈVE ───────────────────────────────
+Nom, Prénom: [Nom Prénom]
+Date de naissance: [JJ/MM/AAAA]
+Classe: [Classe]
+
+─── TROUBLE(S) IDENTIFIÉ(S) ─────────────────────────────────
+☑ Dyscalculie
+☐ Dyslexie comorbide          ☐ Dyspraxie comorbide
+☐ TDAH comorbide              ☐ Autre: [Préciser]
+
+Documents médicaux / bilans en appui:
+├── Bilan orthophonique (incluant TEDI-MATH ou Zareki-R): [Date, Professionnel]
+├── Bilan neuropsychologique (WISC-V): [Date si disponible]
+├── Bilan psychomoteur (si comorbidité dyspraxique): [Date]
+└── Autre évaluation: [Préciser]
+
+─── PROFESSIONNELS EXTÉRIEURS IMPLIQUÉS ─────────────────────
+Orthophoniste: [Nom, fréquence des séances]
+Neuropsychologue: [Nom, si applicable]
+Psychomotricien: [Nom, si applicable]
+
+─── AMÉNAGEMENTS ET ADAPTATIONS ─────────────────────────────
+
+Mathématiques / logique (domaine principal pour dyscalculie):
+├── ☑ Calculatrice non programmable autorisée dans TOUTES les matières
+├── ☑ Table de multiplication accessible en permanence
+├── ☑ Ligne numérique et autres aide-mémoires mathématiques accessibles
+├── ☑ Papier quadrillé pour alignement des colonnes
+├── ☑ Présentation adaptée: UNE opération par ligne, espacement augmenté
+├── ☑ Temps supplémentaire pour les activités de calcul
+├── ☑ Réduction de la quantité d'exercices (mêmes concepts, moins d'items)
+├── ☑ Acceptation de l'explication orale du raisonnement
+├── ☑ Instruction explicite sur les irrégularités lexicales (soixante-dix, quatre-vingts)
+├── ☑ Manipulatives accessibles (réglettes Cuisenaire, jetons, bloc base-10)
+└── Autre: [Préciser]
+
+Langage écrit (si comorbidité dyslexique):
+├── Documents adaptés: police ≥ 14pt, interligne 1,5-2
+├── Texte aligné à gauche, pas de justification complète
+├── Non-pénalisation des erreurs d'orthographe
+└── Autre: [Préciser]
+
+Autres domaines cognitifs:
+├── Instructions segmentées
+├── Rappels visuels des étapes
+├── Place préférentielle en classe
+└── Autre: [Préciser]
+
+Prothèses cognitives (cognitive prosthetics — supports permanents):
+├── Calculatrice scientifique pour collège/lycée
+├── Logiciels mathématiques: GeoGebra français, MathType français
+├── Tableurs (LibreOffice Calc, Excel français) pour problèmes complexes
+└── Polices spécifiques pour chiffres si rendu problématique
+
+─── RÉVISION ANNUELLE ───────────────────────────────────────
+Date de la prochaine révision: [JJ/MM/AAAA]
+Observations / suivi: [Notes]
+
+─── SIGNATURES ──────────────────────────────────────────────
+Famille: _________________________ Date: ___________
+Médecin de l'Éducation nationale: _ Date: ___________
+Directeur/Proviseur: ______________ Date: ___________
+Enseignant(s) référent(s): ________ Date: ___________
+```
+
+**PAP compliance notes (dyscalculia-specific):**
+- Medical validation by the médecin de l'Éducation nationale is mandatory.
+- The PAP must explicitly authorize calculatrice across ALL exams (per Circulaire 2023-033).
+- For French students, document **number-word irregularity instruction** explicitly as an accommodation — the 60-99 transcoding deficit is dyscalculia-relevant in French specifically.
+- The cognitive prosthetics section (v1.2.0 framing) frames calculator + reference table as permanent supports, not temporary scaffolds.
+
+### FR-2. MDPH Support Dossier (Dyscalculie sévère, voie PPS)
+
+When dyscalculia is severe enough to warrant AESH (human aide), ULIS placement, or state-funded math software (PPS pathway):
+
+```
+DOSSIER D'APPUI — DEMANDE DE PPS POUR DYSCALCULIE SÉVÈRE
+
+Élève: [Nom Prénom]
+Date de naissance: [JJ/MM/AAAA]
+École / Établissement: [Nom]
+Département: [Numéro et nom]
+
+─── DOCUMENTS REQUIS ───────────────────────────────────────
+☐ Cerfa n° 15692*01 — Formulaire de demande
+☐ Cerfa n° 15695*01 — Certificat médical (< 6 mois)
+☐ Bilan orthophonique incluant TEDI-MATH ou Zareki-R (≤ 1 an)
+☐ Bilan neuropsychologique (WISC-V)
+☐ Bilan psychomoteur si comorbidité dyspraxique
+☐ Rapport scolaire avec observations enseignant + résultats CBM
+☐ Copie du PAP actuel (le cas échéant) montrant insuffisance
+
+─── MOTIFS DE LA DEMANDE (Dyscalculie sévère) ─────────────
+Trouble identifié: Dyscalculie sévère (CIM-11: 6A03.2)
+Sub-type principal (Kosc): ☐ Verbal ☐ Practognostic ☐ Lexical
+                            ☐ Graphical ☐ Operational ☐ Ideognostical
+
+Besoins spécifiques nécessitant la voie PPS:
+☐ AESH (Accompagnant d'Élève en Situation de Handicap)
+☐ Placement en ULIS-école / collège / lycée
+☐ Matériel pédagogique adapté (calculatrice scientifique
+   spécialisée, logiciels payants, dispositifs tactiles)
+☐ AEEH (Allocation d'Éducation de l'Enfant Handicapé)
+☐ Autre: [Préciser]
+
+─── DESCRIPTION DES BESOINS (cadre cognitif) ──────────────
+[Cadrer comme trouble cognitif neuro-développemental persistant —
+diff de traitement numérique au niveau du sillon intrapariétal.
+Décrire impacts fonctionnels: calcul, mémorisation de faits,
+problèmes verbaux, calcul mental, transcodage 60-99.]
+
+Mesures déjà en place et leurs limites: [Détailler PAP/PPRE
+antérieurs et pourquoi insuffisants]
+
+─── COORDONNÉES DE L'ÉQUIPE SCOLAIRE ──────────────────────
+[Directeur, enseignant principal, médecin de l'Éducation
+nationale, professeur de mathématiques]
+```
+
+### FR-3. Demande d'Aménagements d'Examens (Dyscalculie)
+
+```
+DEMANDE D'AMÉNAGEMENTS D'EXAMENS POUR ÉLÈVE AVEC DYSCALCULIE
+Circulaire n° 2023-033 du 23 février 2023
+
+Examen concerné: ☐ Brevet  ☐ Baccalauréat  ☐ BTS  ☐ CFA  ☐ Autre
+Session: [Année]
+Établissement: [Nom]
+Académie: [Nom]
+
+─── IDENTIFICATION DU CANDIDAT ─────────────────────────────
+Nom, Prénom: [Nom Prénom]
+Date de naissance: [JJ/MM/AAAA]
+Classe: [Classe]
+INE: [Numéro si connu]
+
+─── AMÉNAGEMENTS DEMANDÉS ─────────────────────────────────
+☑ Calculatrice non programmable autorisée pour TOUTES les épreuves
+   (y compris épreuves où le calcul mental est normalement requis)
+☑ Aide-mémoire mathématique (table de multiplication, formulaires)
+   accessible pendant l'épreuve
+☐ Tiers-temps (temps majoré d'un tiers)
+   Justification: [Référence au PAP/PPS — usage habituel en classe]
+☐ Sujets adaptés: ☑ Police agrandie pour chiffres
+                    ☑ Une opération par ligne
+                    ☑ Espacement augmenté entre items
+☐ Énoncés adaptés quand la question présuppose calcul mental rapide
+☐ Salle séparée
+☐ Temps de pause (chronomètre arrêté)
+☐ Secrétaire scripteur (si comorbidité dysgraphique)
+☐ Épreuve orale de remplacement (cas exceptionnels)
+☐ Dispense d'épreuve (cas exceptionnels — justification détaillée)
+
+─── PIÈCES JUSTIFICATIVES JOINTES ─────────────────────────
+☐ Certificat médical < 6 mois avec diagnostic CIM-11 6A03.2
+☐ Bilan orthophonique avec TEDI-MATH ou Zareki-R
+☐ Bilan neuropsychologique
+☐ Copie du PAP ou PPS en vigueur
+☐ Attestation de l'établissement confirmant l'usage habituel
+
+─── ATTESTATION DE L'ÉTABLISSEMENT ────────────────────────
+[Directeur/Proviseur attestant des aménagements utilisés en classe,
+dates depuis, document de référence (PAP/PPS)]
+
+─── DÉCISION ──────────────────────────────────────────────
+(À compléter par l'autorité académique)
+Décision du recteur: ☐ Accordé  ☐ Partiellement accordé  ☐ Refusé
+Aménagements accordés: [Détail]
+Date: [JJ/MM/AAAA]
+Recours: Défenseur des Droits
+```
+
+**Critical**: Calculatrice authorization across ALL exam papers is the headline dyscalculia accommodation in France. If denied, this is grounds for appeal under Loi 2005-102.
+
+### FR-4. Demande de RQTH (Dyscalculie adulte / professionnel)
+
+For adult workers with dyscalculia seeking RQTH-funded workplace accommodations:
+
+```
+DOSSIER D'APPUI — DEMANDE DE RQTH POUR DYSCALCULIE
+
+Demandeur: [Nom Prénom]
+Date de naissance: [JJ/MM/AAAA]
+Adresse: [Adresse]
+Département: [Numéro et nom]
+
+─── SITUATION PROFESSIONNELLE ──────────────────────────────
+[Statut: salarié CDI/CDD, indépendant, étudiant CFA, etc.]
+Poste actuel / souhaité: [Description]
+
+Difficultés rencontrées dues à la dyscalculie:
+[Cadrer comme trouble cognitif persistant — diff de traitement
+numérique. Décrire impacts: calcul professionnel, factures,
+bilans, statistiques, lecture de tableaux, gestion du temps,
+estimation, etc.]
+
+─── DOCUMENTS REQUIS ──────────────────────────────────────
+☐ Cerfa n° 15692*01 — Formulaire principal MDPH
+☐ Cerfa n° 15695*01 — Certificat médical récent
+☐ Bilan neuropsychologique adulte (WAIS-IV)
+☐ Bilan orthophonique adulte (si disponible)
+☐ Diagnostic CIM-11 6A03.2 ou DSM-5 315.1
+☐ Attestation employeur sur impact fonctionnel (si applicable)
+
+─── AMÉNAGEMENTS / ÉQUIPEMENTS SOLLICITÉS ─────────────────
+Logiciels et prothèses cognitives (financement AGEFIPH/FIPHFP):
+☐ Calculatrice scientifique adaptée
+☐ Logiciel tableur (Excel, LibreOffice Calc) avec templates
+☐ Logiciel de math symbolique (GeoGebra, MathType français)
+☐ Logiciel de gestion du temps (Time Timer, scaffolds calendrier)
+☐ Templates pour tâches numériques répétitives (factures, devis)
+
+Aménagements de poste:
+☐ Temps adapté pour tâches calculatoires complexes
+☐ Documents numériques avant échéance (préparation possible)
+☐ Bureau séparé pour tâches numériques intensives
+☐ Réunions accompagnées de compte-rendus chiffrés écrits
+
+Accompagnement humain:
+☐ Job coach (financé AGEFIPH)
+☐ Référent handicap entreprise (firmes ≥250 — Loi Avenir Pro 2018)
+
+─── SIGNATURES ──────────────────────────────────────────────
+Demandeur: _____________________ Date: ___________
+Médecin certificateur: _________ Date: ___________
+```
+
+---
+
+## Spanish Document Templates (Locale: es)
+
+> *Sources current as of 2026-05. Template structures aligned with LOMLOE (Ley Orgánica 3/2020) ACNEAE/DEA framework, ACNS procedures per regional implementing decrees (Andalucía Instrucciones 12/12/2014, Cataluña Decret 150/2017, Madrid Orden 19/01/2021, País Vasco Decreto 236/2015). Workplace certification per Real Decreto Legislativo 1/2013 (≥33% certificado de discapacidad threshold).*
+
+### ES-1. ACNS — Adaptaciones Curriculares No Significativas (Discalculia)
+
+The primary support document for discalculia students in Spain. Regional terminology varies (ACNS / ACI no significativa / PTI / Plan de Apoyo).
+
+```
+ADAPTACIONES CURRICULARES NO SIGNIFICATIVAS (ACNS) — DISCALCULIA
+[Comunidad Autónoma: _______________]
+[Denominación regional equivalente: _______________]
+
+Centro educativo: [Nombre]
+Curso escolar: [XXXX–XXXX]
+
+─── IDENTIFICACIÓN DEL ALUMNO/A ────────────────────────────
+Nombre y apellidos: [Nombre Apellidos]
+Fecha de nacimiento: [DD/MM/AAAA]
+Curso: [Curso]
+Tutor/a: [Nombre]
+
+─── CLASIFICACIÓN ──────────────────────────────────────────
+Categoría ACNEAE: DEA — Dificultades Específicas de Aprendizaje
+Dificultad específica:
+☑ Discalculia
+☐ Dislexia comórbida          ☐ Disgrafía comórbida
+☐ TDAH comórbido              ☐ Combinación: [Especificar]
+
+Informe Psicopedagógico de referencia:
+Fecha: [DD/MM/AAAA]    Elaborado por: [Orientador/a / EOEP]
+
+Nota: Este alumno/a NO tiene clasificación NEE. Las ACNS (no
+significativas) son el instrumento de apoyo correcto para DEA.
+No corresponde el Dictamen de Escolarización ni las ACS salvo
+comorbilidad con NEE.
+
+Encuadre clínico-neurocientífico (v1.2.0): la discalculia es un
+trastorno neurodesarrollal cognitivo persistente — diferencia
+cerebral en el procesamiento numérico (surco intraparietal). Las
+adaptaciones no son apoyos temporales sino prótesis cognitivas
+permanentes.
+
+─── ÁREAS DE DIFICULTAD IDENTIFICADAS ──────────────────────
+[Resumen del Informe Psicopedagógico: subitización, comparación
+de magnitudes, recuperación de hechos numéricos, cálculo,
+resolución de problemas, etc.]
+
+Subtipo Kosc (si identificado):
+☐ Verbal ☐ Practognóstico ☐ Léxico
+☐ Gráfico ☐ Operacional ☐ Ideognóstico
+
+─── ADAPTACIONES METODOLÓGICAS ─────────────────────────────
+Organización del aula:
+☐ Asiento preferente
+☐ Instrucciones segmentadas
+☐ Recordatorios visuales de los pasos
+☐ Acceso a apuntes/esquemas con antelación
+
+Presentación de materiales matemáticos:
+☐ Texto en Arial o fuente similar ≥ 14pt; interlineado ≥ 1,5
+☐ Una operación por línea, papel cuadriculado
+☐ Números ampliados, espaciado entre cifras aumentado
+☐ Sin penalización por errores aritméticos cuando el razonamiento es correcto
+
+Metodología de enseñanza (CRA español):
+☐ Manipulativos: regletas Cuisenaire, bloques base-10, ábacos
+☐ Modelos de barras (método Singapur en español)
+☐ Aprovechamiento del sistema base-10 transparente del español
+  (regla -enta: veinte/treinta/.../noventa) — explicitar la regla
+☐ Apoyo visual en explicaciones verbales
+☐ Tecnología asistiva (prótesis cognitivas permanentes):
+   ☐ Calculadora (siempre permitida)
+   ☐ Tabla de multiplicar accesible
+   ☐ Hoja de cálculo (LibreOffice Calc, Excel)
+   ☐ Software adaptado: GeoGebra ES, Symbolab ES, Smartick
+
+─── ADAPTACIONES EN LA EVALUACIÓN ──────────────────────────
+☐ Tiempo adicional: [Especificar porcentaje: ___ %]
+☐ Calculadora autorizada en TODAS las pruebas matemáticas
+☐ Tabla de multiplicar disponible durante exámenes
+☐ Lectura de los enunciados por el/la docente si comorbilidad lectora
+☐ Respuesta oral del razonamiento permitida
+☐ No penalización de errores de cálculo cuando el procedimiento es correcto
+☐ Formato ampliado: Arial 14-16pt, interlineado 1,5
+☐ Reducción de la cantidad de ítems (misma dificultad)
+☐ Acceso a hoja de cálculo en evaluaciones que lo permitan
+☐ Evaluación en sala separada si es necesario
+
+─── RESPONSABLES Y COORDINACIÓN ───────────────────────────
+Tutor/a: [Nombre]
+Orientador/a: [Nombre]
+PT implicado/a: [Nombre]
+EOEP: [Nombre si aplicable]
+Familia: [Acuerdo documentado]
+
+─── ACUERDO FAMILIAR Y FIRMAS ─────────────────────────────
+Familia: ___________________ Fecha: ___________
+Tutor/a: ___________________ Fecha: ___________
+Orientador/a: ______________ Fecha: ___________
+V.º B.º Director/a: ________ Fecha: ___________
+
+─── REVISIÓN ──────────────────────────────────────────────
+Fecha de revisión prevista: [DD/MM/AAAA]
+```
+
+### ES-2. Informe Psicopedagógico (Discalculia) — Compliance Checklist
+
+```
+INFORME PSICOPEDAGÓGICO — VERIFICACIÓN DE CUMPLIMIENTO
+Dificultades Específicas de Aprendizaje: Discalculia
+
+Alumno/a: [Nombre]     Fecha: [DD/MM/AAAA]
+Elaborado por: [Orientador/a / EOEP]    Centro: [Nombre]
+
+─── SECCIONES REQUERIDAS ───────────────────────────────────
+☐ Datos de identificación
+☐ Motivo de la evaluación
+☐ Historial escolar relevante
+☐ Instrumentos de evaluación matemática utilizados:
+   ☐ Prueba cognitiva (WISC-V español o equivalente)
+   ☐ Prueba normalizada de cálculo (PROCALCULO, TEDI-MATH ES,
+     o Evamat) — percentil documentado
+   ☐ Prueba de fluidez (cálculos por minuto)
+   ☐ Análisis cualitativo de errores
+   ☐ Criterios de exclusión verificados (sin discapacidad
+     intelectual, déficit sensorial, instrucción inadecuada)
+☐ Clasificación: ACNEAE – DEA – Discalculia
+☐ NO clasificado como NEE
+☐ Sub-tipo (Kosc) si identificable
+☐ Descripción de las necesidades educativas
+☐ Propuesta de ACNS recomendadas
+☐ Coordinación: PT, EOEP
+☐ Orientaciones para la familia
+☐ Firmas: orientador/a + director/a
+☐ Fecha de próxima revisión
+
+─── ALERTAS DE CUMPLIMIENTO ───────────────────────────────
+⚠ Si clasifica como NEE por sola discalculia: CLASIFICACIÓN INCORRECTA
+⚠ Si recomienda ACS para sola discalculia: INADECUADO; debe ser ACNS
+⚠ Si describe la discalculia como "dificultad temporal" o "falta de práctica":
+  ENCUADRE INADECUADO — debe ser trastorno neurodesarrollal persistente
+⚠ Si no usa prueba matemática normalizada en español: CRITERIO INCOMPLETO
+```
+
+### ES-3. EBAU/EvAU Exam Accommodation Request (Discalculia)
+
+```
+SOLICITUD DE ADAPTACIONES PARA LA EBAU/EvAU — DISCALCULIA
+Comunidad Autónoma: __________
+
+Centro: [Nombre del IES]    Convocatoria: [Año]
+Alumno/a: [Nombre]    Curso: 2.º Bachillerato
+
+─── DIAGNÓSTICO Y DOCUMENTACIÓN ───────────────────────────
+Diagnóstico: ☑ Discalculia
+☐ Informe Psicopedagógico (Fecha: ___)
+☐ Historial de ACNS durante Bachillerato adjunto
+☐ Otros documentos clínicos: [Especificar]
+
+─── ADAPTACIONES SOLICITADAS ──────────────────────────────
+☑ Calculadora autorizada en todos los exámenes matemáticos
+☐ Tabla de multiplicar / formulario accesible
+☑ Tiempo adicional (30 min adicional habitual)
+☑ Texto ampliado: Arial 16pt, interlineado 1,5
+☐ Aula separada / tribunal específico
+☑ Reducción de penalización por errores aritméticos cuando el razonamiento es correcto
+☐ Hoja de cálculo permitida en problemas complejos
+☐ Otras: [Especificar]
+
+─── CONSISTENCIA CON EL HISTORIAL ACNS ────────────────────
+Adaptaciones documentadas en ACNS durante Bachillerato:
+[Listar las usadas en clase y exámenes internos]
+
+─── FIRMAS ──────────────────────────────────────────────────
+Familia/Alumno/a mayor de edad: _______ Fecha: ___________
+Orientador/a del centro: _____________ Fecha: ___________
+Director/a del centro: _______________ Fecha: ___________
+```
+
+### ES-4. Workplace Accommodation Request (RDL 1/2013, Discalculia)
+
+```
+SOLICITUD DE ADAPTACIÓN DEL PUESTO DE TRABAJO — DISCALCULIA
+Real Decreto Legislativo 1/2013 (Ley General de Discapacidad)
+
+A la atención del departamento de RR.HH. de [Empresa]
+De: [Nombre Apellidos]    Fecha: [DD/MM/AAAA]
+Puesto: [Descripción]
+
+─── ESTADO ACREDITATIVO ──────────────────────────────────
+☐ Certificado de discapacidad ≥ 33% emitido por Centro Base
+   Fecha: [DD/MM/AAAA]    CCAA: [Nombre]
+☐ Diagnóstico clínico actualizado (DSM-5 315.1 / ICD-11 6A03.2)
+☐ Informe funcional sobre el impacto en el desempeño laboral
+
+─── DESCRIPCIÓN FUNCIONAL ────────────────────────────────
+La discalculia es un trastorno neurodesarrollal cognitivo
+persistente — diferencia cerebral en el procesamiento numérico.
+Impacta principalmente:
+[Descripción específica al puesto: cálculos profesionales, lectura
+de informes con datos numéricos, redacción de facturas/presupuestos,
+análisis estadístico, gestión de horarios, etc.]
+
+─── ADAPTACIONES SOLICITADAS ──────────────────────────────
+Prótesis cognitivas (tecnología asistiva permanente):
+☐ Calculadora científica avanzada
+☐ Hoja de cálculo (Excel, LibreOffice Calc) con plantillas
+☐ Software matemático (GeoGebra, Symbolab español)
+☐ Software de gestión del tiempo (Time Timer, recordatorios visuales)
+☐ Plantillas para tareas numéricas repetitivas
+
+Adaptaciones del puesto:
+☐ Tiempo adicional para tareas calculatorias complejas
+☐ Recepción anticipada de documentación numérica
+☐ Espacio tranquilo durante lecturas numéricas críticas
+☐ Resúmenes escritos numéricos de reuniones verbales
+
+─── REFERENCIA LEGAL ─────────────────────────────────────
+- RDL 1/2013, Ley General de Discapacidad (art. 35-37)
+- Estatuto de los Trabajadores, art. 17 (no discriminación)
+- Ley Orgánica 3/2018 (LOPD-GDD) — confidencialidad
+
+─── FIRMA ──────────────────────────────────────────────────
+Firma del/la trabajador/a: ____________ Fecha: ___________
+```
 

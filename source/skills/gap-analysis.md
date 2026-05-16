@@ -2,7 +2,7 @@
 
 Systematic identification of critical gaps in dyscalculia support across tools, instruction, assessment, and technology.
 
-> **Framing Note**: This analysis treats dyscalculia as a neurodevelopmental cognitive disorder � a persistent difference in numerical processing architecture (Butterworth core deficit theory; Menon et al. 2025) � not merely a learning disability that resolves with sufficient instruction. Gaps are evaluated against both the legal/educational framework (IDEA, Section 504) and the cognitive neuroscience evidence. The most critical gaps are those where current practice assumes the deficit is temporary and remediable, when the evidence shows it is persistent and requires lifelong accommodation alongside targeted remediation.
+> **Framing Note**: This analysis treats dyscalculia as a neurodevelopmental cognitive disorder � a persistent difference in numerical processing architecture (Butterworth core deficit theory; Menon et al. 2025) � not merely a learning disability that resolves with sufficient instruction. Gaps are evaluated against both the legal/educational framework (IDEA, Section 504) and the cognitive neuroscience evidence. The most critical gaps are those where current practice assumes the deficit is temporary and remediable, when the evidence shows it is persistent and requires lifelong accommodation alongside targeted remediation.
 
 ## The Eight Critical Gaps
 
@@ -182,6 +182,123 @@ Systematic identification of critical gaps in dyscalculia support across tools, 
 - Provide ongoing coaching and professional learning communities
 - Develop resource libraries for CRA-aligned manipulatives and lessons
 - Establish teacher certification pathway for dyscalculia specialists
+
+### Gap 9: Cross-Linguistic Assessment Tool Availability
+
+**Problem**: Dominant dyscalculia assessment instruments (KeyMath-3, TEMA-3, WRAT-5) are normed on English-speaking populations and cannot be validly applied to French or Spanish learners. French- and Spanish-normed instruments exist but are under-known by international practitioners and under-integrated in EdTech.
+
+**Assessment tool gap by locale:**
+
+| Domain | US (English) | France | Spain |
+|---|---|---|---|
+| Comprehensive math battery | KeyMath-3, TEMA-3 | **TEDI-MATH** (gold standard), **Zareki-R** | **PROCALCULO**, TEDI-MATH ES, Evamat |
+| Number sense (early) | TEMA-3 | UDN-II, TEDI-MATH | PROCALCULO subscales |
+| Fluency / CBM | DIBELS Math, AIMSweb | No widely adopted national fluency norm | Limited; informal CBM |
+| Cognitive | WISC-V US norms | WISC-V French norms | WISC-V Spanish norms |
+| Adult dyscalculia | Nelson-Denny adjacent; few targeted | Few adult-normed batteries | Few adult-normed batteries |
+
+**Manifestation**:
+- Practitioners cross-using assessments without locale-appropriate norms (e.g. KeyMath-3 with a French-speaking student) → invalid scores
+- EdTech platforms default to English-normed thresholds for diagnostic claims
+- Internationally-mobile families struggle to find assessments valid in their new country
+
+**Gap Analysis Recommendation**:
+- Cross-Linguistic Math Assessment Tool Selector (locale-aware practitioner guide)
+- International equivalency matrix mapping FR/ES instruments to US references
+- EdTech locale-awareness scorecards including assessment validity claims
+
+### Gap 10: French Number-Word Irregularity Impact Not Quantified in Intervention Tools
+
+**Problem**: French has uniquely irregular number-words in the 60-99 range (soixante-dix, quatre-vingts, quatre-vingt-dix). This imposes substantial extra transcoding load on dyscalculic French learners — load not present in English or Spanish. Yet most digital dyscalculia tools either ignore the issue or apply English-centric models.
+
+**Manifestation**:
+- French-language dyscalculia apps that don't measure or train transcoding in the 60-99 range
+- Fluency benchmarks imported from English without adjustment for French complexity
+- Cross-linguistic studies treat "number-word retrieval" as a uniform skill across languages
+
+**Gap Analysis Recommendation**:
+- French Number-Word Transcoding Intervention Module (digital tool spec)
+- French-specific fluency norms accounting for 60-99 lexical complexity
+- Belgian/Swiss French (septante/huitante/nonante) regular-form exposure as a meta-cognitive bridge
+
+### Gap 11: Spanish Fluency-First Intervention Tools Underdeveloped
+
+**Problem**: Spanish has a transparent base-10 system (-enta suffix). Dyscalculic Spanish-speaking learners typically present with **fluency** deficits, not accuracy deficits. Most digital dyscalculia tools target accuracy first (English/French model), leaving Spanish learners under-served on the fluency dimension that matters most for them.
+
+**Manifestation**:
+- Spanish dyscalculia apps that drill accuracy when fluency is the bottleneck
+- EBAU exam accommodations focused on accuracy when extended time for fluency is what's needed
+- Smartick (the dominant Spanish adaptive math platform) is fluency-aware but few specialized dyscalculia-focused alternatives exist
+
+**Gap Analysis Recommendation**:
+- Spanish Reading/Math Fluency Goal Bank (operations-per-minute targets by grade)
+- Fluency-First Intervention Framework for transparent orthographies (transferable to Italian, Portuguese)
+- Spanish dyscalculia-specific adaptive practice tools building on Smartick patterns
+
+### Gap 12: Cross-Jurisdiction Plan Portability for Internationally Mobile Families
+
+**Problem**: Families who relocate between countries (US expats in France, French families in Spain, etc.) have no systematic guide for translating their child's existing math accommodation plan to the new jurisdiction. The 504 → PAP, IEP → PPS, ACNS → 504 translations are nontrivial and currently navigated independently.
+
+**Manifestation**:
+- Families re-establishing accommodations from scratch in new country
+- Calculator-authorization status lost during transition
+- Assessment-pathway mismatch (US schools want IDEA evaluations; French schools want bilan orthophonique)
+- Workplace adults: ADA Title I → RQTH → certificado de discapacidad transitions opaque
+
+**Gap Analysis Recommendation**:
+- International DYS Plan Portability Guide (specifically math-accommodation focus)
+- Assessment Translation Matrix (which results are portable, which need re-administration)
+- Adult Workplace Disability Status Portability Map (ADA / RQTH / RDL 1/2013)
+
+---
+
+## Cross-Linguistic Gap Analysis
+
+When conducting gap analysis across locales (US, FR, ES), apply this extended workflow on top of the base Gap Analysis Process below.
+
+### Cross-Linguistic Scope Questions
+
+- **Number-word morphology**: How regular is the target language's number system in the 20-99 range? (English: mostly regular with thirteen-fifteen exceptions; French: highly irregular 60-99; Spanish: fully transparent -enta suffix.)
+- **Primary deficit pattern**: Which deficit dominates in this locale's dyscalculic population? (US: mixed; FR: transcoding + computation; ES: fluency.)
+- **Assessment norm availability**: Are validated, locally-normed math batteries available?
+- **Intervention program availability**: Are evidence-based intervention programs available in the target language?
+- **Professional delivery model**: Who delivers intervention? (US: math interventionist; FR: orthophoniste, ~1-2x/week; ES: maestro/a de PT, in-school.)
+- **Legal framework adequacy**: Calculator-policy generosity varies (FR most generous via Circulaire 2023-033; US most restrictive in classroom; ES somewhere between).
+
+### Cross-Linguistic Comparison Matrix
+
+When evaluating a dyscalculia tool/program across locales:
+
+| Dimension | US (English) | France (French) | Spain (Spanish) |
+|---|---|---|---|
+| Number-word regularity | Mostly regular | **Highly irregular 60-99** | **Fully transparent** |
+| Primary deficit emphasis | Mixed | Transcoding + computation | Fluency |
+| Phonological number names | "twenty-three" (transparent) | "vingt-trois" (transparent for 20-59), "soixante-treize" (compound for 73) | "veintitrés" (transparent) |
+| Calculator policy norm | Limited; section-by-section | **All exams (Circulaire 2023-033)** | All math exams under ACNS |
+| Primary intervention provider | Math interventionist (school) | Orthophoniste (clinic) | Maestro/a de PT (school) |
+| Intervention intensity standard | 4-5x/week Tier 3 | 1-2x/week (chronic intensity gap) | 2-3x/week |
+| Assessment battery availability | Extensive | Moderate (TEDI-MATH dominant) | Moderate (PROCALCULO + Spanish adaptations) |
+| Digital tool availability | Extensive | Moderate | Moderate (Smartick dominant) |
+| Workplace AT regime | ADA Title I (employer-funded typical) | AGEFIPH/FIPHFP (subsidy-funded) | RDL 1/2013 (quota + accommodation) |
+
+### Known Locale-Specific Gaps
+
+**France-specific:**
+- No widely-adopted DIBELS-Math equivalent with French norms
+- TEDI-MATH Grands (secondary version) is less widely used than TEDI-MATH primary
+- French number-word irregularity training tools are scarce
+- Bilan orthophonique 1-2x/week intensity is below research-supported levels for severe dyscalculia
+
+**Spain-specific:**
+- No nationally standardized fluency norms for Spanish-language math facts
+- Discalculia-specific tools less developed than dyslexia tools (PROCALCULO good but limited ecosystem)
+- Bilingual region (Cataluña, País Vasco, Galicia, Valencia) tools are scarce; Castilian-only is the default
+- Adult-normed Spanish-language math batteries are limited
+
+**Cross-locale:**
+- No protocol for translating IEP / PAP / ACNS during international moves
+- No consensus on adult dyscalculia assessment in any of the three locales
+- No standardized portability of workplace disability status across ADA / RQTH / RDL 1/2013
 
 ---
 

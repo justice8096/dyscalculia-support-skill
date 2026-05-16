@@ -6,6 +6,20 @@ Use this template to structure comprehensive dyscalculia standards compliance au
 
 ## DYSCALCULIA STANDARDS COMPLIANCE AUDIT
 
+### Provenance Block (required — do not omit)
+
+This block is the linchpin of the addendum-filing workflow under the [Skill Versioning and Addendum Framework](https://github.com/justice8096/SecondBrainData/blob/main/SoftwarePractices/Skill-Versioning-and-Addendum-Framework.md). Every generated artifact must capture skill version, commit hash, source currency, and changelog URL so prior outputs can be identified for addendum filings when authorities, evidence, defects, structure, or voice change downstream.
+
+| Field | Value |
+|-------|-------|
+| **Skill Version** | dyscalculia-support-skill v[X.Y.Z] |
+| **Commit Hash** | [git short-hash of the skill commit that produced this audit] |
+| **Generation Date** | [YYYY-MM-DD UTC when this audit was generated] |
+| **Sources Current As Of** | [YYYY-MM general baseline; individual sections may note tighter dates inline] |
+| **Locale** | [us \| fr \| es] |
+| **Region** (ES only) | [madrid \| cataluña \| andalucía \| pais-vasco \| valencia \| galicia \| ...] |
+| **Skill Changelog** | https://github.com/justice8096/dyscalculia-support-skill/blob/main/CHANGELOG.md |
+
 ### Metadata
 
 | Field | Value |
@@ -13,9 +27,9 @@ Use this template to structure comprehensive dyscalculia standards compliance au
 | **Project Name** | [Name of program, tool, curriculum, or initiative being audited] |
 | **Audit Date** | [Date audit was conducted] |
 | **Auditor** | [Name and organization of auditor] |
-| **Standards Audited** | IDEA (2004/2015), Section 504, NCTM Standards, CRA Methodology, Best Practices |
+| **Standards Audited** | IDEA (2004/2015), Section 504, NCTM Standards, CRA Methodology, Best Practices [+ Loi 2005-102 / PAP / PPS if `--locale fr`] [+ LOE/LOMLOE / ACNEAE / ACNS if `--locale es`] |
 | **Scope** | [Brief description: e.g., "K-5 elementary math curriculum," "Special education math intervention program," "Digital math app for dyscalculia," "District-wide identification and service delivery"] |
-| **Audit Type** | [ ] Initial Audit [ ] Re-audit [ ] Compliance Check |
+| **Audit Type** | [ ] Initial Audit [ ] Re-audit [ ] Compliance Check [ ] Addendum to prior audit (cite original) |
 | **Contact Information** | [Auditor contact; responsible party contact] |
 
 ---
