@@ -1,6 +1,6 @@
 {
   "name": "dyscalculia-support-skill",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Comprehensive dyscalculia support system treating dyscalculia as a neurodevelopmental cognitive disorder (not merely a learning disability) with brain-based numerical processing deficits centered on the intraparietal sulcus. Implements CRA (Concrete-Representational-Abstract) methodology, cognitive bypass strategies, and standards compliance across three legal jurisdictions: United States (IDEA, Section 504, NCTM, ADA workplace), France (Loi n° 2005-102, Code de l'éducation Art. L321-4, PAP/PPS via MDPH/CDAPH, aménagements d'examens with calculatrice across all exams, RQTH for workplace), and Spain (LOE/LOMLOE Art. 71/72/79 bis, ACNEAE/DEA framework with discalculia under DEA, ACNS pathway, EBAU/EvAU exam adaptations, 17-Comunidad-Autónoma regional variation, RDL 1/2013 for workplace). Grounded in Butterworth core deficit theory and intraparietal sulcus research, with locale-aware adaptations for French number-word irregularities (soixante-dix, quatre-vingts) and Spanish transparent base-10 system (regular -enta suffix).",
   "author": "Justice",
   "license": "CC0-1.0",
@@ -176,7 +176,7 @@
       "name": "Content Accessibility Check",
       "description": "Analyze content for dyscalculia accessibility: cognitive load, font/spacing, color contrast, temporal demands, working memory requirements. Locale-aware checks: FR — French number-word irregularity flagging (soixante-dix/quatre-vingts present complex multi-step transcoding for dyscalculic readers), diacritic rendering; ES — Spanish-language number presentation (transparent base-10 conventions, regular -enta suffix), EBAU/EvAU exam format standards (Arial 16pt + 1.5 line spacing).",
       "category": "accessibility",
-      "syntax": "/content-accessibility-check [content_name] [--format=text|video|interactive] [--audience=elementary|secondary|adult] [--depth=quick|detailed] [--locale=us|fr|es]",
+      "syntax": "/content-accessibility-check [content_name] [--format=text|video|interactive|mixed] [--audience=elementary|secondary|adult] [--depth=quick|detailed] [--locale=us|fr|es]",
       "parameters": [
         {
           "name": "content_name",
@@ -240,7 +240,7 @@
       "name": "Generate Accommodation Document (IEP, 504, PAP, ACNS, etc.)",
       "description": "Generate a compliant, math-focused accommodation document for a student with dyscalculia. US: IEP, 504, ADA workplace request, higher-ed DSR. France: PAP (Circulaire 2015-016, four cycle templates), MDPH dossier for PPS, demande d'aménagements d'examens (Circulaire 2023-033), RQTH application. Spain: ACNS (Adaptaciones Curriculares No Significativas), Informe Psicopedagógico checklist, EBAU/EvAU adaptation request, RDL 1/2013 workplace accommodation request.",
       "category": "documentation",
-      "syntax": "/generate-iep [student_name] [grade] [--subtype=kosc1..kosc6] [--anxiety=low|moderate|high] [--comorbidities=ADHD,dyslexia,OCD] [--locale=us|fr|es] [--document_type=iep|504|pap|pps-dossier|fr-exam-accommodation|rqth|acns|informe|es-exam-accommodation] [--fr_cycle=maternelle|elementaire|college|lycee]",
+      "syntax": "/generate-iep [student_name] [grade] [--subtype=kosc1..kosc6] [--anxiety=low|moderate|high] [--comorbidities=ADHD,dyslexia,OCD] [--locale=us|fr|es] [--document_type=iep|504|ada-workplace-request|higher-ed-dsr|pap|pps-dossier|fr-exam-accommodation|rqth-application|acns|informe-psicopedagogico-checklist|es-exam-accommodation|es-workplace-accommodation] [--fr_cycle=maternelle|elementaire|college|lycee]",
       "parameters": [
         {
           "name": "student_name",
@@ -345,7 +345,7 @@
       "name": "Remediation Plan",
       "description": "Create a CRA-based math remediation plan customized by student name, focus area, intensity level, anxiety profile, and locale. US: TouchMath/Number Worlds/Stern/Singapore Math adaptations. France: Bilan orthophonique-linked intervention with attention to French number-word irregularities (soixante-dix/quatre-vingts) and orthophoniste-classroom coordination. Spain: PROCALCULO + Spanish transparent base-10 fluency emphasis; regletas Cuisenaire / ábacos as CRA manipulatives.",
       "category": "intervention",
-      "syntax": "/remediation-plan [student_name] [--duration=4|8|12|16] [--focus=number-sense|computation|fractions|algebra] [--intensity=1|2|3] [--anxiety=low|moderate|high] [--locale=us|fr|es]",
+      "syntax": "/remediation-plan [student_name] [--duration=4|8|12|16] [--focus=number-sense|computation|fractions|algebra|transcoding|mixed] [--intensity=1|2|3] [--anxiety=low|moderate|high] [--locale=us|fr|es]",
       "parameters": [
         {
           "name": "student_name",

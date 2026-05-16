@@ -15,6 +15,15 @@ All four drivers affect admissibility / persuasive weight of downstream artifact
 
 ## [Unreleased]
 
+## [1.3.2] — 2026-05-16
+
+### Fixed `[defect]`
+- `source/manifest.json` command syntax strings were out of sync with their `parameters.values` enums (caught by Codex P2 review on PR #5). Three commands affected:
+  - **`generate-iep --document_type`**: syntax documented `rqth` and `informe` (truncated) instead of the enum values `rqth-application` and `informe-psicopedagogico-checklist`; also omitted `ada-workplace-request`, `higher-ed-dsr`, and `es-workplace-accommodation`. Syntax now lists all 12 enum values verbatim.
+  - **`content-accessibility-check --format`**: syntax omitted the `mixed` enum value; now included.
+  - **`remediation-plan --focus`**: syntax omitted `transcoding` and `mixed` enum values; now included.
+- These mismatches meant users following the documented syntax would pass values that failed downstream schema validation in OpenAI / n8n / MCP generated tool interfaces. Enum values are the system contract; syntax is documentation — fix brought the docs into line with the contract.
+
 ## [1.3.1] — 2026-05-16
 
 Architectural follow-up to v1.3.0 + encoding-defect fix. Two concerns shipped together because both relate to source-file integrity.
