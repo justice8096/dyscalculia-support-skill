@@ -885,6 +885,72 @@ function generateCliAudit(manifest: Manifest): void {
   logSuccess("CLI audit tool generated");
 }
 
+function parseRootFrontmatter(text: string): { fm: string | null; body: string } {
+  const m = text.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
+  if (!m) return { fm: null, body: text };
+  return { fm: m[1], body: m[2] };
+}
+
+function parseFmFields(fm: string): Record<string, string> {
+  const out: Record<string, string> = {};
+  let current: string | null = null;
+  for (const line of fm.split(/\r?\n/)) {
+    const kv = line.match(/^([a-zA-Z0-9_-]+):\s*(.*)$/);
+    if (kv) {
+      current = kv[1];
+      out[current] = kv[2];
+    } else if (current && /^\s+/.test(line)) {
+      out[current] += "\n" + line;
+    }
+  }
+  return out;
+}
+
+function renderFm(fields: Record<string, string>, order: string[]): string {
+  const lines = ["---"];
+  for (const k of order) {
+    if (fields[k] !== undefined) lines.push(`${k}: ${fields[k]}`);
+  }
+  lines.push("---");
+  return lines.join("\n");
+}
+
+function syncRootCanonical(manifest: Manifest): void {
+  for (const cmd of manifest.commands) {
+    const srcPath = resolve(__dirname, `source/commands/${cmd.id}.md`);
+    const rootPath = resolve(__dirname, `commands/${cmd.id}.md`);
+    if (!existsSync(srcPath)) continue;
+    const srcBody = readMarkdown(srcPath);
+    const existing = existsSync(rootPath) ? readMarkdown(rootPath) : "";
+    const { fm } = parseRootFrontmatter(existing);
+    const fields = fm ? parseFmFields(fm) : {};
+    fields.description = cmd.description;
+    const order = ["description", "argument-hint", "allowed-tools"];
+    const newFm = renderFm(fields, order);
+    const newContent = newFm + "\n" + srcBody.replace(/^\n+/, "");
+    writeFileSync(rootPath, newContent);
+  }
+
+  for (const skill of manifest.skills) {
+    const srcPath = resolve(__dirname, `source/skills/${skill.id}.md`);
+    const rootPath = resolve(__dirname, `skills/${skill.id}/SKILL.md`);
+    if (!existsSync(srcPath)) continue;
+    const srcBody = readMarkdown(srcPath);
+    const existing = existsSync(rootPath) ? readMarkdown(rootPath) : "";
+    const { fm } = parseRootFrontmatter(existing);
+    const fields = fm ? parseFmFields(fm) : {};
+    fields.name = skill.id;
+    fields.description = skill.description;
+    const order = ["name", "description"];
+    const newFm = renderFm(fields, order);
+    ensureDir(dirname(rootPath));
+    const newContent = newFm + "\n" + srcBody.replace(/^\n+/, "");
+    writeFileSync(rootPath, newContent);
+  }
+
+  logSuccess("Root canonical files synced from source");
+}
+
 // CLI ARGUMENT PARSING
 // ============================================================================
 
@@ -960,6 +1026,7 @@ const VALID_FORMATS = [
   "prompts",
   "mcp-server",
   "cli",
+  "root-canonical",
 ] as const;
 
 type BuildFormat = (typeof VALID_FORMATS)[number];
@@ -971,6 +1038,7 @@ const generators: Record<BuildFormat, (m: Manifest) => void> = {
   prompts: generatePromptLibrary,
   "mcp-server": generateMcpServer,
   cli: generateCliAudit,
+  "root-canonical": syncRootCanonical,
 };
 
 function cleanDist(): void {
@@ -1009,6 +1077,7 @@ function runBuild(opts: CliOptions): void {
     generatePromptLibrary(manifest);
     generateMcpServer(manifest);
     generateCliAudit(manifest);
+    syncRootCanonical(manifest);
 
     log("");
     logSuccess("Build completed successfully!");
@@ -1019,6 +1088,7 @@ function runBuild(opts: CliOptions): void {
     log("  - dist/prompts/*.yaml");
     log("  - dist/mcp-server/ (full TypeScript MCP server)");
     log("  - dist/cli/ (standalone audit CLI tool)");
+    log("  - commands/*.md, skills/*/SKILL.md (root canonical, synced from source)");
   }
 }
 

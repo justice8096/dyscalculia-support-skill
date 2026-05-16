@@ -15,6 +15,18 @@ All four drivers affect admissibility / persuasive weight of downstream artifact
 
 ## [Unreleased]
 
+## [1.3.1] — 2026-05-16
+
+Architectural follow-up to v1.3.0 + encoding-defect fix. Two concerns shipped together because both relate to source-file integrity.
+
+### Added `[structural]`
+- `build.ts` now syncs root canonical (`commands/*.md` + `skills/*/SKILL.md`) from `source/` as part of `npm run build`. Closes the root-drift defect identified during v1.3.0 development: prior to this, the build wrote only to `dist/` and root canonical could diverge from source indefinitely. The new sync step reads `description` from `source/manifest.json`, preserves existing root frontmatter fields (`argument-hint`, `allowed-tools`), and replaces body content with `source/commands/*.md` / `source/skills/*.md`. Also runnable standalone via `npm run build:root-canonical`.
+- `CONTRIBUTING.md` updated with explicit "do not edit root canonical directly" guidance and the root-drift history.
+
+### Fixed `[defect]`
+- Manifest and source markdown files shipped in v1.3.0 had double-encoded characters (`Ã©`, `Ã³`, `nÂ°`, `Comunidad-AutÃ³noma`, `â€"` for em-dash) introduced by an earlier version-bump step using Python's default `open(p)` on Windows (cp1252 default codepage). Repaired across `source/manifest.json` + all `source/commands/*.md` + `source/skills/*.md` + `source/templates/*.md` via `ftfy` + targeted cp1252→utf-8 round-trip for em-dash mojibake. All accented characters and em-dashes now stored as proper UTF-8 in source files; the new build-time root-canonical sync propagates clean encoding to root.
+- `commands/*.md` and `skills/*/SKILL.md` regenerated from corrected source via the new sync step. Anyone who installed v1.3.0 saw the mojibake; reinstalling v1.3.1 fixes it.
+
 ## [1.3.0] — 2026-05-16
 
 Path C resolution of the PR #5 / PR #6 FR/ES parallel-implementation problem. PR #5's source-file FR/ES expansion is now on `main` (rebased from `881ca48` → `4d3e26b`), root canonical (`commands/*` + `skills/*/SKILL.md`) is re-synced from `source/` for the first time since the marketplace scaffold (`c4b7f9d`), and PR #6's off-pipeline canonical edits are superseded by the source-driven regeneration.
@@ -40,7 +52,7 @@ Path C resolution of the PR #5 / PR #6 FR/ES parallel-implementation problem. PR
 - Root canonical files had drifted from `source/` since the marketplace scaffold (`c4b7f9d`): they were missing the v1.1.0 W3C COGA additions and the v1.2.0 neurodevelopmental cognitive disorder reframe. The Stage 2b sync brings root forward to match source. **Downstream audit consumers using prior v1.2.x root canonical files should re-run audits — content was stale.**
 
 ### Process notes
-- PR #6 (`af74633`, merged 2026-05-13) added FR/ES content directly to canonical files, bypassing `source/`. The Stage 2b regeneration overwrites those edits with source-derived content. PR #6's two specific factual contributions — LOMLOE Art. 102 documentation and the vigesimal Belgian/Swiss contrast — have been backported to source.
+- PR #6 (`af74633`, merged 2026-05-13) added FR/ES content directly to canonical files, bypassing `source/`. The root-canonical sync overwrites those edits with source-derived content. PR #6's two specific factual contributions — LOMLOE Art. 102 documentation and the vigesimal Belgian/Swiss contrast — have been backported to source.
 - PR #5 (`881ca48`) is the substantive source-file FR/ES implementation; rebased onto current `main` as `4d3e26b` with zero conflicts (the two PRs touched disjoint paths). PR #5 will be closed after this release ships; the rebased branch (`feat/locale-fr-es`) is the integration target for v1.3.0.
 
 ## [1.2.0] — 2026-05-XX (preparing)

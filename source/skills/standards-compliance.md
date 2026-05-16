@@ -22,7 +22,7 @@ The Individuals with Disabilities Education Act (IDEA) mandates specific require
 - **Processing Deficits**: Assess working memory, processing speed, visual-spatial processing (IPS, Rapid Naming, etc.)
 - **Response to Intervention (RTI)**: Document that intensive Tier 2/3 interventions (minimum 8-10 weeks) did not produce adequate progress
 - **Classroom Assessment**: Work samples, curriculum-based measurement (CBM) data showing persistent deficit
-- **Exclusionary Factors**: Vision/hearing impairment, intellectual disability, emotional disturbance, environmental/economic disadvantage, language proficiencyâ€”must be ruled out
+- **Exclusionary Factors**: Vision/hearing impairment, intellectual disability, emotional disturbance, environmental/economic disadvantage, language proficiency—must be ruled out
 
 #### IEP Goal Areas (Math-Specific)
 
@@ -481,7 +481,7 @@ Use this checklist to audit instructional programs, tools, and services for dysc
 - [ ] Student/parent involvement in plan development
 
 ### Instructional Program
-- [ ] Instruction follows CRA progression: Concrete â†’ Representational â†’ Abstract
+- [ ] Instruction follows CRA progression: Concrete → Representational → Abstract
 - [ ] Multisensory strategies employed (tactile, kinesthetic, visual, auditory, proprioceptive)
 - [ ] Number sense prioritized as foundation before computation
 - [ ] Manipulatives available and used regularly
@@ -736,7 +736,7 @@ Weighted scoring across domains:
 - **Progress Monitoring** (10%): Frequency, measures, data use, intervention adjustment
 - **Ethical Standards & Training** (10%): Non-discrimination, confidentiality, professional development, parent collaboration
 
-**Formula**: (Domain Score Ã— Weight) + (Domain Score Ã— Weight) ... = Composite Score (0-100)
+**Formula**: (Domain Score × Weight) + (Domain Score × Weight) ... = Composite Score (0-100)
 
 #### 8. Score Interpretation Scale
 

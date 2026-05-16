@@ -28,7 +28,7 @@ Templates and guidance for generating essential documents: IEPs, Section 504 Pla
 
 ---
 
-### PRESENT LEVELS OF ACADEMIC PERFORMANCE (PLAAFP) â€” MATHEMATICS
+### PRESENT LEVELS OF ACADEMIC PERFORMANCE (PLAAFP) — MATHEMATICS
 
 **Math Strengths**
 - Reasoning and problem-solving ability: [Description]
@@ -86,7 +86,7 @@ Templates and guidance for generating essential documents: IEPs, Section 504 Pla
 
 ---
 
-### ANNUAL GOALS â€” MATHEMATICS (IEP Year)
+### ANNUAL GOALS — MATHEMATICS (IEP Year)
 
 **Goal 1: Number Sense Foundation**
 
@@ -155,7 +155,7 @@ Expected Growth: [Reduced avoidance, increased self-efficacy, resilience with st
 
 ---
 
-### ACCOMMODATIONS â€” MATHEMATICS
+### ACCOMMODATIONS — MATHEMATICS
 
 **Accommodations do NOT reduce conceptual demands but provide access to math curriculum.**
 
@@ -204,7 +204,7 @@ Expected Growth: [Reduced avoidance, increased self-efficacy, resilience with st
 
 ---
 
-### ACCOMMODATIONS â€” STANDARDIZED TESTING
+### ACCOMMODATIONS — STANDARDIZED TESTING
 
 - Extended time (1.5x-2x)
 - Separate setting with minimal distractions
@@ -258,7 +258,7 @@ Opportunities for parent input on progress and accommodation effectiveness at ea
 
 ## Section 504 Plan for Dyscalculia
 
-### 504 PLAN â€” MATHEMATICS ACCOMMODATIONS
+### 504 PLAN — MATHEMATICS ACCOMMODATIONS
 
 **Student**: [Name] | **Age**: [Age] | **Grade**: [Grade]
 **School**: [School] | **Date**: [Date]
@@ -288,7 +288,7 @@ Opportunities for parent input on progress and accommodation effectiveness at ea
 
 ## Progress Monitoring Report Template
 
-### PROGRESS MONITORING REPORT â€” MATHEMATICS
+### PROGRESS MONITORING REPORT — MATHEMATICS
 
 **Student**: [Name] | **Report Period**: [Dates]
 **IEP/504 Goals**: [List relevant goals]
@@ -601,8 +601,8 @@ This checklist is used to identify students at risk for dyscalculia and warranti
 
 - Cognitive ability: [Full Scale IQ classification]
 - Discrepancy between IQ and math achievement: [Standard deviation gap; meets IDEA criteria for SLD if 1.5+ SD discrepancy]
-- Processing strengths: [If anyâ€”verbal reasoning, perceptual reasoning, etc.]
-- Processing weaknesses: [Impacting math learningâ€”working memory, processing speed, visual-spatial, etc.]
+- Processing strengths: [If any—verbal reasoning, perceptual reasoning, etc.]
+- Processing weaknesses: [Impacting math learning—working memory, processing speed, visual-spatial, etc.]
 
 #### Comorbidities
 
@@ -730,6 +730,8 @@ This checklist is used to identify students at risk for dyscalculia and warranti
 ---
 
 ## French Document Templates (Locale: fr)
+
+> *Sources current as of 2026-05. Template structures derived from Circulaire n° 2015-016 (PAP, four cycle versions), Circulaire n° 2023-033 (aménagements d'examens), MDPH/CDAPH PPS procédure standard (Code de l'action sociale et des familles). RQTH dossier per Code du travail Art. L5213-2.*
 
 ### FR-1. PAP — Plan d'Accompagnement Personnalisé (Dyscalculie)
 
@@ -973,6 +975,8 @@ Médecin certificateur: _________ Date: ___________
 ---
 
 ## Spanish Document Templates (Locale: es)
+
+> *Sources current as of 2026-05. Template structures aligned with LOMLOE (Ley Orgánica 3/2020) ACNEAE/DEA framework, ACNS procedures per regional implementing decrees (Andalucía Instrucciones 12/12/2014, Cataluña Decret 150/2017, Madrid Orden 19/01/2021, País Vasco Decreto 236/2015). Workplace certification per Real Decreto Legislativo 1/2013 (≥33% certificado de discapacidad threshold).*
 
 ### ES-1. ACNS — Adaptaciones Curriculares No Significativas (Discalculia)
 

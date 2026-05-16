@@ -52,7 +52,7 @@ Math anxiety level (influences environmental and motivational design):
 
 1. **Analyzes Student Profile**: Identifies specific deficits and strengths
 2. **Selects Instructional Programs**: Recommends evidence-based programs based on profile (TouchMath, Number Worlds, Stern, Singapore Math adaptations, Strategic Math)
-3. **Designs CRA Progression**: Creates concreteâ†’representationalâ†’abstract sequence aligned to student needs
+3. **Designs CRA Progression**: Creates concrete→representational→abstract sequence aligned to student needs
 4. **Specifies Manipulatives**: Details which concrete tools needed for each lesson phase
 5. **Plans Lesson Sequence**: Phase 1 (number sense), Phase 2 (concrete operations), Phase 3 (representational), Phase 4 (abstract)
 6. **Creates Sample Lessons**: Detailed lesson plans demonstrating CRA progression
@@ -355,7 +355,7 @@ Based on student profile, detailed guidance for:
 
 Use this checklist to verify plan implementation with fidelity:
 
-- [ ] CRA progression followed: concreteâ†’representationalâ†’abstract
+- [ ] CRA progression followed: concrete→representational→abstract
 - [ ] Manipulatives used in all Phase 1-2 lessons
 - [ ] Concrete stage mastery verified before advancing
 - [ ] Progress monitoring data collected weekly (Phase 1-2) or bi-weekly (Phase 3)

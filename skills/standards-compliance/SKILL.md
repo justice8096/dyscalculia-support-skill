@@ -26,7 +26,7 @@ The Individuals with Disabilities Education Act (IDEA) mandates specific require
 - **Processing Deficits**: Assess working memory, processing speed, visual-spatial processing (IPS, Rapid Naming, etc.)
 - **Response to Intervention (RTI)**: Document that intensive Tier 2/3 interventions (minimum 8-10 weeks) did not produce adequate progress
 - **Classroom Assessment**: Work samples, curriculum-based measurement (CBM) data showing persistent deficit
-- **Exclusionary Factors**: Vision/hearing impairment, intellectual disability, emotional disturbance, environmental/economic disadvantage, language proficiencyâ€”must be ruled out
+- **Exclusionary Factors**: Vision/hearing impairment, intellectual disability, emotional disturbance, environmental/economic disadvantage, language proficiency—must be ruled out
 
 #### IEP Goal Areas (Math-Specific)
 
@@ -110,6 +110,8 @@ Section 504 provides accommodations to ensure access to math curriculum without 
 Must specify: accommodation, when used, by whom, frequency, assessment impact, classroom implementation, and monitoring.
 
 ## French Legal Framework (Locale: fr)
+
+> *Sources current as of 2026-05. Authority-version pins: Loi n° 2005-102 (11 février 2005), Circulaire n° 2015-016 (22 janvier 2015), Circulaire n° 2023-033 (23 février 2023), Code de l'éducation Art. L321-4, Code du travail Art. L5213-1.*
 
 ### FR-1. Key Laws
 
@@ -229,6 +231,8 @@ For adults with dyscalculia in the workplace:
 | Défenseur des Droits | OCR / EEOC | Different escalation body |
 
 ## Spanish Legal Framework (Locale: es)
+
+> *Sources current as of 2026-05. Authority-version pins: LOE — Ley Orgánica 2/2006, LOMLOE — Ley Orgánica 3/2020 (Art. 71/72/79 bis/102), Real Decreto 157/2022, Real Decreto Legislativo 1/2013, ICD-11 6A03.2 / DSM-5 315.1 diagnostic criteria. 17-CCAA regional decrees vary; always verify against the specific Comunidad Autónoma.*
 
 ### ES-1. Key Laws
 
@@ -481,7 +485,7 @@ Use this checklist to audit instructional programs, tools, and services for dysc
 - [ ] Student/parent involvement in plan development
 
 ### Instructional Program
-- [ ] Instruction follows CRA progression: Concrete â†’ Representational â†’ Abstract
+- [ ] Instruction follows CRA progression: Concrete → Representational → Abstract
 - [ ] Multisensory strategies employed (tactile, kinesthetic, visual, auditory, proprioceptive)
 - [ ] Number sense prioritized as foundation before computation
 - [ ] Manipulatives available and used regularly
@@ -736,7 +740,7 @@ Weighted scoring across domains:
 - **Progress Monitoring** (10%): Frequency, measures, data use, intervention adjustment
 - **Ethical Standards & Training** (10%): Non-discrimination, confidentiality, professional development, parent collaboration
 
-**Formula**: (Domain Score Ã— Weight) + (Domain Score Ã— Weight) ... = Composite Score (0-100)
+**Formula**: (Domain Score × Weight) + (Domain Score × Weight) ... = Composite Score (0-100)
 
 #### 8. Score Interpretation Scale
 

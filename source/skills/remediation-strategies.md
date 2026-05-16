@@ -1,6 +1,6 @@
 # Dyscalculia Remediation Strategies
 
-Evidence-based dyscalculia intervention framework grounded in the Concrete-Representational-Abstract (CRA) methodologyâ€”the foundational approach proven most effective for remediating number sense and calculation deficits.
+Evidence-based dyscalculia intervention framework grounded in the Concrete-Representational-Abstract (CRA) methodology—the foundational approach proven most effective for remediating number sense and calculation deficits.
 
 ## Core Concepts
 
@@ -11,7 +11,7 @@ CRA is the research-validated instructional progression for dyscalculia remediat
 1. **Concrete Stage** (Physical Manipulatives)
    - Students interact with physical objects: base-10 blocks, counters, money, Stern materials
    - Builds neural pathways for quantity and magnitude understanding
-   - Prerequisite: Never skip this stageâ€”cognitive neuroscience shows dyscalculic brains require extended concrete experience
+   - Prerequisite: Never skip this stage—cognitive neuroscience shows dyscalculic brains require extended concrete experience
    - Duration: Multiple lessons per concept; progress only when mastery is evident
 
 2. **Representational Stage** (Pictorial/Drawn Models)
@@ -379,7 +379,7 @@ When generating a remediation plan for a Spanish student:
 - Avoid procedural memorization divorced from concrete understanding
 
 ### Never Skip the Concrete Stage
-- Extended concrete experience is not "remedial" or "below grade level"â€”it's essential neural development
+- Extended concrete experience is not "remedial" or "below grade level"—it's essential neural development
 - Students must demonstrate concrete mastery before transition
 - Premature advancement to abstract work causes frustration and failure
 

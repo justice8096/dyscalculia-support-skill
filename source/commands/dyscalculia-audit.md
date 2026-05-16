@@ -64,12 +64,12 @@ Each audit report includes:
 Scores are weighted by domain impact:
 
 ```
-(Instruction Alignment Ã— 0.25) +
-(Assessment & Evaluation Ã— 0.20) +
-(IEP/504 Compliance Ã— 0.20) +
-(Instructional Methodology Ã— 0.15) +
-(Progress Monitoring Ã— 0.10) +
-(Ethical Standards Ã— 0.10)
+(Instruction Alignment × 0.25) +
+(Assessment & Evaluation × 0.20) +
+(IEP/504 Compliance × 0.20) +
+(Instructional Methodology × 0.15) +
+(Progress Monitoring × 0.10) +
+(Ethical Standards × 0.10)
 = Composite Score (0-100)
 ```
 
@@ -132,7 +132,7 @@ If auditing an existing project for a second time:
 2. **Prioritize Remediation**: Develop action plan using Remediation Roadmap
 3. **Track Progress**: Schedule re-audit after 90 days to measure improvement
 4. **Share Findings**: Use report to communicate with stakeholders (teachers, administrators, parents, leadership)
-5. **Iterate**: Continuous improvement cycle: audit â†’ remediate â†’ re-audit â†’ improve
+5. **Iterate**: Continuous improvement cycle: audit → remediate → re-audit → improve
 
 ## Standards and Frameworks Used
 
