@@ -422,6 +422,29 @@ This dimension treats dyscalculia as a neurodevelopmental cognitive disorder (Bu
 /content-accessibility-check "Unit 3: Regrouping in Addition" --format lesson --audience elementary --depth quick
 ```
 
+## Linguistic measurement support (optional — `linguistics` MCP)
+
+When the `linguistics` MCP server is available, several otherwise-subjective
+dimensions become **objective and measurable**, and word problems can be
+**de-linguified** so reading load doesn't mask math ability:
+
+- **Dim 6 (Simplified Language):** `readability(text)` → Flesch-Kincaid grade;
+  `syntactic_complexity(text)` → flags sentences with deep parse trees, subordinate
+  clauses, or passive voice. Replaces the subjective "clear, grade-appropriate" check.
+- **Dim 12 / 14 (Number-to-Word / Percentage Alternatives):** `math_vocab(text)` →
+  surfaces bare technical terms lacking a plain-language gloss, with a `simpler_synonym`.
+- **Vocabulary pre-teach lists:** `math_vocab(worksheet)` → ready glossary
+  (term, kid-friendly definition, difficulty band).
+
+### Word-problem de-linguifier (sub-procedure)
+For each problem: (1) `readability` for reading grade, (2) `syntactic_complexity`
+to find sentences to rewrite as short active clauses, (3) `math_vocab` to keep true
+math terms (teach them) but swap non-essential rare words for simpler synonyms,
+(4) rewrite at target grade keeping numbers/operation identical and digits as
+numerals, (5) re-run `readability`+`syntactic_complexity` and report before/after.
+English only. Full spec: `D:\linguistics-mcp\INTEGRATION-literacy-numeracy.md` (§3).
+For FR/ES, `syllabify` and `frequency` work; the English-tuned tools do not (§4).
+
 ## Related Commands
 
 - `/dyscalculia-audit`: Full program/system audit
