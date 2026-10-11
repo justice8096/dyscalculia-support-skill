@@ -10,8 +10,8 @@ Audit math content, materials, or tools for dyscalculia-friendly design and acce
 
 **`--locale`** (default: `us`):
 - `us` — English-focused: cognitive load, font/spacing, color contrast, temporal demands
-- `fr` — Adds French diacritic checks, **French number-word irregularity flagging** (60-99 range — content using "soixante-dix-huit" without digit support adds dyscalculia-specific transcoding load), Circulaire 2015-016 typography standards (Arial/OpenDyslexic ≥14pt for math content), calculatrice-icon presence on math pages per Circulaire 2023-033
-- `es` — Adds Spanish tilde/accent rendering checks, transparent base-10 verbal-form verification (use regular -enta), EBAU/EvAU exam content standards (Arial 16pt + 1.5 line spacing), flag automated math-error penalization in assessment systems
+- `fr` — Adds French diacritic checks, **French number-word irregularity flagging** (60-99 range — content using "soixante-dix-huit" without digit support adds dyscalculia-specific transcoding load), Circulaire 2015-016 typography practice (sans-serif ≥14pt for math content; no specialty font required), calculatrice-icon presence on math pages (the calculatrice simple non programmable provision of the circulaire du 6 fevrier 2023)
+- `es` — Adds Spanish tilde/accent rendering checks, transparent base-10 verbal-form verification (use regular -enta), PAU exam content standards (Arial 16pt + 1.5 line spacing; RD 534/2024 and regional acuerdos; EBAU/EvAU are legacy names), flag automated math-error penalization in assessment systems
 
 **Locale-specific dyscalculia notes:**
 - **French**: number-words 60-99 are uniquely irregular (soixante-dix, quatre-vingts) — extra transcoding load not present in English/Spanish. Content using these without digit/numeral support should be flagged for dyscalculic readers.
@@ -442,7 +442,7 @@ to find sentences to rewrite as short active clauses, (3) `math_vocab` to keep t
 math terms (teach them) but swap non-essential rare words for simpler synonyms,
 (4) rewrite at target grade keeping numbers/operation identical and digits as
 numerals, (5) re-run `readability`+`syntactic_complexity` and report before/after.
-English only. Full spec: `D:\linguistics-mcp\INTEGRATION-literacy-numeracy.md` (§3).
+English only. Full spec: the `INTEGRATION-literacy-numeracy.md` guide in the linguistics-mcp repository (§3).
 For FR/ES, `syllabify` and `frequency` work; the English-tuned tools do not (§4).
 
 ## Related Commands

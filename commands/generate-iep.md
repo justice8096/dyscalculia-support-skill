@@ -1,5 +1,5 @@
 ---
-description: Generate a compliant, math-focused accommodation document for a student with dyscalculia. US: IEP, 504, ADA workplace request, higher-ed DSR. France: PAP (Circulaire 2015-016, four cycle templates), MDPH dossier for PPS, demande d'aménagements d'examens (Circulaire 2023-033), RQTH application. Spain: ACNS (Adaptaciones Curriculares No Significativas), Informe Psicopedagógico checklist, EBAU/EvAU adaptation request, RDL 1/2013 workplace accommodation request.
+description: Generate a compliant, math-focused accommodation document for a student with dyscalculia. US: IEP, 504, ADA workplace request, higher-ed DSR. France: PAP (Circulaire 2015-016, four cycle templates), MDPH dossier for PPS, demande d'aménagements d'examens (session-2026 forms per the circulaire du 17 juillet 2025), RQTH application. Spain: ACNS (Adaptaciones Curriculares No Significativas), Informe Psicopedagógico checklist, PAU adaptation request (RD 534/2024; formerly EBAU/EvAU), RDL 1/2013 workplace accommodation request.
 argument-hint: <student-name> [--grade <grade>] [--subtype <kosc-subtype>] [--anxiety <level>] [--comorbidities <conditions>]
 allowed-tools: [Read, Write, Edit]
 ---

@@ -1,12 +1,12 @@
 # Dyscalculia Standards Compliance
 
-> **Clinical Framing**: This skill uses a dual-framing approach. For IDEA/Section 504 legal compliance, dyscalculia is classified as a Specific Learning Disorder (DSM-5 315.1) or Developmental Learning Disorder (ICD-11 6A03.2). However, the neuroscience evidence (Butterworth, Dehaene, Menon et al.) establishes dyscalculia as a **neurodevelopmental cognitive disorder** — a brain-based difference in numerical processing architecture centered on the intraparietal sulcus (IPS) and associated networks. This distinction matters: accommodations should compensate for a persistent cognitive processing difference, not merely scaffold a temporary learning gap.
+> **Clinical Framing**: This skill uses a dual-framing approach. For IDEA/Section 504 legal compliance, dyscalculia is classified as a Specific Learning Disorder with impairment in mathematics (DSM-5-TR, coded F81.2 in ICD-10-CM; the retired ICD-9-CM code 315.1 still appears on older evaluations) or Developmental Learning Disorder with impairment in mathematics (ICD-11 6A03.2). However, the neuroscience evidence (Butterworth, Dehaene, Menon et al.) establishes dyscalculia as a **neurodevelopmental cognitive disorder** — a brain-based difference in numerical processing architecture centered on the intraparietal sulcus (IPS) and associated networks. This distinction matters: accommodations should compensate for a persistent cognitive processing difference, not merely scaffold a temporary learning gap.
 
 Standards compliance framework for dyscalculia identification, intervention, and accommodation across three jurisdictions:
 
 - **United States** — IDEA (K-12), Section 504 (K-12 + higher ed), ADA Title I (workplace), NCTM mathematics standards, CEC professional standards.
-- **France** — Loi n° 2005-102 (Loi Handicap), Code de l'éducation Art. L321-4, PAP (Circulaire 2015-016), PPS via MDPH/CDAPH, aménagements d'examens (Circulaire 2023-033) — calculatrice authorized for ALL exams as standard dyscalculia accommodation. RQTH for adult/workplace contexts.
-- **Spain** — LOE/LOMLOE Art. 71/72/79 bis, ACNEAE/DEA framework (**discalculia falls under DEA, not NEE** — common compliance error to apply Dictamen/ACS), ACNS (Adaptaciones Curriculares No Significativas), EBAU/EvAU exam accommodations, 17-Comunidad-Autónoma regional variation. RDL 1/2013 (Ley General de Discapacidad) for workplace.
+- **France** — Loi n° 2005-102 (Loi Handicap), Code de l'éducation Art. L321-4, PAP (Circulaire 2015-016, entered in the Livret de parcours inclusif), PPS via MDPH/CDAPH, pôles d'appui à la scolarité (PAS, circulaire du 1er septembre 2025), aménagements d'examens (circulaire du 14 mars 2022 with session-2026 annexes per the circulaire du 17 juillet 2025 for school exams; circulaire du 6 février 2023 for the cross-ministry examens et concours framework, which names the calculatrice simple non programmable for dyscalculic candidates even where calculators are banned). RQTH for adult/workplace contexts; European Accessibility Act for consumer digital tools.
+- **Spain** — LOE/LOMLOE Art. 71/72/79 bis, ACNEAE/DEA framework (**discalculia falls under DEA, not NEE** — common compliance error to apply Dictamen/ACS), ACNS (Adaptaciones Curriculares No Significativas), PAU exam accommodations (formerly EBAU/EvAU; national floor in Real Decreto 534/2024), 17-Comunidad-Autónoma regional variation. RDL 1/2013 (Ley General de Discapacidad) and Orden PJC/804/2025 (public-employment selection processes) for workplace; Ley 11/2023 (European Accessibility Act) for consumer digital tools.
 
 **Locale-specific note for dyscalculia**: French number-word irregularities (soixante-dix=70, quatre-vingts=80, quatre-vingt-dix=90) impose additional transcoding load on dyscalculic learners that is absent in English or Spanish (which both have regular -ty / -enta decade suffixes). Compliance auditing of French content must check that transcoding instruction is explicitly addressed. Conversely, Spanish's transparent base-10 system means dyscalculic learners typically show **fluency** rather than **accuracy** deficits — interventions should target processing speed.
 
@@ -105,9 +105,16 @@ Section 504 provides accommodations to ensure access to math curriculum without 
 ### 504 Plan Documentation
 Must specify: accommodation, when used, by whom, frequency, assessment impact, classroom implementation, and monitoring.
 
+### US Regulatory Status (2026-10)
+- **A.J.T. v. Osseo Area Schools** (U.S. Supreme Court, 12 June 2025, unanimous): students bringing ADA Title II or Section 504 claims about their education no longer need to show "bad faith or gross misjudgment"; ordinary disability-discrimination standards apply, and a prior IDEA finding does not bar a later ADA/504 action for damages. A calculator or extended-time accommodation listed in a 504 plan and not delivered is now actionable on its own. Rate accommodation-fidelity findings HIGH at minimum.
+- **ADA Title II web and mobile rule** (28 CFR Part 35, Subpart H; WCAG 2.1 AA): DOJ interim final rule of April 2026 moved compliance to 26 April 2027 for public entities serving 50,000 or more and 26 April 2028 for smaller entities. Public-school math courseware, digital assessments and LMS content fall under it.
+- **Federal administration**: through interagency agreements of November 2025 and 16 June 2026, IDEA grant administration, monitoring and state determinations moved to HHS (OSERS keeps policy and technical assistance), and ED's Office for Civil Rights refers complaint investigation to the DOJ Civil Rights Division while keeping intake and final decisions. Statutory rights are unchanged; name HHS as the IDEA monitoring agency and file 504 complaints with OCR as before.
+- Schools remain under ED's Section 504 regulations (34 CFR Part 104, 1977). The HHS Section 504 rule of May 2024 applies to HHS-funded entities (clinics, Medicaid-funded evaluators), not schools; its gender-dysphoria preamble language was declared unenforceable in April 2025 and the Texas v. Kennedy challenge is narrowed and stayed.
+- **State dyscalculia law** is thin next to dyslexia law: 49 states have dyslexia statutes and only a handful name dyscalculia or mandate math screening. Hu, Sayeski and Morgan (Annals of Dyslexia, 2025) found dyslexia laws moved SLD identification in fewer than half of states, so a screening mandate without funded instruction should be audited as such.
+
 ## French Legal Framework (Locale: fr)
 
-> *Sources current as of 2026-05. Authority-version pins: Loi n° 2005-102 (11 février 2005), Circulaire n° 2015-016 (22 janvier 2015), Circulaire n° 2023-033 (23 février 2023), Code de l'éducation Art. L321-4, Code du travail Art. L5213-1.*
+> *Sources current as of 2026-10. Authority-version pins: Loi n° 2005-102 (11 février 2005), Circulaire n° 2015-016 (22 janvier 2015), circulaire du 14 mars 2022 (NOR MENE2204112C, aménagements d'examens de l'enseignement scolaire) with annexes replaced by the circulaire du 17 juillet 2025 (NOR MENE2506522C, BO n° 31 du 21 août 2025, session 2026), circulaire du 6 février 2023 (NOR ESRS2234137C, BO n° 10 du 9 mars 2023, examens et concours, replacing circulaire n° 2011-220), circulaire du 1er septembre 2025 (NOR MENE2520651C, pôles d'appui à la scolarité), Code de l'éducation Art. L321-4, Code du travail Art. L5213-1. Pôle emploi became France Travail on 1er janvier 2024. Earlier releases cited a "Circulaire n° 2023-033 du 23 février 2023"; no BO entry carries that number or date, and the citation has been replaced.*
 
 ### FR-1. Key Laws
 
@@ -116,7 +123,9 @@ Must specify: accommodation, when used, by whom, frequency, assessment impact, c
 | **Loi n° 2005-102 du 11 février 2005** (Loi Handicap) | Foundational disability statute. Establishes universal right to mainstream schooling, creates MDPH/CDAPH, defines disability broadly to include troubles DYS (dyscalculie included) when they constitute lasting limitation on activity or participation. |
 | **Code de l'éducation, Art. L321-4** | Schools **must** provide specific accommodations for students with learning disorders (dyscalculie explicitly within scope); when difficulties are severe and permanent, adapted teaching is required. **Not discretionary.** |
 | **Circulaire n° 2015-016 du 22 janvier 2015** | PAP implementing circular. Standardized template (four cycle versions). PAP document organizes accommodations by domain — including a dedicated **"Mathématiques / logique"** domain for dyscalculia. |
-| **Circulaire n° 2023-033 du 23 février 2023** | Exam accommodations for DYS candidates. **Critical for dyscalculia**: calculatrice non programmable authorized for ALL examinations (Brevet, Baccalauréat, BTS), including subjects where calculators are normally prohibited. |
+| **Circulaire du 6 février 2023** (NOR ESRS2234137C, BO n° 10 du 9 mars 2023) | Cross-ministry framework for examens et concours (enseignement supérieur, éducation nationale, culture, agriculture, santé), replacing circulaire n° 2011-220. **Critical for dyscalculia**: dyscalculic and dyspraxic candidates may use a calculatrice simple non programmable even in exams where calculators are normally prohibited; the CDAPH-designated physician may rely on the prior PAP or PPS; human aids may reformulate and sequence instructions. |
+| **Circulaire du 14 mars 2022** (NOR MENE2204112C), annexes replaced by the **circulaire du 17 juillet 2025** (NOR MENE2506522C, BO n° 31 du 21 août 2025) | Procedure and forms for aménagements at the school exams (DNB, CFG, baccalauréat général/technologique/professionnel, BP, BTS, CAP, DCG/DSCG). The 2025 annexes apply from the **session 2026**: one complete and one simplified form per exam family, aligned with the Incluscol application. The calculatrice request for a dyscalculic candidate goes on these forms. |
+| **Circulaire du 1er septembre 2025** (NOR MENE2520651C) | Pôles d'appui à la scolarité (PAS), replacing the PIAL from rentrée 2025 to 2027: first-level pedagogical adjustments and adapted materials without a prior CDAPH decision, orientation to PCO/CAMSP/CMPP for diagnosis, help preparing the MDPH file. Statutory basis contested (dropped by the CMP of 1 July 2025 and rejected by the Assemblée on 11 May 2026); cite the circulaire and flag the pending status. |
 | **Code du travail, Art. L5213-1 et suivants** | Workplace disability framework. RQTH (Reconnaissance de la Qualité de Travailleur Handicapé) opens access to AGEFIPH (private) / FIPHFP (public) funding for adaptive math tools (calculators, spreadsheet templates, etc.). |
 
 ### FR-2. K-12 Support Plan Types
@@ -152,7 +161,7 @@ Same as dyslexia (one MDPH per département; CDAPH grants recognition; ESS coord
 - **UDN-II** (Utilisation du Nombre) for younger learners (preschool to early elementary).
 - **WISC-V** French norms — for IQ and cognitive profile.
 
-**Diagnostic criteria**: CIM-11/ICD-11 (6A03.2 — Developmental learning disorder with impairment in mathematics) / DSM-5 (315.1). Significant persistent discrepancy between expected and actual math achievement, not explained by intellectual disability, sensory deficit, inadequate instruction, or psychosocial factors. French clinical practice often uses < Pc 10 on TEDI-MATH/Zareki-R subtests as operational threshold.
+**Diagnostic criteria**: CIM-11/ICD-11 (6A03.2 — Developmental learning disorder with impairment in mathematics) / DSM-5-TR (ICD-10-CM F81.2). Significant persistent discrepancy between expected and actual math achievement, not explained by intellectual disability, sensory deficit, inadequate instruction, or psychosocial factors. French clinical practice often uses < Pc 10 on TEDI-MATH/Zareki-R subtests as operational threshold.
 
 ### FR-5. Required K-12 Accommodations (Dyscalculia-Specific)
 
@@ -170,7 +179,7 @@ Under Art. L321-4 Code de l'éducation, dyscalculia accommodations are legally m
 
 ### FR-6. Exam Accommodations — Calculatrice for All
 
-Key principle: **Exam accommodations must be consistent with what the student uses in class.** Calculatrice across all exams is the headline dyscalculia accommodation per Circulaire 2023-033.
+Key principle: **Exam accommodations must be consistent with what the student uses in class.** The calculatrice simple non programmable for dyscalculic candidates, including in papers where calculators are otherwise banned, is the headline accommodation; it is written into the circulaire du 6 février 2023 for examens et concours and requested for Brevet/Bac on the session-2026 forms of the circulaire du 17 juillet 2025. Use the **procédure simplifiée** when the request matches the PAP/PPS and the **procédure complète** (avis du médecin désigné par la CDAPH) when it goes beyond the plan.
 
 | Accommodation | French term | Note |
 |---|---|---|
@@ -204,6 +213,8 @@ For adults with dyscalculia in the workplace:
   - Specialized math AT (e.g., MathTalk, EquatIO for equation entry)
 - **CRP (Centres de Réadaptation Professionnelle)** for career retraining when initial career was impacted.
 - **Loi Avenir Professionnel (2018)** — référent handicap mandate at firms ≥250 employees.
+- **France Travail** (formerly Pôle emploi, merged 1er janvier 2024 under loi n° 2023-1196): demandeur d'emploi registration; Cap emploi remains the specialised placement network for RQTH holders.
+- **European Accessibility Act** (ordonnance n° 2023-859, décret n° 2023-931, in application since 28 June 2025): consumer digital products and services sold in France, including online banking, payment terminals, e-commerce checkouts and budgeting apps, must be accessible (EN 301 549). For adults with dyscalculia this covers the numerical interfaces that cause the most friction outside work.
 
 ### FR-9. Teacher Training
 
@@ -223,12 +234,13 @@ For adults with dyscalculia in the workplace:
 | Bilan orthophonique (incl. dyscalculia) | School psych eval + math achievement battery | French orthophoniste covers what US splits across SLP + ed. psychologist |
 | TEDI-MATH / Zareki-R | KeyMath-3 / TEMA-3 / WJ-IV | Different test traditions; not directly cross-comparable |
 | RQTH | ADA Title I (workplace) | RQTH is voluntary status unlocking AGEFIPH funding; ADA coverage is automatic for qualified individuals |
+| PAS (ex-PIAL) | MTSS / district inclusion support team | PAS is a territorial service reachable without a CDAPH decision |
 | AESH | 1:1 paraprofessional aide | AESH is PPS-only |
 | Défenseur des Droits | OCR / EEOC | Different escalation body |
 
 ## Spanish Legal Framework (Locale: es)
 
-> *Sources current as of 2026-05. Authority-version pins: LOE — Ley Orgánica 2/2006, LOMLOE — Ley Orgánica 3/2020 (Art. 71/72/79 bis/102), Real Decreto 157/2022, Real Decreto Legislativo 1/2013, ICD-11 6A03.2 / DSM-5 315.1 diagnostic criteria. 17-CCAA regional decrees vary; always verify against the specific Comunidad Autónoma.*
+> *Sources current as of 2026-10. Authority-version pins: LOE — Ley Orgánica 2/2006, LOMLOE — Ley Orgánica 3/2020 (Art. 71/72/79 bis/102), Real Decreto 157/2022, Real Decreto 534/2024 de 11 de junio (PAU, art. 3.2 / 13.10 / 21.1), Real Decreto Legislativo 1/2013, Orden PJC/804/2025 de 23 de julio (BOE-A-2025-15426, adaptaciones in public-employment selection processes), Ley 11/2023 de 8 de mayo (European Accessibility Act transposition, obligations from 28 June 2025), ICD-11 6A03.2 / DSM-5-TR F81.2 diagnostic criteria. 17-CCAA regional decrees vary; always verify against the specific Comunidad Autónoma.*
 
 ### ES-1. Key Laws
 
@@ -309,9 +321,9 @@ Under LOMLOE Art. 71/72/79 bis:
 - Acceso a hoja de cálculo (Excel) en evaluaciones que lo permitan
 - **Aprovechamiento del sistema base-10 transparente del español**: Spanish's regular -enta suffix (veinte, treinta, cuarenta, cincuenta…) means transcoding is less error-prone than in French — intervention should leverage this strength
 
-### ES-6. EBAU/EvAU Exam Accommodations
+### ES-6. PAU Exam Accommodations (formerly EBAU/EvAU)
 
-The university entrance exam (EBAU/EvAU, formerly Selectividad) is administered by each CCAA. For discalculia:
+The university entrance exam is the **PAU** (Prueba de Acceso a la Universidad) since the 2024-25 course under Real Decreto 534/2024; EBAU, EvAU and Selectividad are legacy names. Each CCAA's Comisión Organizadora issues an annual acuerdo on top of the national floor: adaptations of time, special exam models and the material, technical and human resources a student needs, based on the support documented in the previous stage (art. 3.2); **no adaptation may be used to lower the grade** (art. 3.2); the 10% writing-quality criterion may be relaxed for ACNEAE (art. 13.10). The school files the request through the Servicio de Orientación within the regional window (Madrid PAU 2026: 1 December 2025 to 20 January 2026). For discalculia:
 
 - Calculadora autorizada en pruebas matemáticas (and physics/chemistry where applicable)
 - Tiempo adicional (30 min adicional habitual; varies by región)
@@ -320,7 +332,7 @@ The university entrance exam (EBAU/EvAU, formerly Selectividad) is administered 
 - Sin penalización por errores de cálculo aritmético cuando se demuestra razonamiento correcto
 - Historial documentado de ACNS durante Bachillerato es requisito de facto
 
-**Requirements**: Informe Psicopedagógico, ACNS history during Bachillerato, application within regional deadlines.
+**Requirements**: Informe Psicopedagógico, ACNS history during Bachillerato (RD 534/2024 art. 3.2 makes the prior-stage record the formal basis of the decision), signed consent, application by the school within regional deadlines. Appeals: reconsideration within 10 business days, recurso de reposición within one month, contencioso-administrativo within two months.
 
 ### ES-7. Higher Education (Universidad)
 
@@ -343,6 +355,8 @@ Spanish universities operate **oficinas de atención a la diversidad** (or **ser
   - Time-management software with visual scaffolds
 - **Anti-discrimination**: Estatuto de los Trabajadores Art. 17 + LGD Art. 35-37
 - **Recourse**: Inspección de Trabajo, Tribunales de lo Social
+- **Acceso al empleo público (oposiciones)**: Orden PJC/804/2025 (BOE 25 July 2025) sets national criteria for adaptación de medios y tiempos and other reasonable adjustments in selective processes for candidates with certificado de discapacidad, alongside the 7% public-sector quota; a DEA candidate with a certificate can request extra time and a calculator or spreadsheet under it.
+- **European Accessibility Act (Ley 11/2023)**: since 28 June 2025 consumer digital services sold in Spain (online banking, e-commerce, self-service terminals, budgeting apps) must be accessible; non-compliance is reportable to the Dirección General de Consumo.
 
 ### ES-9. Regional Variation Summary
 
@@ -350,7 +364,7 @@ Spanish universities operate **oficinas de atención a la diversidad** (or **ser
 |---|---|---|
 | Diagnostic criteria thresholds | Yes (Pc varies) | — |
 | Support plan terminology (PTI vs ACI vs ACNS) | Yes | — |
-| EBAU accommodation specifics | Yes | — |
+| PAU accommodation specifics (regional acuerdos) | Yes | National floor: RD 534/2024 (no grade reduction) |
 | Assessment team names (EOEP/EAP/Berritzegune) | Yes | — |
 | Right to non-significant adaptations | — | Yes (LOMLOE) |
 | Discalculia under DEA classification | — | Yes (LOMLOE) |
@@ -532,6 +546,7 @@ Use this checklist to audit instructional programs, tools, and services for dysc
 ### French Compliance Audit Checklist (Locale: fr)
 
 #### PAP Compliance (K-12)
+- [ ] PAP recorded in the Livret de parcours inclusif (LPI) by the directeur or chef d'établissement
 - [ ] Student has a diagnosed trouble dyscalculique documented by qualified professional (médecin)
 - [ ] PAP validated by médecin de l'Éducation nationale (school physician)
 - [ ] PAP uses standardized Circulaire 2015-016 template with correct cycle sheet (maternelle / élémentaire / collège / lycée)
@@ -553,6 +568,7 @@ Use this checklist to audit instructional programs, tools, and services for dysc
 - [ ] Material aids (specialized calculators, math software) funded via CDAPH allocation if needed
 
 #### Exam Accommodation Compliance
+- [ ] Request uses the session-2026 forms (circulaire du 17 juillet 2025 annexes) and the right procedure (simplifiée when matching the PAP/PPS, complète otherwise)
 - [ ] Requested during second trimester of year preceding exam
 - [ ] Medical certificate + bilan orthophonique + bilan neuropsychologique (if available) included
 - [ ] **Calculatrice non programmable** explicitly requested for all exam papers
@@ -566,6 +582,7 @@ Use this checklist to audit instructional programs, tools, and services for dysc
 - [ ] AGEFIPH (private) / FIPHFP (public) funding pathways documented
 - [ ] Workplace adaptive math tools available (calculator, spreadsheet templates, equation editors)
 - [ ] If firm ≥250 employees: référent handicap identified (Loi Avenir Professionnel 2018)
+- [ ] Documents refer to France Travail (not Pôle emploi) and Cap emploi
 
 #### Accommodation Adequacy (K-12)
 - [ ] Art. L321-4 obligations met: adapted teaching provided for severe/permanent dyscalculie
@@ -596,7 +613,8 @@ Use this checklist to audit instructional programs, tools, and services for dysc
 - [ ] Annual review documented
 - [ ] Regional terminology verified (ACNS / ACI no significativa / PTI / Plan de Apoyo)
 
-#### EBAU/EvAU Exam Accommodations
+#### PAU Exam Accommodations (formerly EBAU/EvAU)
+- [ ] Grading rules confirm no adaptation lowers the grade (RD 534/2024 art. 3.2)
 - [ ] Official diagnosis (Informe Psicopedagógico) included
 - [ ] Documented ACNS history during Bachillerato
 - [ ] Calculadora authorized in math exam

@@ -231,7 +231,7 @@ Systematic identification of critical gaps in dyscalculia support across tools, 
 
 **Manifestation**:
 - Spanish dyscalculia apps that drill accuracy when fluency is the bottleneck
-- EBAU exam accommodations focused on accuracy when extended time for fluency is what's needed
+- PAU exam accommodations focused on accuracy when extended time for fluency is what's needed (RD 534/2024 now forbids any adaptation lowering the grade, which removes one excuse for accuracy-only designs)
 - Smartick (the dominant Spanish adaptive math platform) is fluency-aware but few specialized dyscalculia-focused alternatives exist
 
 **Gap Analysis Recommendation**:
@@ -267,7 +267,7 @@ When conducting gap analysis across locales (US, FR, ES), apply this extended wo
 - **Assessment norm availability**: Are validated, locally-normed math batteries available?
 - **Intervention program availability**: Are evidence-based intervention programs available in the target language?
 - **Professional delivery model**: Who delivers intervention? (US: math interventionist; FR: orthophoniste, ~1-2x/week; ES: maestro/a de PT, in-school.)
-- **Legal framework adequacy**: Calculator-policy generosity varies (FR most generous via Circulaire 2023-033; US most restrictive in classroom; ES somewhere between).
+- **Legal framework adequacy**: Calculator-policy generosity varies (FR most generous: the circulaire du 6 février 2023 names a calculatrice simple non programmable for dyscalculic candidates even where calculators are banned; US most restrictive in classroom; ES somewhere between).
 
 ### Cross-Linguistic Comparison Matrix
 
@@ -278,7 +278,7 @@ When evaluating a dyscalculia tool/program across locales:
 | Number-word regularity | Mostly regular | **Highly irregular 60-99** | **Fully transparent** |
 | Primary deficit emphasis | Mixed | Transcoding + computation | Fluency |
 | Phonological number names | "twenty-three" (transparent) | "vingt-trois" (transparent for 20-59), "soixante-treize" (compound for 73) | "veintitrés" (transparent) |
-| Calculator policy norm | Limited; section-by-section | **All exams (Circulaire 2023-033)** | All math exams under ACNS |
+| Calculator policy norm | Limited; section-by-section | **All exams (circulaire du 6 février 2023)** | All math exams under ACNS |
 | Primary intervention provider | Math interventionist (school) | Orthophoniste (clinic) | Maestro/a de PT (school) |
 | Intervention intensity standard | 4-5x/week Tier 3 | 1-2x/week (chronic intensity gap) | 2-3x/week |
 | Assessment battery availability | Extensive | Moderate (TEDI-MATH dominant) | Moderate (PROCALCULO + Spanish adaptations) |

@@ -220,7 +220,7 @@ Every remediation plan should explicitly identify which skills are remediation t
 
 ## French Remediation Context (Locale: fr)
 
-> *Sources current as of 2026-05. Authority-version pins: TEDI-MATH (Van Nieuwenhoven, Grégoire, Noël — De Boeck Université), Zareki-R (Von Aster — adapted French version), Méthode Singapour (la Librairie des Écoles éditions), orthophonie via décret n° 2002-721 (nomenclature des actes professionnels). Sécurité Sociale prescription pathway per Code de la santé publique Art. R4341-1 et suivants.*
+> *Sources current as of 2026-10. Authority-version pins: TEDI-MATH (Van Nieuwenhoven, Grégoire, Noël — De Boeck Université), Zareki-R (Von Aster — adapted French version), Méthode Singapour (la Librairie des Écoles éditions), orthophonie via décret n° 2002-721 (nomenclature des actes professionnels). Sécurité Sociale prescription pathway per Code de la santé publique Art. R4341-1 et suivants.*
 
 ### FR Numerical Profile: Irregular Number-Word System
 
@@ -274,7 +274,7 @@ Like dyslexia, **dyscalculia remediation is primarily delivered by an orthophoni
 | Equation editor | MathType français, GeoGebra (FR interface) |
 | Number-line tools | Apps mobiles francophones (LogicMaths, AppliMaths) |
 | Audio math | Speak4Math (FR voice for read-back), Cabri en synthèse vocale |
-| Dyslexia-friendly fonts | OpenDyslexic, Lexend (support French diacritics on number-words) |
+| Legible typography for numerals | Sans-serif at 14pt+ with generous spacing between digits and operations; Atkinson Hyperlegible Next and Lexend distinguish 0/O, 1/l/I and render French diacritics on number-words; specialty "dyslexia fonts" show no reading benefit in the 2026 Azzarello meta-analysis and are not a dyscalculia intervention |
 
 **Workplace AT layer**: For adult French workers with dyscalculia, AGEFIPH/FIPHFP can fund the above tools as workplace accommodations under RQTH status.
 
@@ -292,7 +292,7 @@ When generating a remediation plan for a French student:
 
 ## Spanish Remediation Context (Locale: es)
 
-> *Sources current as of 2026-05. Authority-version pins: TEDI-MATH-2 Spanish adaptation, EVAMAT (Eduardo Garcia-Vidal — TEA Ediciones), Método ABN (Jaime Martínez Montero — Algoritmos Basados en Números). Public coverage via Sistema Nacional de Salud convenios; private orientation through Colegio Profesional de Logopedas (regional colegios).*
+> *Sources current as of 2026-10. Authority-version pins: TEDI-MATH-2 Spanish adaptation, EVAMAT (Eduardo Garcia-Vidal — TEA Ediciones), Método ABN (Jaime Martínez Montero — Algoritmos Basados en Números). Public coverage via Sistema Nacional de Salud convenios; private orientation through Colegio Profesional de Logopedas (regional colegios).*
 
 ### ES Numerical Profile: Transparent Base-10 System
 
