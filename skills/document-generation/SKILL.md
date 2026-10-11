@@ -1,6 +1,6 @@
 ---
 name: document-generation
-description: Create compliant accommodation documents with specific, measurable goals aligned to mathematics standards across three jurisdictions: US IEP/504 plans, French PAP (Circulaire 2015-016) / PPS dossier / demande aménagements d'examens / RQTH application, Spanish ACNS / Informe Psicopedagógico / EBAU adaptation request / workplace accommodation request (RDL 1/2013).
+description: Create compliant accommodation documents with specific, measurable goals aligned to mathematics standards across three jurisdictions: US IEP/504 plans, French PAP (Circulaire 2015-016) / PPS dossier / demande aménagements d'examens / RQTH application, Spanish ACNS / Informe Psicopedagógico / PAU adaptation request under Real Decreto 534/2024 (formerly EBAU) / workplace accommodation request (RDL 1/2013; Orden PJC/804/2025 for public-employment exams).
 ---
 # Dyscalculia Document Generation
 
@@ -731,7 +731,7 @@ This checklist is used to identify students at risk for dyscalculia and warranti
 
 ## French Document Templates (Locale: fr)
 
-> *Sources current as of 2026-05. Template structures derived from Circulaire n° 2015-016 (PAP, four cycle versions), Circulaire n° 2023-033 (aménagements d'examens), MDPH/CDAPH PPS procédure standard (Code de l'action sociale et des familles). RQTH dossier per Code du travail Art. L5213-2.*
+> *Sources current as of 2026-10. Template structures derived from Circulaire n° 2015-016 (PAP, four cycle versions; since 2025-26 entered in the Livret de parcours inclusif), the circulaire du 14 mars 2022 (NOR MENE2204112C) with annexes replaced by the circulaire du 17 juillet 2025 (NOR MENE2506522C, BO n° 31 du 21 août 2025, session 2026 onward) for aménagements d'examens de l'enseignement scolaire, the circulaire du 6 février 2023 (NOR ESRS2234137C) for examens et concours (source of the calculatrice simple non programmable provision for dyscalculic candidates), the circulaire du 1er septembre 2025 (NOR MENE2520651C) for the pôles d'appui à la scolarité, MDPH/CDAPH PPS procédure standard (Code de l'action sociale et des familles). RQTH dossier per Code du travail Art. L5213-2; France Travail (ex-Pôle emploi since 1er janvier 2024). The "Circulaire n° 2023-033" cited in releases before 1.4.0 matches no BO entry and has been replaced.*
 
 ### FR-1. PAP — Plan d'Accompagnement Personnalisé (Dyscalculie)
 
@@ -812,7 +812,8 @@ Enseignant(s) référent(s): ________ Date: ___________
 
 **PAP compliance notes (dyscalculia-specific):**
 - Medical validation by the médecin de l'Éducation nationale is mandatory.
-- The PAP must explicitly authorize calculatrice across ALL exams (per Circulaire 2023-033).
+- The PAP must explicitly authorize the calculatrice simple non programmable, including in papers where calculators are otherwise banned; the exam-side provision is in the circulaire du 6 février 2023 and the request is made on the session-2026 forms of the circulaire du 17 juillet 2025. Classroom use documented in the PAP is what makes the procédure simplifiée available.
+- The PAP is entered in the Livret de parcours inclusif (LPI) by the directeur or chef d'établissement.
 - For French students, document **number-word irregularity instruction** explicitly as an accommodation — the 60-99 transcoding deficit is dyscalculia-relevant in French specifically.
 - The cognitive prosthetics section (v1.2.0 framing) frames calculator + reference table as permanent supports, not temporary scaffolds.
 
@@ -868,9 +869,17 @@ nationale, professeur de mathématiques]
 
 ```
 DEMANDE D'AMÉNAGEMENTS D'EXAMENS POUR ÉLÈVE AVEC DYSCALCULIE
-Circulaire n° 2023-033 du 23 février 2023
+Circulaire du 14 mars 2022 (NOR MENE2204112C), annexes remplacées par la
+circulaire du 17 juillet 2025 (NOR MENE2506522C, BO n° 31 du 21 août 2025),
+applicable à compter de la session 2026. Calculatrice simple non programmable
+pour les candidats dyscalculiques: circulaire du 6 février 2023 (NOR ESRS2234137C).
+Formulaire à saisir dans Incluscol lorsque l'académie l'a déployé.
 
-Examen concerné: ☐ Brevet  ☐ Baccalauréat  ☐ BTS  ☐ CFA  ☐ Autre
+Procédure: ☐ Simplifiée (aménagements identiques au PAP/PPS en cours)
+           ☐ Complète (avis du médecin désigné par la CDAPH requis)
+
+Examen concerné: ☐ DNB / CFG  ☐ Baccalauréat général et technologique
+                 ☐ Baccalauréat professionnel  ☐ BTS  ☐ CAP  ☐ CFA  ☐ Autre
 Session: [Année]
 Établissement: [Nom]
 Académie: [Nom]
@@ -946,7 +955,7 @@ estimation, etc.]
 ☐ Cerfa n° 15695*01 — Certificat médical récent
 ☐ Bilan neuropsychologique adulte (WAIS-IV)
 ☐ Bilan orthophonique adulte (si disponible)
-☐ Diagnostic CIM-11 6A03.2 ou DSM-5 315.1
+☐ Diagnostic CIM-11 6A03.2 ou DSM-5-TR (code CIM-10-CM F81.2)
 ☐ Attestation employeur sur impact fonctionnel (si applicable)
 
 ─── AMÉNAGEMENTS / ÉQUIPEMENTS SOLLICITÉS ─────────────────
@@ -976,7 +985,7 @@ Médecin certificateur: _________ Date: ___________
 
 ## Spanish Document Templates (Locale: es)
 
-> *Sources current as of 2026-05. Template structures aligned with LOMLOE (Ley Orgánica 3/2020) ACNEAE/DEA framework, ACNS procedures per regional implementing decrees (Andalucía Instrucciones 12/12/2014, Cataluña Decret 150/2017, Madrid Orden 19/01/2021, País Vasco Decreto 236/2015). Workplace certification per Real Decreto Legislativo 1/2013 (≥33% certificado de discapacidad threshold).*
+> *Sources current as of 2026-10. Template structures aligned with LOMLOE (Ley Orgánica 3/2020) ACNEAE/DEA framework, ACNS procedures per regional implementing decrees (Andalucía Instrucciones 12/12/2014, Cataluña Decret 150/2017, Madrid Orden 19/01/2021, País Vasco Decreto 236/2015), Real Decreto 534/2024 (PAU national floor, art. 3.2 / 13.10 / 21.1) with the annual regional acuerdos. Workplace certification per Real Decreto Legislativo 1/2013 (≥33% certificado de discapacidad threshold); public-employment exam adaptations per Orden PJC/804/2025.*
 
 ### ES-1. ACNS — Adaptaciones Curriculares No Significativas (Discalculia)
 
@@ -1119,10 +1128,12 @@ Elaborado por: [Orientador/a / EOEP]    Centro: [Nombre]
 ⚠ Si no usa prueba matemática normalizada en español: CRITERIO INCOMPLETO
 ```
 
-### ES-3. EBAU/EvAU Exam Accommodation Request (Discalculia)
+### ES-3. PAU Exam Accommodation Request (Discalculia; formerly EBAU/EvAU)
 
 ```
-SOLICITUD DE ADAPTACIONES PARA LA EBAU/EvAU — DISCALCULIA
+SOLICITUD DE ADAPTACIONES PARA LA PAU (Prueba de Acceso a la Universidad) — DISCALCULIA
+Base: Real Decreto 534/2024, de 11 de junio, art. 3.2, 13.10 y 21.1, y Acuerdo
+de la Comisión Organizadora de la Comunidad Autónoma para la convocatoria
 Comunidad Autónoma: __________
 
 Centro: [Nombre del IES]    Convocatoria: [Año]
@@ -1146,7 +1157,9 @@ Diagnóstico: ☑ Discalculia
 
 ─── CONSISTENCIA CON EL HISTORIAL ACNS ────────────────────
 Adaptaciones documentadas en ACNS durante Bachillerato:
-[Listar las usadas en clase y exámenes internos]
+[Listar las usadas en clase y exámenes internos. El RD 534/2024 art. 3.2 basa
+las adaptaciones en el apoyo recibido en la etapa anterior y prohíbe que
+minoren la calificación.]
 
 ─── FIRMAS ──────────────────────────────────────────────────
 Familia/Alumno/a mayor de edad: _______ Fecha: ___________
@@ -1167,7 +1180,7 @@ Puesto: [Descripción]
 ─── ESTADO ACREDITATIVO ──────────────────────────────────
 ☐ Certificado de discapacidad ≥ 33% emitido por Centro Base
    Fecha: [DD/MM/AAAA]    CCAA: [Nombre]
-☐ Diagnóstico clínico actualizado (DSM-5 315.1 / ICD-11 6A03.2)
+☐ Diagnóstico clínico actualizado (DSM-5-TR, código CIE-10-CM F81.2 / ICD-11 6A03.2)
 ☐ Informe funcional sobre el impacto en el desempeño laboral
 
 ─── DESCRIPCIÓN FUNCIONAL ────────────────────────────────

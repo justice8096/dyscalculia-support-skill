@@ -1,6 +1,6 @@
 # /dyscalculia-audit
 
-Audit a dyscalculia program, tool, curriculum, or educational initiative for compliance with US (IDEA, Section 504, NCTM, ADA), French (Loi 2005-102, PAP, PPS, Circulaire 2023-033, RQTH), or Spanish (LOE/LOMLOE, ACNEAE/DEA, ACNS, RDL 1/2013) standards. Locale-aware audit checklists.
+Audit a dyscalculia program, tool, curriculum, or educational initiative for compliance with US (IDEA, Section 504, NCTM, ADA), French (Loi 2005-102, PAP, PPS, PAS, session-2026 exam circulaires, RQTH), or Spanish (LOE/LOMLOE, ACNEAE/DEA, ACNS, RDL 1/2013) standards. Locale-aware audit checklists.
 
 ## Usage
 
@@ -10,8 +10,8 @@ Audit a dyscalculia program, tool, curriculum, or educational initiative for com
 
 **`--locale`** selects the legal framework (default: `us`):
 - `us` — United States (IDEA, Section 504, NCTM, ADA workplace)
-- `fr` — France (Loi 2005-102, PAP/PPS, Circulaire 2023-033 — calculatrice for all exams, RQTH for workplace)
-- `es` — Spain (LOE/LOMLOE, ACNEAE/DEA, ACNS, EBAU/EvAU adaptations, RDL 1/2013 for workplace)
+- `fr` — France (Loi 2005-102, PAP/PPS in the LPI, PAS, circulaire du 14 mars 2022 as amended 17 juillet 2025 for school exams and circulaire du 6 février 2023 for examens et concours — calculatrice simple non programmable for dyscalculic candidates, RQTH and France Travail for workplace, European Accessibility Act)
+- `es` — Spain (LOE/LOMLOE, ACNEAE/DEA, ACNS, PAU adaptations under RD 534/2024 (EBAU/EvAU are legacy names), RDL 1/2013 and Orden PJC/804/2025 for workplace, Ley 11/2023)
 
 **`--region`** (only when `--locale es`): Comunidad Autónoma for region-specific Spanish legislation.
 
@@ -34,8 +34,8 @@ The audit evaluates across these domains. **Locale-specific accents** noted per 
   - locale=fr: TEDI-MATH, Zareki-R, BMT-i, WISC-V French norms — administered via bilan orthophonique
   - locale=es: PROCALCULO, TEDI-MATH ES, Evamat, WISC-V Spanish norms — administered by orientador/a or EOEP
 - **Plan Compliance** (20% weight): Legal requirement compliance, goal specificity, accommodation appropriateness, documentation
-  - locale=us: IEP/504 compliance with IDEA + Section 504
-  - locale=fr: PAP compliance with Circulaire 2015-016 template; PPS via MDPH where severe; aménagements d'examens per Circulaire 2023-033 with **calculatrice across all exams** as headline accommodation
+  - locale=us: IEP/504 compliance with IDEA + Section 504; accommodation-fidelity findings rated HIGH or above after A.J.T. v. Osseo (2025); ADA Title II web rule (WCAG 2.1 AA, 26 April 2027 / 2028) for digital math content; clinical coding DSM-5-TR / ICD-10-CM F81.2 (flag 315.1 presented as current)
+  - locale=fr: PAP compliance with Circulaire 2015-016 template; PPS via MDPH where severe; aménagements d'examens on the session-2026 forms (circulaire du 17 juillet 2025; procédure simplifiée vs complète) with **calculatrice simple non programmable across all papers** (circulaire du 6 février 2023) as headline accommodation
   - locale=es: ACNS pathway (NOT Dictamen/ACS unless comorbid NEE — common compliance error); Informe Psicopedagógico completeness
 - **Instructional Methodology** (15% weight): Evidence-based practices, manipulative implementation, anxiety management, Kosc subtype consideration
 - **Progress Monitoring** (10% weight): Data collection frequency, multiple measures, decision rules, intervention adjustment

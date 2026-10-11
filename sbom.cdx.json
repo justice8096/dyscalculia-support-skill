@@ -1,1 +1,674 @@
-{"$schema":"http://cyclonedx.org/schema/bom-1.6.schema.json","bomFormat":"CycloneDX","specVersion":"1.6","version":1,"metadata":{"tools":{"components":[{"type":"application","name":"npm","version":"10.9.7"},{"type":"library","name":"cyclonedx-library","group":"@cyclonedx","version":"10.0.0","author":"Jan Kowalleck","description":"Core functionality of CycloneDX for JavaScript (Node.js or WebBrowser).","licenses":[{"license":{"id":"Apache-2.0"}}]},{"type":"application","name":"cyclonedx-npm","group":"@cyclonedx","version":"4.2.1","author":"Jan Kowalleck","description":"Create CycloneDX Software Bill of Materials (SBOM) from NPM projects.","licenses":[{"license":{"id":"Apache-2.0"}}]}]},"component":{"type":"application","name":"dyscalculia-support-skill","version":"1.0.0","bom-ref":"dyscalculia-support-skill@1.0.0","author":"Justice","description":"Multi-format dyscalculia support system for CRA methodology, standards compliance, and IEP generation","licenses":[{"license":{"id":"MIT","acknowledgement":"declared"}}],"purl":"pkg:npm/dyscalculia-support-skill@1.0.0?vcs_url=git%2Bhttps%3A%2F%2Fgithub.com%2Fjustice8096%2Fdyscalculia-support-skill.git"},"properties":[{"name":"cdx:reproducible","value":"true"}]},"components":[{"type":"library","name":"node","group":"@types","version":"20.19.39","bom-ref":"dyscalculia-support-skill@1.0.0|@types/node@20.19.39","description":"TypeScript definitions for node","licenses":[{"license":{"id":"MIT","acknowledgement":"declared"}}],"purl":"pkg:npm/%40types/node@20.19.39","properties":[{"name":"cdx:npm:package:development","value":"true"}]},{"type":"library","name":"esbuild","version":"0.27.7","bom-ref":"dyscalculia-support-skill@1.0.0|esbuild@0.27.7","description":"An extremely fast JavaScript and CSS bundler and minifier.","licenses":[{"license":{"id":"MIT","acknowledgement":"declared"}}],"purl":"pkg:npm/esbuild@0.27.7","properties":[{"name":"cdx:npm:package:development","value":"true"}]},{"type":"library","name":"get-tsconfig","version":"4.14.0","bom-ref":"dyscalculia-support-skill@1.0.0|get-tsconfig@4.14.0","author":"Hiroki Osame","description":"Find and parse the tsconfig.json file from a directory path","licenses":[{"license":{"id":"MIT","acknowledgement":"declared"}}],"purl":"pkg:npm/get-tsconfig@4.14.0","properties":[{"name":"cdx:npm:package:development","value":"true"}]},{"type":"library","name":"resolve-pkg-maps","version":"1.0.0","bom-ref":"dyscalculia-support-skill@1.0.0|resolve-pkg-maps@1.0.0","author":"Hiroki Osame","description":"Resolve package.json exports & imports maps","licenses":[{"license":{"id":"MIT","acknowledgement":"declared"}}],"purl":"pkg:npm/resolve-pkg-maps@1.0.0","properties":[{"name":"cdx:npm:package:development","value":"true"}]},{"type":"library","name":"tsx","version":"4.21.0","bom-ref":"dyscalculia-support-skill@1.0.0|tsx@4.21.0","author":"Hiroki Osame","description":"TypeScript Execute (tsx): Node.js enhanced with esbuild to run TypeScript & ESM files","licenses":[{"license":{"id":"MIT","acknowledgement":"declared"}}],"purl":"pkg:npm/tsx@4.21.0","properties":[{"name":"cdx:npm:package:development","value":"true"}]},{"type":"library","name":"typescript","version":"5.9.3","bom-ref":"dyscalculia-support-skill@1.0.0|typescript@5.9.3","author":"Microsoft Corp.","description":"TypeScript is a language for application scale JavaScript development","licenses":[{"license":{"id":"Apache-2.0","acknowledgement":"declared"}}],"purl":"pkg:npm/typescript@5.9.3","properties":[{"name":"cdx:npm:package:development","value":"true"}]},{"type":"library","name":"undici-types","version":"6.21.0","bom-ref":"dyscalculia-support-skill@1.0.0|undici-types@6.21.0","description":"A stand-alone types package for Undici","licenses":[{"license":{"id":"MIT","acknowledgement":"declared"}}],"purl":"pkg:npm/undici-types@6.21.0","properties":[{"name":"cdx:npm:package:development","value":"true"}]},{"type":"library","name":"zod","version":"3.25.76","bom-ref":"dyscalculia-support-skill@1.0.0|zod@3.25.76","author":"Colin McDonnell","description":"TypeScript-first schema declaration and validation library with static type inference","licenses":[{"license":{"id":"MIT","acknowledgement":"declared"}}],"purl":"pkg:npm/zod@3.25.76","properties":[{"name":"cdx:npm:package:development","value":"true"}]}],"dependencies":[{"ref":"dyscalculia-support-skill@1.0.0","dependsOn":["dyscalculia-support-skill@1.0.0|@types/node@20.19.39","dyscalculia-support-skill@1.0.0|tsx@4.21.0","dyscalculia-support-skill@1.0.0|typescript@5.9.3","dyscalculia-support-skill@1.0.0|zod@3.25.76"]},{"ref":"dyscalculia-support-skill@1.0.0|@types/node@20.19.39","dependsOn":["dyscalculia-support-skill@1.0.0|undici-types@6.21.0"]},{"ref":"dyscalculia-support-skill@1.0.0|esbuild@0.27.7"},{"ref":"dyscalculia-support-skill@1.0.0|get-tsconfig@4.14.0","dependsOn":["dyscalculia-support-skill@1.0.0|resolve-pkg-maps@1.0.0"]},{"ref":"dyscalculia-support-skill@1.0.0|resolve-pkg-maps@1.0.0"},{"ref":"dyscalculia-support-skill@1.0.0|tsx@4.21.0","dependsOn":["dyscalculia-support-skill@1.0.0|esbuild@0.27.7","dyscalculia-support-skill@1.0.0|get-tsconfig@4.14.0"]},{"ref":"dyscalculia-support-skill@1.0.0|typescript@5.9.3"},{"ref":"dyscalculia-support-skill@1.0.0|undici-types@6.21.0"},{"ref":"dyscalculia-support-skill@1.0.0|zod@3.25.76"}]}
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "name": "npm",
+          "version": "12.2.0"
+        },
+        {
+          "type": "library",
+          "name": "cyclonedx-library",
+          "group": "@cyclonedx",
+          "version": "10.0.0",
+          "author": "Jan Kowalleck",
+          "description": "Core functionality of CycloneDX for JavaScript (Node.js or WebBrowser).",
+          "licenses": [
+            {
+              "license": {
+                "id": "Apache-2.0"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "url": "https://github.com/CycloneDX/cyclonedx-javascript-library/issues",
+              "type": "issue-tracker",
+              "comment": "as detected from PackageJson property \"bugs.url\""
+            },
+            {
+              "url": "git+https://github.com/CycloneDX/cyclonedx-javascript-library.git",
+              "type": "vcs",
+              "comment": "as detected from PackageJson property \"repository.url\""
+            },
+            {
+              "url": "https://github.com/CycloneDX/cyclonedx-javascript-library#readme",
+              "type": "website",
+              "comment": "as detected from PackageJson property \"homepage\""
+            }
+          ]
+        },
+        {
+          "type": "application",
+          "name": "cyclonedx-npm",
+          "group": "@cyclonedx",
+          "version": "6.0.1",
+          "author": "Jan Kowalleck",
+          "description": "Create CycloneDX Software Bill of Materials (SBOM) from NPM projects.",
+          "licenses": [
+            {
+              "license": {
+                "id": "Apache-2.0"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "url": "https://github.com/CycloneDX/cyclonedx-node-npm/issues",
+              "type": "issue-tracker",
+              "comment": "as detected from PackageJson property \"bugs.url\""
+            },
+            {
+              "url": "git+https://github.com/CycloneDX/cyclonedx-node-npm.git",
+              "type": "vcs",
+              "comment": "as detected from PackageJson property \"repository.url\""
+            },
+            {
+              "url": "https://github.com/CycloneDX/cyclonedx-node-npm#readme",
+              "type": "website",
+              "comment": "as detected from PackageJson property \"homepage\""
+            }
+          ]
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "dyscalculia-support-skill",
+      "version": "1.4.0",
+      "bom-ref": "dyscalculia-support-skill@1.4.0",
+      "author": "Justice",
+      "description": "Multi-format dyscalculia support system for CRA methodology, standards compliance, and IEP generation",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC0-1.0",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/dyscalculia-support-skill@1.4.0?vcs_url=git%2Bhttps%3A%2F%2Fgithub.com%2Fjustice8096%2Fdyscalculia-support-skill.git",
+      "externalReferences": [
+        {
+          "url": "https://github.com/justice8096/dyscalculia-support-skill/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/justice8096/dyscalculia-support-skill.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/justice8096/dyscalculia-support-skill#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:path",
+          "value": ""
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "cdx:reproducible",
+        "value": "true"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "win32-x64",
+      "group": "@esbuild",
+      "version": "0.27.2",
+      "bom-ref": "dyscalculia-support-skill@1.4.0|@esbuild/win32-x64@0.27.2",
+      "description": "The Windows 64-bit binary for esbuild, a JavaScript bundler.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40esbuild/win32-x64@0.27.2",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.27.2.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "b11754d7c99c29fec5f98821788ff319fe5a9596ad3144ca8ff8cd4ba97be387fdbb7585bb8bfbb7071423dbeee2692717863d68395b94889ed0833ee71c5aa9"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        },
+        {
+          "url": "https://github.com/evanw/esbuild/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/evanw/esbuild.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/evanw/esbuild#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/@esbuild/win32-x64"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "node",
+      "group": "@types",
+      "version": "20.19.39",
+      "bom-ref": "dyscalculia-support-skill@1.4.0|@types/node@20.19.39",
+      "description": "TypeScript definitions for node",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40types/node@20.19.39",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/@types/node/-/node-20.19.39.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "a2baeb0fbe0c054c8af233800ffaf4fa57dad48d8c3ba23ebc0926016ccc61b09c82b378942ae62b9da044542afc94717d83dfa2792be1bd23718ece96a76a6f"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        },
+        {
+          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git#types/node",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+        },
+        {
+          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/@types/node"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "esbuild",
+      "version": "0.27.2",
+      "bom-ref": "dyscalculia-support-skill@1.4.0|esbuild@0.27.2",
+      "description": "An extremely fast JavaScript and CSS bundler and minifier.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/esbuild@0.27.2",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/esbuild/-/esbuild-0.27.2.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "1f23502269ec382ed7f4f30d68221e026e08482417b396b961ab135d59622afe2eb81a3574aac6d00fae412f0ce5e5e354c9cb8375a05da2afa6b1e514941f7f"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        },
+        {
+          "url": "https://github.com/evanw/esbuild/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/evanw/esbuild.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/evanw/esbuild#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/esbuild"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "get-tsconfig",
+      "version": "4.14.0",
+      "bom-ref": "dyscalculia-support-skill@1.4.0|get-tsconfig@4.14.0",
+      "author": "Hiroki Osame",
+      "description": "Find and parse the tsconfig.json file from a directory path",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/get-tsconfig@4.14.0",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.14.0.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "c936fef035f30d113382f62687ab3dbc7b125421de0b41b73c8e5b1173411ed9ac84f9cef92e4eeea80b10e9f423942f332ea4a5937c2b534a1b28a52dbf77c0"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        },
+        {
+          "url": "https://github.com/privatenumber/get-tsconfig/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/privatenumber/get-tsconfig.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/privatenumber/get-tsconfig#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/get-tsconfig"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "resolve-pkg-maps",
+      "version": "1.0.0",
+      "bom-ref": "dyscalculia-support-skill@1.4.0|resolve-pkg-maps@1.0.0",
+      "author": "Hiroki Osame",
+      "description": "Resolve package.json exports & imports maps",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/resolve-pkg-maps@1.0.0",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "b1e4b64e3dba4c154e0b6348736ace7b6cb664eede7f1213b4b65c1923a71c734e43b0a489405fc34230d9c93ac642213f02e128d2d2f013be844a6781096acf"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        },
+        {
+          "url": "https://github.com/privatenumber/resolve-pkg-maps/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/privatenumber/resolve-pkg-maps.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://github.com/privatenumber/resolve-pkg-maps#readme",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/resolve-pkg-maps"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "tsx",
+      "version": "4.21.0",
+      "bom-ref": "dyscalculia-support-skill@1.4.0|tsx@4.21.0",
+      "author": "Hiroki Osame",
+      "description": "TypeScript Execute (tsx): Node.js enhanced with esbuild to run TypeScript & ESM files",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/tsx@4.21.0",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/tsx/-/tsx-4.21.0.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "e42d6c838512b3595f1b41856f644b5ec7695ea05212101a03fd243cbd35c31ce932a2c82cdc48c4838a8882f3f9c760fe92e7394c4560e479ca11d4ebaeb06f"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        },
+        {
+          "url": "https://github.com/privatenumber/tsx/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/privatenumber/tsx.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://tsx.is",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/tsx"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "5.9.3",
+      "bom-ref": "dyscalculia-support-skill@1.4.0|typescript@5.9.3",
+      "author": "Microsoft Corp.",
+      "description": "TypeScript is a language for application scale JavaScript development",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/typescript@5.9.3",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "8e5d6f6733c38a72ebf5e52ddc9feded5e8580d130f508ef04f772b33f4a7d00c3e357d0ac2d98e2f290762694a454f86d795bd511e12e9a7cc2d9ba3394e04b"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        },
+        {
+          "url": "https://github.com/microsoft/TypeScript/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/microsoft/TypeScript.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://www.typescriptlang.org/",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/typescript"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "undici-types",
+      "version": "6.21.0",
+      "bom-ref": "dyscalculia-support-skill@1.4.0|undici-types@6.21.0",
+      "description": "A stand-alone types package for Undici",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/undici-types@6.21.0",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "8b00d9aa0d10006ae0f516afe47e27d0ceb87379a4479f5c27ac10a7eec2e2723482c984c5a79d6982cd3b8e1e4f802d041c236d38863cc96dd8c7744fd1fd25"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        },
+        {
+          "url": "https://github.com/nodejs/undici/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/nodejs/undici.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://undici.nodejs.org",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/undici-types"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "zod",
+      "version": "3.25.76",
+      "bom-ref": "dyscalculia-support-skill@1.4.0|zod@3.25.76",
+      "author": "Colin McDonnell",
+      "description": "TypeScript-first schema declaration and validation library with static type inference",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "acknowledgement": "declared"
+          }
+        }
+      ],
+      "purl": "pkg:npm/zod@3.25.76",
+      "externalReferences": [
+        {
+          "url": "https://registry.npmjs.org/zod/-/zod-3.25.76.tgz",
+          "type": "distribution",
+          "hashes": [
+            {
+              "alg": "SHA-512",
+              "content": "83352dfeab7cd675ec14628815c0b76277c4031e4d92e9c27e70e5bee0524854b4d9b717bb82e679ad001485306cb5b158fc7777da7c4b94286ae8ca70d43171"
+            }
+          ],
+          "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+        },
+        {
+          "url": "https://github.com/colinhacks/zod/issues",
+          "type": "issue-tracker",
+          "comment": "as detected from PackageJson property \"bugs.url\""
+        },
+        {
+          "url": "git+https://github.com/colinhacks/zod.git",
+          "type": "vcs",
+          "comment": "as detected from PackageJson property \"repository.url\""
+        },
+        {
+          "url": "https://zod.dev",
+          "type": "website",
+          "comment": "as detected from PackageJson property \"homepage\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "cdx:npm:package:development",
+          "value": "true"
+        },
+        {
+          "name": "cdx:npm:package:path",
+          "value": "node_modules/zod"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "dyscalculia-support-skill@1.4.0",
+      "dependsOn": [
+        "dyscalculia-support-skill@1.4.0|@types/node@20.19.39",
+        "dyscalculia-support-skill@1.4.0|tsx@4.21.0",
+        "dyscalculia-support-skill@1.4.0|typescript@5.9.3",
+        "dyscalculia-support-skill@1.4.0|zod@3.25.76"
+      ]
+    },
+    {
+      "ref": "dyscalculia-support-skill@1.4.0|@esbuild/win32-x64@0.27.2"
+    },
+    {
+      "ref": "dyscalculia-support-skill@1.4.0|@types/node@20.19.39",
+      "dependsOn": [
+        "dyscalculia-support-skill@1.4.0|undici-types@6.21.0"
+      ]
+    },
+    {
+      "ref": "dyscalculia-support-skill@1.4.0|esbuild@0.27.2",
+      "dependsOn": [
+        "dyscalculia-support-skill@1.4.0|@esbuild/win32-x64@0.27.2"
+      ]
+    },
+    {
+      "ref": "dyscalculia-support-skill@1.4.0|get-tsconfig@4.14.0",
+      "dependsOn": [
+        "dyscalculia-support-skill@1.4.0|resolve-pkg-maps@1.0.0"
+      ]
+    },
+    {
+      "ref": "dyscalculia-support-skill@1.4.0|resolve-pkg-maps@1.0.0"
+    },
+    {
+      "ref": "dyscalculia-support-skill@1.4.0|tsx@4.21.0",
+      "dependsOn": [
+        "dyscalculia-support-skill@1.4.0|esbuild@0.27.2",
+        "dyscalculia-support-skill@1.4.0|get-tsconfig@4.14.0"
+      ]
+    },
+    {
+      "ref": "dyscalculia-support-skill@1.4.0|typescript@5.9.3"
+    },
+    {
+      "ref": "dyscalculia-support-skill@1.4.0|undici-types@6.21.0"
+    },
+    {
+      "ref": "dyscalculia-support-skill@1.4.0|zod@3.25.76"
+    }
+  ]
+}

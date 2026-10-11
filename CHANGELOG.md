@@ -15,6 +15,26 @@ All four drivers affect admissibility / persuasive weight of downstream artifact
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-10-11
+
+Regulatory refresh matching dyslexia-support-skill 1.4.0 to 1.4.2, plus Directory policy hygiene. Every "Sources current as of" pin moves from 2026-05 to 2026-10. Findings and sources: `docs/research/research-update-2026-10-11.md` in the dyslexia-support-skill repository (shared FR/ES/US items).
+
+### Fixed `[defect]`
+- **"Circulaire n° 2023-033 du 23 février 2023" removed everywhere.** No Bulletin officiel entry carries that number or date. The calculatrice simple non programmable provision for dyscalculic candidates, which this skill treats as the headline French accommodation, is in the circulaire du 6 février 2023 (NOR ESRS2234137C, BO n° 10 du 9 mars 2023, examens et concours, replacing circulaire n° 2011-220). Brevet/Bac/BTS/CAP requests are made on the forms of the circulaire du 14 mars 2022 (NOR MENE2204112C) as replaced by the circulaire du 17 juillet 2025 (NOR MENE2506522C, BO n° 31 du 21 août 2025), applicable from session 2026. Addendum trigger for any 1.3.x FR audit or document that cited the phantom circulaire.
+- DSM-5 "315.1" replaced by DSM-5-TR with ICD-10-CM F81.2 (315.1 is the retired ICD-9-CM code, unusable on US claims since October 2015). ICD-11 6A03.2 unchanged.
+- Removed the unused bare `Bash` entry from `allowed-tools` in `dyscalculia-audit` and `content-accessibility-check`; neither command runs shell commands.
+- Replaced a local `D:\` documentation path in `content-accessibility-check` with a name-only reference to the linguistics-mcp integration guide.
+- `npm audit fix` on dev dependencies and SBOM regenerated.
+
+### Changed `[authority]`
+- **US**: A.J.T. v. Osseo Area Schools (SCOTUS, 12 June 2025): student ADA/504 education claims no longer require "bad faith or gross misjudgment"; accommodation-fidelity findings rated HIGH minimum. ADA Title II web rule compliance dates 26 April 2027 / 26 April 2028 (DOJ interim final rule, April 2026). ED interagency agreements (Nov 2025, 16 June 2026): IDEA monitoring to HHS, OCR investigations to DOJ. HHS Section 504 rule status noted; ED's 34 CFR 104 still governs schools.
+- **France**: pôles d'appui à la scolarité (circulaire du 1er septembre 2025) added with their contested statutory basis; PAP described as entered in the Livret de parcours inclusif; procédure simplifiée vs complète on exam requests; Pôle emploi replaced by France Travail (1er janvier 2024); European Accessibility Act (ordonnance 2023-859) added to the adult layer with its relevance to banking and payment interfaces.
+- **Spain**: EBAU/EvAU renamed **PAU** throughout (legacy names kept as aliases and trigger words). Real Decreto 534/2024 (art. 3.2, 13.10, 21.1) cited as the national floor: adaptations based on prior-stage support, no adaptation may lower the grade. Orden PJC/804/2025 added for adaptations in public-employment selection processes. Ley 11/2023 (EAA transposition, obligations from 28 June 2025) added.
+- Typography row in the FR prosthetics table rewritten around legibility features for numerals (0/O, 1/l/I distinction, digit spacing); specialty "dyslexia fonts" no longer recommended, per Azzarello et al. (Annals of Dyslexia, 2026).
+
+### Added `[structural]`
+- `.claude-plugin/icon.png` (1024x1024) for the Directory listing, in the same family as the dyslexia-support-skill icon.
+
 ## [1.3.3] - 2026-10-11
 
 ### Fixed
