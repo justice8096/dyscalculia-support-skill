@@ -15,6 +15,12 @@ All four drivers affect admissibility / persuasive weight of downstream artifact
 
 ## [Unreleased]
 
+## [1.3.3] - 2026-10-11
+
+### Fixed
+- Replaced U+2014 em dashes with hyphens in plugin.json, .claude-plugin/plugin.json, .claude-plugin/marketplace.json and source/manifest.json; the Anthropic Directory rendered the UTF-8 em dash as mojibake in the listing description. `[defect]`
+- Bumped version to 1.3.3. `[voice]`
+
 ## [1.3.2] — 2026-05-16
 
 ### Fixed `[defect]`

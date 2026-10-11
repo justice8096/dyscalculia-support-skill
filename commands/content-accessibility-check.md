@@ -1,5 +1,5 @@
 ---
-description: Analyze content for dyscalculia accessibility: cognitive load, font/spacing, color contrast, temporal demands, working memory requirements. Locale-aware checks: FR — French number-word irregularity flagging (soixante-dix/quatre-vingts present complex multi-step transcoding for dyscalculic readers), diacritic rendering; ES — Spanish-language number presentation (transparent base-10 conventions, regular -enta suffix), EBAU/EvAU exam format standards (Arial 16pt + 1.5 line spacing).
+description: Analyze content for dyscalculia accessibility: cognitive load, font/spacing, color contrast, temporal demands, working memory requirements. Locale-aware checks: FR - French number-word irregularity flagging (soixante-dix/quatre-vingts present complex multi-step transcoding for dyscalculic readers), diacritic rendering; ES - Spanish-language number presentation (transparent base-10 conventions, regular -enta suffix), EBAU/EvAU exam format standards (Arial 16pt + 1.5 line spacing).
 argument-hint: <content-name> [--format <type>] [--audience <level>] [--depth <audit-depth>]
 allowed-tools: [Read, Glob, Grep, Bash, Write]
 ---
