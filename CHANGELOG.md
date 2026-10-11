@@ -15,6 +15,11 @@ All four drivers affect admissibility / persuasive weight of downstream artifact
 
 ## [Unreleased]
 
+## [1.4.2] - 2026-10-11
+
+### Changed `[voice]`
+- CHANGELOG no longer names the icon file by path; the Directory validator treats any text that refers to an image file as an unread asset reference.
+
 ## [1.4.1] - 2026-10-11
 
 ### Changed `[structural]`
@@ -38,7 +43,7 @@ Regulatory refresh matching dyslexia-support-skill 1.4.0 to 1.4.2, plus Director
 - Typography row in the FR prosthetics table rewritten around legibility features for numerals (0/O, 1/l/I distinction, digit spacing); specialty "dyslexia fonts" no longer recommended, per Azzarello et al. (Annals of Dyslexia, 2026).
 
 ### Added `[structural]`
-- `.claude-plugin/icon.png` (1024x1024) for the Directory listing, in the same family as the dyslexia-support-skill icon.
+- Plugin icon (1024x1024 PNG) for the Directory listing, in the same family as the dyslexia-support-skill icon.
 
 ## [1.3.3] - 2026-10-11
 
