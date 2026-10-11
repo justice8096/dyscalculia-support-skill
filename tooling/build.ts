@@ -4,6 +4,7 @@ import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+const ROOT = resolve(__dirname, "..");
 
 // ============================================================================
 // TYPE DEFINITIONS
@@ -230,7 +231,7 @@ function logError(message: string): void {
 
 function loadManifest(): Manifest {
   log("Loading manifest.json...");
-  const manifestPath = resolve(__dirname, "source/manifest.json");
+  const manifestPath = resolve(ROOT, "source/manifest.json");
   const manifestRaw = JSON.parse(readFileSync(manifestPath, "utf-8")) as Record<string, unknown>;
   validateManifest(manifestRaw);
   logSuccess(`Manifest loaded (${manifestRaw.commands.length} commands, ${manifestRaw.skills.length} skills)`);
@@ -238,17 +239,17 @@ function loadManifest(): Manifest {
 }
 
 function loadSkillMarkdown(skillId: string): string {
-  const skillPath = resolve(__dirname, `source/skills/${skillId}.md`);
+  const skillPath = resolve(ROOT, `source/skills/${skillId}.md`);
   return readMarkdown(skillPath);
 }
 
 function loadCommandMarkdown(commandId: string): string {
-  const commandPath = resolve(__dirname, `source/commands/${commandId}.md`);
+  const commandPath = resolve(ROOT, `source/commands/${commandId}.md`);
   return readMarkdown(commandPath);
 }
 
 function loadTemplateMarkdown(templateId: string): string {
-  const templatePath = resolve(__dirname, `source/templates/${templateId}.md`);
+  const templatePath = resolve(ROOT, `source/templates/${templateId}.md`);
   return readMarkdown(templatePath);
 }
 
@@ -258,7 +259,7 @@ function loadTemplateMarkdown(templateId: string): string {
 
 function generateClaudePlugin(manifest: Manifest): void {
   log("Generating Claude Code plugin...");
-  ensureDir(resolve(__dirname, "dist/claude-plugin"));
+  ensureDir(resolve(ROOT, "dist/claude-plugin"));
 
   const plugin = {
     name: manifest.name,
@@ -284,14 +285,14 @@ function generateClaudePlugin(manifest: Manifest): void {
   };
 
   writeFileSync(
-    resolve(__dirname, "dist/claude-plugin/plugin.json"),
+    resolve(ROOT, "dist/claude-plugin/plugin.json"),
     JSON.stringify(plugin, null, 2)
   );
   // Copy skill markdown files
-  const skillsDir = resolve(__dirname, "source/skills");
-  const cmdDir = resolve(__dirname, "source/commands");
-  const pluginSkillsDir = resolve(__dirname, "dist/claude-plugin/skills");
-  const pluginCmdsDir = resolve(__dirname, "dist/claude-plugin/commands");
+  const skillsDir = resolve(ROOT, "source/skills");
+  const cmdDir = resolve(ROOT, "source/commands");
+  const pluginSkillsDir = resolve(ROOT, "dist/claude-plugin/skills");
+  const pluginCmdsDir = resolve(ROOT, "dist/claude-plugin/commands");
 
   if (existsSync(skillsDir)) {
     manifest.skills.forEach((skill) => {
@@ -323,7 +324,7 @@ function generateClaudePlugin(manifest: Manifest): void {
 
 function generateOpenAIFunctions(manifest: Manifest): void {
   log("Generating OpenAI function schemas...");
-  ensureDir(resolve(__dirname, "dist/openai"));
+  ensureDir(resolve(ROOT, "dist/openai"));
 
   const functions = manifest.commands.map((cmd) => {
     const properties: Record<string, unknown> = {};
@@ -365,7 +366,7 @@ function generateOpenAIFunctions(manifest: Manifest): void {
   });
 
   writeFileSync(
-    resolve(__dirname, "dist/openai/functions.json"),
+    resolve(ROOT, "dist/openai/functions.json"),
     JSON.stringify(functions, null, 2)
   );
   logSuccess("OpenAI functions generated");
@@ -377,7 +378,7 @@ function generateOpenAIFunctions(manifest: Manifest): void {
 
 function generateN8nNode(manifest: Manifest): void {
   log("Generating n8n node definition...");
-  ensureDir(resolve(__dirname, "dist/n8n"));
+  ensureDir(resolve(ROOT, "dist/n8n"));
 
   const operations = manifest.commands.map((cmd) => ({
     name: cmd.id.replace(/-/g, "_"),
@@ -435,7 +436,7 @@ function generateN8nNode(manifest: Manifest): void {
   };
 
   writeFileSync(
-    resolve(__dirname, "dist/n8n/DyscalculiaAudit.node.json"),
+    resolve(ROOT, "dist/n8n/DyscalculiaAudit.node.json"),
     JSON.stringify(node, null, 2)
   );
   logSuccess("n8n node definition generated");
@@ -447,7 +448,7 @@ function generateN8nNode(manifest: Manifest): void {
 
 function generatePromptLibrary(manifest: Manifest): void {
   log("Generating prompt library...");
-  ensureDir(resolve(__dirname, "dist/prompts"));
+  ensureDir(resolve(ROOT, "dist/prompts"));
 
   // Generate index
   const promptIndex = {
@@ -466,7 +467,7 @@ function generatePromptLibrary(manifest: Manifest): void {
   };
 
   writeFileSync(
-    resolve(__dirname, "dist/prompts/index.yaml"),
+    resolve(ROOT, "dist/prompts/index.yaml"),
     stringifyYaml(promptIndex, 2)
   );
 
@@ -510,7 +511,7 @@ function generatePromptLibrary(manifest: Manifest): void {
     };
 
     writeFileSync(
-      resolve(__dirname, `dist/prompts/${cmd.id}.yaml`),
+      resolve(ROOT, `dist/prompts/${cmd.id}.yaml`),
       stringifyYaml(prompt, 2)
     );
   });
@@ -524,8 +525,8 @@ function generatePromptLibrary(manifest: Manifest): void {
 
 function generateMcpServer(manifest: Manifest): void {
   log("Generating MCP server...");
-  ensureDir(resolve(__dirname, "dist/mcp-server/src/tools"));
-  ensureDir(resolve(__dirname, "dist/mcp-server/src/knowledge"));
+  ensureDir(resolve(ROOT, "dist/mcp-server/src/tools"));
+  ensureDir(resolve(ROOT, "dist/mcp-server/src/knowledge"));
 
   // Generate tool files
   generateMcpTools(manifest);
@@ -543,10 +544,10 @@ function generateMcpServer(manifest: Manifest): void {
   generateMcpTsConfig();
 
   // Copy knowledge markdown files
-  const mcpKnowledgeSkills = resolve(__dirname, "dist/mcp-server/knowledge/skills");
-  const mcpKnowledgeCmds = resolve(__dirname, "dist/mcp-server/knowledge/commands");
-  const srcSkills = resolve(__dirname, "source/skills");
-  const srcCmds = resolve(__dirname, "source/commands");
+  const mcpKnowledgeSkills = resolve(ROOT, "dist/mcp-server/knowledge/skills");
+  const mcpKnowledgeCmds = resolve(ROOT, "dist/mcp-server/knowledge/commands");
+  const srcSkills = resolve(ROOT, "source/skills");
+  const srcCmds = resolve(ROOT, "source/commands");
 
   ensureDir(mcpKnowledgeSkills);
   ensureDir(mcpKnowledgeCmds);
@@ -634,7 +635,7 @@ export async function ${handlerName}(input: z.infer<typeof ${toolName}Schema>): 
 }`;
 
     writeFileSync(
-      resolve(__dirname, `dist/mcp-server/src/tools/${toolName}.ts`),
+      resolve(ROOT, `dist/mcp-server/src/tools/${toolName}.ts`),
       toolCode
     );
   });
@@ -689,7 +690,7 @@ export function getCachedSkills(): string[] {
 `;
 
   writeFileSync(
-    resolve(__dirname, "dist/mcp-server/src/knowledge/loader.ts"),
+    resolve(ROOT, "dist/mcp-server/src/knowledge/loader.ts"),
     loaderCode
   );
 }
@@ -763,7 +764,7 @@ main().catch((error) => {
 `;
 
   writeFileSync(
-    resolve(__dirname, "dist/mcp-server/src/index.ts"),
+    resolve(ROOT, "dist/mcp-server/src/index.ts"),
     indexCode
   );
 }
@@ -794,7 +795,7 @@ function generateMcpPackageJson(manifest: Manifest): void {
   };
 
   writeFileSync(
-    resolve(__dirname, "dist/mcp-server/package.json"),
+    resolve(ROOT, "dist/mcp-server/package.json"),
     JSON.stringify(pkg, null, 2)
   );
 }
@@ -820,7 +821,7 @@ function generateMcpTsConfig(): void {
   };
 
   writeFileSync(
-    resolve(__dirname, "dist/mcp-server/tsconfig.json"),
+    resolve(ROOT, "dist/mcp-server/tsconfig.json"),
     JSON.stringify(tsconfig, null, 2)
   );
 }
@@ -845,7 +846,7 @@ function copyDirRecursive(src: string, dest: string): void {
 }
 
 function generateCliAudit(manifest: Manifest): void {
-  const cliDir = resolve(__dirname, "dist/cli");
+  const cliDir = resolve(ROOT, "dist/cli");
   const templateDir = resolve(__dirname, "cli-template");
   copyDirRecursive(templateDir, cliDir);
 
@@ -874,11 +875,11 @@ function generateCliAudit(manifest: Manifest): void {
   const knowledgeDir = resolve(cliDir, "knowledge");
   ensureDir(knowledgeDir);
   for (const skill of manifest.skills) {
-    const srcFile = resolve(__dirname, `source/skills/${skill.id}.md`);
+    const srcFile = resolve(ROOT, `source/skills/${skill.id}.md`);
     if (existsSync(srcFile)) copyFileSync(srcFile, resolve(knowledgeDir, `${skill.id}.md`));
   }
   for (const cmd of manifest.commands) {
-    const srcFile = resolve(__dirname, `source/commands/${cmd.id}.md`);
+    const srcFile = resolve(ROOT, `source/commands/${cmd.id}.md`);
     if (existsSync(srcFile)) copyFileSync(srcFile, resolve(knowledgeDir, `${cmd.id}.md`));
   }
 
@@ -917,8 +918,8 @@ function renderFm(fields: Record<string, string>, order: string[]): string {
 
 function syncRootCanonical(manifest: Manifest): void {
   for (const cmd of manifest.commands) {
-    const srcPath = resolve(__dirname, `source/commands/${cmd.id}.md`);
-    const rootPath = resolve(__dirname, `commands/${cmd.id}.md`);
+    const srcPath = resolve(ROOT, `source/commands/${cmd.id}.md`);
+    const rootPath = resolve(ROOT, `commands/${cmd.id}.md`);
     if (!existsSync(srcPath)) continue;
     const srcBody = readMarkdown(srcPath);
     const existing = existsSync(rootPath) ? readMarkdown(rootPath) : "";
@@ -932,8 +933,8 @@ function syncRootCanonical(manifest: Manifest): void {
   }
 
   for (const skill of manifest.skills) {
-    const srcPath = resolve(__dirname, `source/skills/${skill.id}.md`);
-    const rootPath = resolve(__dirname, `skills/${skill.id}/SKILL.md`);
+    const srcPath = resolve(ROOT, `source/skills/${skill.id}.md`);
+    const rootPath = resolve(ROOT, `skills/${skill.id}/SKILL.md`);
     if (!existsSync(srcPath)) continue;
     const srcBody = readMarkdown(srcPath);
     const existing = existsSync(rootPath) ? readMarkdown(rootPath) : "";
@@ -1042,7 +1043,7 @@ const generators: Record<BuildFormat, (m: Manifest) => void> = {
 };
 
 function cleanDist(): void {
-  const distPath = resolve(__dirname, "dist");
+  const distPath = resolve(ROOT, "dist");
   if (existsSync(distPath)) {
     rmSync(distPath, { recursive: true, force: true });
     log("Cleaned dist/");
@@ -1051,7 +1052,7 @@ function cleanDist(): void {
 
 function runBuild(opts: CliOptions): void {
   log("Starting build...");
-  log(`Output directory: ${resolve(__dirname, "dist")}`);
+  log(`Output directory: ${resolve(ROOT, "dist")}`);
 
   const manifest = loadManifest();
 
@@ -1093,7 +1094,7 @@ function runBuild(opts: CliOptions): void {
 }
 
 function watchSource(): void {
-  const sourceDir = resolve(__dirname, "source");
+  const sourceDir = resolve(ROOT, "source");
   log(`Watching ${sourceDir} for changes...`);
   log("Press Ctrl+C to stop.\n");
 

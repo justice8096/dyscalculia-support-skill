@@ -1,6 +1,6 @@
 {
   "name": "dyscalculia-support-skill",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Comprehensive dyscalculia support system treating dyscalculia as a neurodevelopmental cognitive disorder (not merely a learning disability) with brain-based numerical processing deficits centered on the intraparietal sulcus. Implements CRA (Concrete-Representational-Abstract) methodology, cognitive bypass strategies, and standards compliance across three legal jurisdictions: United States (IDEA, Section 504, NCTM, ADA workplace), France (Loi n° 2005-102, Code de l'éducation Art. L321-4, PAP/PPS via MDPH/CDAPH, aménagements d'examens with calculatrice across all exams, RQTH for workplace), and Spain (LOE/LOMLOE Art. 71/72/79 bis, ACNEAE/DEA framework with discalculia under DEA, ACNS pathway, PAU exam adaptations under RD 534/2024 (formerly EBAU/EvAU), 17-Comunidad-Autónoma regional variation, RDL 1/2013 for workplace). Grounded in Butterworth core deficit theory and intraparietal sulcus research, with locale-aware adaptations for French number-word irregularities (soixante-dix, quatre-vingts) and Spanish transparent base-10 system (regular -enta suffix).",
   "author": "Justice",
   "license": "CC0-1.0",

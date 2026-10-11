@@ -42,6 +42,7 @@ Once installed, the four skills (`standards-compliance`, `remediation-strategies
 ```bash
 git clone https://github.com/justice8096/dyscalculia-support-skill.git
 cd dyscalculia-support-skill
+cd tooling
 npm install
 npm run build        # Build all 6 distribution formats
 npm test             # Run 42 integration tests across 7 suites
@@ -71,12 +72,13 @@ dyscalculia-support-skill/
 │   ├── skills/              # Skill markdown files
 │   ├── commands/            # Command markdown files
 │   └── templates/           # Document templates
-├── build.ts                 # Multi-format build system
-├── test-build.ts            # 42-test integration suite (7 suites)
+├── tooling/                 # Build system, tests, SBOM (not part of the plugin)
+│   ├── build.ts             # Multi-format build system
+│   ├── test-build.ts        # 42-test integration suite (7 suites)
 ├── skills/                  # Cowork plugin skill directories
 ├── commands/                # Cowork plugin command files
 ├── audits/                  # Security & compliance audit reports
-├── sbom.cdx.json            # CycloneDX SBOM
+│   └── sbom.cdx.json        # CycloneDX SBOM
 ├── SECURITY.md              # Vulnerability disclosure policy
 └── .github/workflows/ci.yml # CI pipeline (Node 18/20/22)
 ```

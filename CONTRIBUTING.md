@@ -7,6 +7,7 @@ Contributions are welcome! Here's how to get started.
 ```bash
 git clone https://github.com/justice8096/dyscalculia-support-skill.git
 cd dyscalculia-support-skill
+cd tooling
 npm install
 ```
 
@@ -24,7 +25,7 @@ npm install
 
 ## Source Structure
 
-All content lives in `source/`. The build system (`build.ts`) generates 7 outputs from this single source. Never edit files in `dist/` directly — they are overwritten on every build. **Never edit `commands/*.md` or `skills/*/SKILL.md` at the repo root directly** — they are also overwritten on every build by the root-canonical sync step (see below).
+All content lives in `source/`. The build system (`tooling/build.ts`, run from the `tooling/` directory so the plugin root carries no package.json) generates 7 outputs from this single source. Never edit files in `dist/` directly — they are overwritten on every build. **Never edit `commands/*.md` or `skills/*/SKILL.md` at the repo root directly** — they are also overwritten on every build by the root-canonical sync step (see below).
 
 - `source/manifest.json` — Central definition of skills and commands
 - `source/skills/*.md` — Skill content (one file per skill)
@@ -53,7 +54,7 @@ Pre-v1.3.0 the build did NOT sync root from source, and root canonical drifted f
 
 ## Testing
 
-The test suite (`test-build.ts`) runs 42 tests across 7 suites covering all build formats. Tests must pass before merging.
+The test suite (`tooling/test-build.ts`) runs 42 tests across 7 suites covering all build formats. Tests must pass before merging.
 
 ```bash
 npm test              # Run all tests

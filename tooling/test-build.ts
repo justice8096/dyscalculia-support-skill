@@ -20,6 +20,7 @@ import { execSync } from "child_process";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+const ROOT = resolve(__dirname, "..");
 
 // ============================================================================
 // TEST RUNNER FRAMEWORK
@@ -107,7 +108,7 @@ function readText(path: string): string {
 // LOAD MANIFEST TO KNOW WHAT TO EXPECT
 // ============================================================================
 
-const manifestPath = resolve(__dirname, "source/manifest.json");
+const manifestPath = resolve(ROOT, "source/manifest.json");
 const manifest = readJSON(manifestPath);
 
 // Normalize manifest access — handle both dyslexia (metadata wrapper) and dyscalculia (flat) shapes
@@ -127,7 +128,7 @@ function skillId(skill: any): string {
   return skill.id || skill.name;
 }
 
-const distDir = resolve(__dirname, "dist");
+const distDir = resolve(ROOT, "dist");
 
 // ============================================================================
 // 1. CLAUDE PLUGIN TESTS
@@ -193,7 +194,7 @@ function testClaudePlugin() {
     for (const skill of skills) {
       const id = skillId(skill);
       const distContent = readText(resolve(pluginDir, "skills", id, "SKILL.md"));
-      const srcContent = readText(resolve(__dirname, "source", "skills", `${id}.md`));
+      const srcContent = readText(resolve(ROOT, "source", "skills", `${id}.md`));
       assertEqual(distContent.length, srcContent.length, `Skill content size mismatch: ${id}`);
     }
   });
@@ -516,22 +517,22 @@ function testSourceIntegrity() {
   test("all skills referenced in manifest have source files", () => {
     for (const skill of skills) {
       const id = skillId(skill);
-      assertMinSize(resolve(__dirname, "source", "skills", `${id}.md`), 1024);
+      assertMinSize(resolve(ROOT, "source", "skills", `${id}.md`), 1024);
     }
   });
 
   test("all commands referenced in manifest have source files", () => {
     for (const cmd of commands) {
       const id = cmdId(cmd);
-      assertMinSize(resolve(__dirname, "source", "commands", `${id}.md`), 500);
+      assertMinSize(resolve(ROOT, "source", "commands", `${id}.md`), 500);
     }
   });
 
   test("no orphan source files (every source file is in manifest)", () => {
-    const skillFiles = readdirSync(resolve(__dirname, "source", "skills"))
+    const skillFiles = readdirSync(resolve(ROOT, "source", "skills"))
       .filter(f => f.endsWith(".md"))
       .map(f => f.replace(".md", ""));
-    const cmdFiles = readdirSync(resolve(__dirname, "source", "commands"))
+    const cmdFiles = readdirSync(resolve(ROOT, "source", "commands"))
       .filter(f => f.endsWith(".md"))
       .map(f => f.replace(".md", ""));
 

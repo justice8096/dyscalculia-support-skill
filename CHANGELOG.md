@@ -15,6 +15,11 @@ All four drivers affect admissibility / persuasive weight of downstream artifact
 
 ## [Unreleased]
 
+## [1.4.1] - 2026-10-11
+
+### Changed `[structural]`
+- Build tooling (package.json, package-lock.json, build.ts, test-build.ts, tsconfig.json, cli-template/, sbom.cdx.json) moved from the plugin root into `tooling/`, matching dyslexia-support-skill 1.4.3. The plugin root now contains only the manifests, commands, skills and docs, so installing the plugin involves no package install; this clears the Directory's "Dependencies install from a lockfile" hold (confirmed on the dyslexia listing). build.ts and test-build.ts resolve `source/`, `dist/`, `commands/` and `skills/` from the repository root; `dist/` still lands at the root. CI runs from `tooling/`.
+
 ## [1.4.0] - 2026-10-11
 
 Regulatory refresh matching dyslexia-support-skill 1.4.0 to 1.4.2, plus Directory policy hygiene. Every "Sources current as of" pin moves from 2026-05 to 2026-10. Findings and sources: `docs/research/research-update-2026-10-11.md` in the dyslexia-support-skill repository (shared FR/ES/US items).
