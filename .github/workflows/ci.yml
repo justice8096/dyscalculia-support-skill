@@ -16,6 +16,10 @@ jobs:
       matrix:
         node-version: [18, 20, 22]
 
+    defaults:
+      run:
+        working-directory: tooling
+
     steps:
       - uses: actions/checkout@v4
 
@@ -24,6 +28,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: npm
+          cache-dependency-path: tooling/package-lock.json
 
       - name: Install dependencies
         run: npm ci

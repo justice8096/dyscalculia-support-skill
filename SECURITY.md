@@ -27,8 +27,8 @@ You should receive an acknowledgment within 48 hours. We will work with you to u
 
 This project follows these security practices:
 
-- **Dependency management**: All dependencies are pinned via `package-lock.json` and regularly audited with `npm audit`
-- **SBOM**: A CycloneDX Software Bill of Materials (`sbom.cdx.json`) is maintained in the repo
+- **Dependency management**: All dependencies are pinned via `tooling/package-lock.json` and regularly audited with `npm audit`
+- **SBOM**: A CycloneDX Software Bill of Materials (`tooling/sbom.cdx.json`) is maintained in the repo
 - **Input validation**: All MCP server tool inputs are validated with Zod schemas
 - **No runtime dependencies**: The build tool uses only devDependencies; generated artifacts declare their own deps
 - **Automated security scanning**: Post-commit audit suite covers SAST/DAST, supply chain, and CWE mapping
