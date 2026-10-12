@@ -15,6 +15,11 @@ All four drivers affect admissibility / persuasive weight of downstream artifact
 
 ## [Unreleased]
 
+## [1.4.3] - 2026-10-12
+
+### Fixed `[defect]`
+- The plugin description in both plugin manifests carried a double-encoded dash, which showed as garbled characters in the Directory listing. It is now a plain hyphen.
+
 ## [1.4.2] - 2026-10-11
 
 ### Changed `[voice]`
