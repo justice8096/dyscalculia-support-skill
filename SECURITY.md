@@ -4,15 +4,13 @@
 
 | Version | Supported |
 |---------|-----------|
-| 1.0.x   | ✅ Current |
+| 1.0.x   | Ã¢Å“â€¦ Current |
 
 ## Reporting a Vulnerability
 
 If you discover a security vulnerability in this project, please report it responsibly.
 
-**Do NOT open a public GitHub issue for security vulnerabilities.**
-
-Instead, please email: **security@justice8096.dev**
+Do not open a public GitHub issue for security vulnerabilities. Use GitHub private vulnerability reporting on this repository (Security tab, "Report a vulnerability"), or email **justice8096@gmail.com** with "SECURITY" in the subject. You should receive an acknowledgment within 48 hours.
 
 You should receive an acknowledgment within 48 hours. We will work with you to understand and address the issue before any public disclosure.
 
